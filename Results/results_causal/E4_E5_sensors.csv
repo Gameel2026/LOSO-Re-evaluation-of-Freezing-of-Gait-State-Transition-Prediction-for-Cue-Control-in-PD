@@ -1,0 +1,5 @@
+,n_features,cue_sensitivity,cue_specificity,cue_precision,cue_f1,balanced_acc,episodes,predicted_before_onset_%,detected_%,median_lead_time_s,false_alarms_per_hour,median_cue_off_delay_s
+Shank,72.0,0.715,0.711,0.343,0.464,0.713,236.0,78.39,92.797,4.5,127.641,4.0
+Thigh,72.0,0.729,0.652,0.306,0.432,0.691,236.0,75.0,90.254,8.0,149.049,6.0
+Trunk,72.0,0.746,0.74,0.377,0.501,0.743,236.0,76.695,93.644,5.0,136.931,4.5
+All three,216.0,0.741,0.679,0.327,0.454,0.71,236.0,81.356,91.949,7.0,112.898,6.0

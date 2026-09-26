@@ -1,0 +1,4 @@
+,cue_sensitivity,cue_specificity,cue_precision,cue_f1,balanced_acc,episodes,predicted_before_onset_%,detected_%,median_lead_time_s,false_alarms_per_hour,median_cue_off_delay_s,event_f1,theta_off_min,theta_off_max
+LogReg,0.6217,0.7635,0.3566,0.4532,0.6926,236.0,63.1356,81.7797,5.5,161.5708,5.5,0.3011,0.3,0.4
+GBoost,0.6726,0.7844,0.3967,0.4991,0.7285,236.0,69.9153,87.7119,5.5,55.338,6.25,0.572,0.1,0.4
+MLP,0.6639,0.8501,0.4828,0.5591,0.757,236.0,60.5932,83.4746,5.0,67.6578,4.0,0.5434,0.1,0.2

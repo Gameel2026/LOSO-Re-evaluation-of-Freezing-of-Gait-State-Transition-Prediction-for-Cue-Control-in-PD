@@ -1,0 +1,3 @@
+,accuracy,precision,recall,f1,PreFoG_recall,PostFoG_recall,transition_recall,n_test_windows
+P0 all test windows,0.9462,0.9472,0.9462,0.9458,0.9711,0.9841,0.9776,117772.0
+P0 real test windows only,0.8826,0.9228,0.8826,0.8923,0.9703,0.9712,0.9708,35650.0

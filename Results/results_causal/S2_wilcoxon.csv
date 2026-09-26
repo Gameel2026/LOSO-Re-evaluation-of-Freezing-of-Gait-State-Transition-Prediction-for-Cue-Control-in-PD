@@ -1,0 +1,16 @@
+comparison,metric,n_subjects,median_A,median_B,median_diff_A_minus_B,subjects_A_better,p_raw,p_holm
+E4 Shank vs RF (per-window),predicted_before_onset_%,8,79.846,55.4348,22.9908,7/8,0.0178,0.0533
+E4 Shank vs RF (per-window),detected_%,8,95.7428,95.8333,-2.1739,1/8,0.0796,0.0796
+E4 Shank vs RF (per-window),median_lead_time_s,8,6.875,1.0,5.875,8/8,0.0078,0.0312
+E4 Shank vs RF (per-window),false_alarms_per_hour,10,104.3521,758.8809,-595.5588,10/10,0.002,0.0098
+E4 Shank vs RF (per-window),balanced_acc,8,0.6926,0.6527,0.0541,7/8,0.0391,0.0781
+E4 Shank vs HMM forward (causal),predicted_before_onset_%,8,79.846,9.1667,59.8214,8/8,0.0078,0.0312
+E4 Shank vs HMM forward (causal),detected_%,8,95.7428,33.5185,53.3565,8/8,0.0078,0.0312
+E4 Shank vs HMM forward (causal),median_lead_time_s,8,6.875,1.75,3.25,8/8,0.0078,0.0312
+E4 Shank vs HMM forward (causal),false_alarms_per_hour,10,104.3521,5.2953,94.6358,0/10,0.002,0.0098
+E4 Shank vs HMM forward (causal),balanced_acc,8,0.6926,0.5669,0.1586,6/8,0.0547,0.0547
+E4 Trunk vs E4 Shank,predicted_before_onset_%,8,85.9025,79.846,5.7453,5/8,0.7422,1.0
+E4 Trunk vs E4 Shank,detected_%,8,93.75,95.7428,-2.0833,3/8,0.8658,1.0
+E4 Trunk vs E4 Shank,median_lead_time_s,8,5.375,6.875,0.0,4/8,0.9453,1.0
+E4 Trunk vs E4 Shank,false_alarms_per_hour,10,130.38,104.3521,8.2433,5/10,0.4922,1.0
+E4 Trunk vs E4 Shank,balanced_acc,8,0.7091,0.6926,-0.0012,4/8,0.9453,1.0
