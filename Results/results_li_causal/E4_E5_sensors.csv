@@ -1,0 +1,4 @@
+,n_features,cue_sensitivity,cue_specificity,cue_precision,cue_f1,balanced_acc,episodes,predicted_before_onset_%,detected_%,median_lead_time_s,false_alarms_per_hour,median_cue_off_delay_s
+Shank,72.0,0.898,0.35,0.612,0.728,0.624,303.0,79.208,97.69,20.0,35.564,15.5
+Trunk,72.0,0.824,0.16,0.5,0.622,0.492,138.0,83.333,97.101,16.5,35.941,11.0
+Shank+waist,144.0,0.845,0.086,0.485,0.616,0.465,138.0,82.609,97.101,39.5,19.604,25.0

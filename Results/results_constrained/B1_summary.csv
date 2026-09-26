@@ -1,0 +1,5 @@
+,cue_sensitivity,cue_specificity,cue_precision,cue_f1,balanced_acc,episodes,predicted_before_onset_%,detected_%,median_lead_time_s,false_alarms_per_hour,median_cue_off_delay_s,timely_pre_onset_%,event_f1
+DAPHNET C0spec,0.673,0.77,0.381,0.487,0.721,236.0,68.22,89.407,5.0,127.237,3.75,30.085,0.473
+DAPHNET C1spec,0.577,0.871,0.485,0.527,0.724,236.0,51.271,83.051,8.5,33.728,6.75,19.492,0.627
+Li2021 C0spec,0.683,0.747,0.755,0.717,0.715,303.0,45.875,92.079,2.0,96.022,1.0,32.343,0.755
+Li2021 C1spec,0.666,0.697,0.715,0.69,0.682,303.0,35.974,87.129,5.0,58.841,2.5,16.832,0.774

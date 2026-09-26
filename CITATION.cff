@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and this software release."
+title: "FoG state-transition prediction and hysteresis cue control: code"
+authors:
+  - family-names: Soliman
+    given-names: Ahmed M.
+  - family-names: Nashaat Gamil
+    given-names: Doaa Y.
+  - family-names: Hammad
+    given-names: Muhammed S.
+  - family-names: Hassan
+    given-names: Mohammed A.
+version: 1.0.0
+date-released: 2026-09-26
+repository-code: "https://github.com/Gameel2026/LOSO-Re-evaluation-of-Freezing-of-Gait-State-Transition-Prediction-for-Cue-Control-in-PD"

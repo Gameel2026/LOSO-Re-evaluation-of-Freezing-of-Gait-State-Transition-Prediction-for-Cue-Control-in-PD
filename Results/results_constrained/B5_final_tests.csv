@@ -1,0 +1,21 @@
+dataset,comparison,metric,n,median_A,median_B,median_diff,CI95_low,CI95_high,rank_biserial,A_better,p_raw,p_holm
+DAPHNET,C0spec Shank vs RF (per-window),predicted_before_onset_%,8,70.497,55.435,9.3475,0.0,24.242,0.5238,5/8,0.2489,0.2489
+DAPHNET,C0spec Shank vs RF (per-window),detected_%,8,89.402,95.833,-7.87,-12.5,-6.25,-1.0,0/8,0.0078,0.0312
+DAPHNET,C0spec Shank vs RF (per-window),median_lead_time_s,8,6.625,1.0,5.875,1.5,10.25,1.0,8/8,0.0078,0.0312
+DAPHNET,C0spec Shank vs RF (per-window),false_alarms_per_hour,10,98.845,758.8805,-635.7195,-772.463,-299.234,-1.0,10/10,0.002,0.0098
+DAPHNET,C0spec Shank vs RF (per-window),balanced_acc,8,0.6995,0.653,0.056,0.022,0.087,0.9444,7/8,0.0156,0.0312
+DAPHNET,C0spec Shank vs HMM forward (causal),predicted_before_onset_%,8,70.497,9.1665,40.3705,33.333,72.727,1.0,8/8,0.0078,0.0312
+DAPHNET,C0spec Shank vs HMM forward (causal),detected_%,8,89.402,33.5185,49.653,30.434,70.833,1.0,8/8,0.0078,0.0312
+DAPHNET,C0spec Shank vs HMM forward (causal),median_lead_time_s,8,6.625,1.75,4.375,1.5,8.25,1.0,8/8,0.0078,0.0312
+DAPHNET,C0spec Shank vs HMM forward (causal),false_alarms_per_hour,10,98.845,5.295,85.827,55.3175,116.78,0.9636,1/10,0.0039,0.0195
+DAPHNET,C0spec Shank vs HMM forward (causal),balanced_acc,8,0.6995,0.567,0.156,0.0065,0.188,0.8333,6/8,0.0391,0.0391
+Li2021,C0spec Shank vs RF (per-window),predicted_before_onset_%,11,40.909,72.727,-21.053,-31.818,-10.0,-1.0,0/11,0.0051,0.0202
+Li2021,C0spec Shank vs RF (per-window),detected_%,11,100.0,100.0,0.0,-6.667,0.0,-1.0,0/11,0.0431,0.0862
+Li2021,C0spec Shank vs RF (per-window),median_lead_time_s,11,1.5,1.0,0.5,0.0,2.0,0.7455,8/11,0.0464,0.0862
+Li2021,C0spec Shank vs RF (per-window),false_alarms_per_hour,12,106.737,568.2,-474.348,-624.5975,-362.7695,-1.0,12/12,0.0005,0.0024
+Li2021,C0spec Shank vs RF (per-window),balanced_acc,11,0.7,0.665,0.041,0.006,0.079,0.7879,9/11,0.0186,0.0557
+Li2021,C0spec Shank vs HMM forward (causal),predicted_before_onset_%,11,40.909,23.404,14.285,0.0,27.273,0.8667,7/11,0.0209,0.0835
+Li2021,C0spec Shank vs HMM forward (causal),detected_%,11,100.0,96.667,3.333,0.0,10.638,1.0,6/11,0.0277,0.0835
+Li2021,C0spec Shank vs HMM forward (causal),median_lead_time_s,11,1.5,6.75,-4.0,-6.5,1.25,-0.7333,3/11,0.0506,0.1012
+Li2021,C0spec Shank vs HMM forward (causal),false_alarms_per_hour,12,106.737,33.8245,63.0655,13.766,83.0505,0.9487,1/12,0.0015,0.0073
+Li2021,C0spec Shank vs HMM forward (causal),balanced_acc,11,0.7,0.726,-0.021,-0.042,-0.001,-0.6364,2/11,0.0537,0.1012

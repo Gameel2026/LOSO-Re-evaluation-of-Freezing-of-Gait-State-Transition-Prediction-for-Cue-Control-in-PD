@@ -1,0 +1,5 @@
+,accuracy,precision,recall,f1,PreFoG_recall,PostFoG_recall,transition_recall
+P0 Original,0.8088,0.8096,0.8088,0.8083,0.8243,0.8918,0.858
+P1 SMOTE in folds,0.6459,0.6281,0.6459,0.6362,0.1975,0.0889,0.1432
+P2 LOSO fixed features,0.5817,0.5713,0.5817,0.5756,0.1398,0.0743,0.107
+P3 LOSO in-fold features,0.5846,0.5736,0.5846,0.5777,0.1587,0.0641,0.1114

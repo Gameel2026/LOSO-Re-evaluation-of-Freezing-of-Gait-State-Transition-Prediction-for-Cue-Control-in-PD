@@ -1,0 +1,23 @@
+comparison,metric,n,median_A,median_B,median_diff,CI95_low,CI95_high,rank_biserial,A_better,p_raw,p_holm
+C1 Shank vs C0 Shank,predicted_before_onset_%,8,39.697,71.9035,-15.7405,-37.5,4.167,-0.6667,2/8,0.1094,0.4375
+C1 Shank vs C0 Shank,timely_pre_onset_%,8,15.341,23.6605,-5.2985,-21.428,8.333,-0.3889,3/8,0.3828,1.0
+C1 Shank vs C0 Shank,detected_%,8,80.1945,91.9485,-11.0605,-21.429,4.167,-0.7778,2/8,0.0547,0.2734
+C1 Shank vs C0 Shank,median_lead_time_s,8,4.0,6.5,-2.0,-5.5,6.75,-0.1111,3/8,0.8438,1.0
+C1 Shank vs C0 Shank,false_alarms_per_hour,10,28.692,99.579,-59.29,-107.533,-36.2585,-1.0,10/10,0.002,0.0117
+C1 Shank vs C0 Shank,balanced_acc,8,0.714,0.6995,0.004,-0.031,0.037,0.1429,4/8,0.7353,1.0
+C1 Shank vs RF (per-window),predicted_before_onset_%,8,39.697,55.435,-11.553,-44.445,26.087,-0.3571,2/8,0.398,0.398
+C1 Shank vs RF (per-window),detected_%,8,80.1945,95.833,-17.824,-29.166,0.0,-1.0,0/8,0.0277,0.0625
+C1 Shank vs RF (per-window),median_lead_time_s,8,4.0,1.0,2.625,0.5,12.25,1.0,7/8,0.018,0.0625
+C1 Shank vs RF (per-window),false_alarms_per_hour,10,28.692,758.8805,-730.1885,-824.3475,-395.821,-1.0,10/10,0.002,0.0098
+C1 Shank vs RF (per-window),balanced_acc,8,0.714,0.653,0.0555,0.013,0.086,0.9444,7/8,0.0156,0.0625
+C1 Shank vs HMM forward (causal),predicted_before_onset_%,8,39.697,9.1665,33.9395,16.667,50.0,0.8889,7/8,0.0234,0.0781
+C1 Shank vs HMM forward (causal),detected_%,8,80.1945,33.5185,49.074,30.0,54.167,1.0,7/8,0.0178,0.0781
+C1 Shank vs HMM forward (causal),median_lead_time_s,8,4.0,1.75,2.0,1.0,10.75,0.9444,7/8,0.0156,0.0781
+C1 Shank vs HMM forward (causal),false_alarms_per_hour,10,28.692,5.295,16.7275,-1.989,39.31,0.6727,2/10,0.0645,0.0781
+C1 Shank vs HMM forward (causal),balanced_acc,8,0.714,0.567,0.147,-0.022,0.212,0.8333,6/8,0.0391,0.0781
+C1 Trunk vs C1 Shank,predicted_before_onset_%,8,55.0,39.697,6.25,-18.518,51.515,0.3571,4/8,0.398,1.0
+C1 Trunk vs C1 Shank,timely_pre_onset_%,8,15.741,15.341,0.0,-18.518,8.333,-0.1429,3/8,0.7532,1.0
+C1 Trunk vs C1 Shank,detected_%,8,77.5,80.1945,-0.1815,-14.815,18.182,0.0,4/8,1.0,1.0
+C1 Trunk vs C1 Shank,median_lead_time_s,8,6.25,4.0,3.125,0.0,5.0,0.4286,5/8,0.3454,1.0
+C1 Trunk vs C1 Shank,false_alarms_per_hour,10,31.6165,28.692,6.092,-30.53,25.6325,0.0545,4/10,0.9219,1.0
+C1 Trunk vs C1 Shank,balanced_acc,8,0.71,0.714,-0.0125,-0.116,0.062,-0.2222,3/8,0.6406,1.0

@@ -1,0 +1,23 @@
+comparison,metric,n,median_A,median_B,median_diff,CI95_low,CI95_high,rank_biserial,A_better,p_raw,p_holm
+C3 Shank vs C0 Shank,predicted_before_onset_%,8,27.1645,71.9035,-36.6665,-48.484,-12.5,-0.8889,1/8,0.0234,0.0938
+C3 Shank vs C0 Shank,timely_pre_onset_%,8,9.348,23.6605,-12.8875,-33.333,0.0,-0.9048,1/8,0.0464,0.1392
+C3 Shank vs C0 Shank,detected_%,8,66.898,91.9485,-29.3985,-40.0,-2.083,-1.0,0/8,0.018,0.0898
+C3 Shank vs C0 Shank,median_lead_time_s,8,5.375,6.5,0.5,-4.0,11.75,0.4286,5/8,0.3517,0.7034
+C3 Shank vs C0 Shank,false_alarms_per_hour,10,10.7295,99.579,-78.5075,-137.626,-47.035,-1.0,10/10,0.002,0.0117
+C3 Shank vs C0 Shank,balanced_acc,8,0.686,0.6995,-0.0135,-0.0932,0.031,-0.3333,4/8,0.4609,0.7034
+C3 Shank vs RF (per-window),predicted_before_onset_%,8,27.1645,55.435,-24.621,-42.858,21.739,-0.7222,2/8,0.0781,0.1562
+C3 Shank vs RF (per-window),detected_%,8,66.898,95.833,-30.9525,-60.0,-8.696,-1.0,0/8,0.0078,0.0312
+C3 Shank vs RF (per-window),median_lead_time_s,8,5.375,1.0,4.0,1.5,17.75,1.0,8/8,0.0078,0.0312
+C3 Shank vs RF (per-window),false_alarms_per_hour,10,10.7295,758.8805,-740.499,-865.3775,-361.791,-1.0,10/10,0.002,0.0098
+C3 Shank vs RF (per-window),balanced_acc,8,0.686,0.653,0.0125,0.005,0.085,0.6667,7/8,0.1094,0.1562
+C3 Shank vs HMM forward (causal),predicted_before_onset_%,8,27.1645,9.1665,16.288,0.0,41.3495,0.9286,6/8,0.028,0.112
+C3 Shank vs HMM forward (causal),detected_%,8,66.898,33.5185,28.18,0.0,43.75,0.9286,6/8,0.028,0.112
+C3 Shank vs HMM forward (causal),median_lead_time_s,8,5.375,1.75,3.375,1.5,14.5,1.0,8/8,0.0078,0.0391
+C3 Shank vs HMM forward (causal),false_alarms_per_hour,10,10.7295,5.295,6.6825,-13.416,14.2085,0.1636,3/10,0.6953,0.6953
+C3 Shank vs HMM forward (causal),balanced_acc,8,0.686,0.567,0.126,-0.018,0.182,0.7778,6/8,0.0547,0.112
+C3 Trunk vs C3 Shank,predicted_before_onset_%,8,50.0,27.1645,6.25,-14.815,48.484,0.3333,4/8,0.4609,1.0
+C3 Trunk vs C3 Shank,timely_pre_onset_%,8,15.4765,9.348,4.3555,-6.25,10.0,0.3571,5/8,0.398,1.0
+C3 Trunk vs C3 Shank,detected_%,8,70.4165,66.898,-0.5955,-18.519,40.0,0.2222,4/8,0.6406,1.0
+C3 Trunk vs C3 Shank,median_lead_time_s,8,8.5,5.375,-1.625,-3.0,7.375,-0.0556,3/8,0.9453,1.0
+C3 Trunk vs C3 Shank,false_alarms_per_hour,10,22.8685,10.7295,9.0235,-11.044,24.134,0.2727,4/10,0.4922,1.0
+C3 Trunk vs C3 Shank,balanced_acc,8,0.68,0.686,-0.0595,-0.095,0.14,-0.1667,2/8,0.7422,1.0

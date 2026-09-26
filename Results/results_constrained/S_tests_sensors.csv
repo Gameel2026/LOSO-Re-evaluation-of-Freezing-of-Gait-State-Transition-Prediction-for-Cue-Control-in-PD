@@ -1,0 +1,31 @@
+dataset,comparison,metric,n,median_A,median_B,median_diff,CI95_low,CI95_high,rank_biserial,A_better,p_raw,p_holm
+DAPHNET,C0spec Thigh vs C0spec Shank,predicted_before_onset_%,8,79.2857,70.497,10.5981,4.167,30.0,0.7222,7/8,0.0781,0.4688
+DAPHNET,C0spec Thigh vs C0spec Shank,timely_pre_onset_%,8,24.7987,21.131,-3.5716,-29.1663,21.7396,0.0,3/8,1.0,1.0
+DAPHNET,C0spec Thigh vs C0spec Shank,detected_%,8,95.7428,89.402,7.7382,-0.0004,14.2292,0.6111,6/8,0.1484,0.7422
+DAPHNET,C0spec Thigh vs C0spec Shank,median_lead_time_s,8,6.375,6.625,-0.25,-5.0,6.0,0.0556,4/8,0.9453,1.0
+DAPHNET,C0spec Thigh vs C0spec Shank,false_alarms_per_hour,10,68.1684,98.845,-25.1257,-53.6267,61.5079,-0.1273,6/10,0.7695,1.0
+DAPHNET,C0spec Thigh vs C0spec Shank,balanced_acc,8,0.7023,0.6995,-0.0097,-0.0354,0.058,0.0,3/8,1.0,1.0
+DAPHNET,C0spec Trunk vs C0spec Shank,predicted_before_onset_%,8,86.5613,70.497,8.3337,7.5762,19.8886,0.7222,7/8,0.0781,0.3125
+DAPHNET,C0spec Trunk vs C0spec Shank,timely_pre_onset_%,8,27.7174,21.131,4.3562,3.7039,12.4997,0.9444,7/8,0.0156,0.0938
+DAPHNET,C0spec Trunk vs C0spec Shank,detected_%,8,96.4015,89.402,7.7382,0.0,8.696,0.8571,6/8,0.0425,0.2126
+DAPHNET,C0spec Trunk vs C0spec Shank,median_lead_time_s,8,5.625,6.625,-0.5,-4.25,5.5,-0.0714,3/8,0.7995,1.0
+DAPHNET,C0spec Trunk vs C0spec Shank,false_alarms_per_hour,10,94.4356,98.845,17.7592,-8.6388,31.5884,0.2727,4/10,0.4922,1.0
+DAPHNET,C0spec Trunk vs C0spec Shank,balanced_acc,8,0.7262,0.6995,0.0123,-0.0536,0.0346,0.2222,6/8,0.6406,1.0
+DAPHNET,C0spec All three vs C0spec Shank,predicted_before_onset_%,8,80.7359,70.497,11.3095,1.5156,21.7393,0.8889,7/8,0.0234,0.1406
+DAPHNET,C0spec All three vs C0spec Shank,timely_pre_onset_%,8,25.6944,21.131,-1.515,-25.9258,20.0,-0.0556,4/8,0.9453,1.0
+DAPHNET,C0spec All three vs C0spec Shank,detected_%,8,93.8447,89.402,6.6965,0.0004,10.0,0.7222,7/8,0.0781,0.3906
+DAPHNET,C0spec All three vs C0spec Shank,median_lead_time_s,8,7.25,6.625,1.625,-5.25,7.0,0.3889,6/8,0.3828,1.0
+DAPHNET,C0spec All three vs C0spec Shank,false_alarms_per_hour,10,74.9513,98.845,-13.9545,-60.9886,61.0599,-0.0545,5/10,0.9219,1.0
+DAPHNET,C0spec All three vs C0spec Shank,balanced_acc,8,0.714,0.6995,-0.0125,-0.0309,0.0531,-0.0556,3/8,0.9453,1.0
+Li2021,C0spec Trunk vs C0spec Shank,predicted_before_onset_%,6,26.9697,51.818,-11.9298,-47.3485,7.1431,-0.6,1/6,0.2249,0.6747
+Li2021,C0spec Trunk vs C0spec Shank,timely_pre_onset_%,6,23.8636,30.7145,-5.8332,-23.445,14.2855,-0.4667,1/6,0.3452,0.6905
+Li2021,C0spec Trunk vs C0spec Shank,detected_%,6,79.1667,100.0,-20.8333,-64.4735,0.0,-1.0,0/6,0.0679,0.2716
+Li2021,C0spec Trunk vs C0spec Shank,median_lead_time_s,6,1.0,1.875,-0.875,-4.375,-0.25,-1.0,0/6,0.0431,0.2156
+Li2021,C0spec Trunk vs C0spec Shank,false_alarms_per_hour,6,64.9659,96.1955,-35.5231,-48.3298,95.2084,-0.3333,4/6,0.5625,0.6905
+Li2021,C0spec Trunk vs C0spec Shank,balanced_acc,6,0.5956,0.727,-0.064,-0.195,-0.0239,-1.0,0/6,0.0312,0.1875
+Li2021,C0spec Shank+waist vs C0spec Shank,predicted_before_onset_%,6,9.5455,51.818,-20.2631,-52.2727,12.8574,-0.7333,1/6,0.138,0.3394
+Li2021,C0spec Shank+waist vs C0spec Shank,timely_pre_onset_%,6,8.114,30.7145,-16.9298,-37.4999,1.4284,-0.8667,1/6,0.0796,0.3394
+Li2021,C0spec Shank+waist vs C0spec Shank,detected_%,6,71.9697,100.0,-12.6793,-66.6667,0.0,-1.0,0/6,0.0679,0.3394
+Li2021,C0spec Shank+waist vs C0spec Shank,median_lead_time_s,6,2.625,1.875,0.75,-0.25,5.5,0.8,3/6,0.1441,0.3394
+Li2021,C0spec Shank+waist vs C0spec Shank,false_alarms_per_hour,6,55.557,96.1955,-15.9111,-82.0696,-6.786,-1.0,6/6,0.0312,0.1875
+Li2021,C0spec Shank+waist vs C0spec Shank,balanced_acc,6,0.667,0.727,-0.0835,-0.1672,0.0128,-0.8095,1/6,0.0938,0.3394

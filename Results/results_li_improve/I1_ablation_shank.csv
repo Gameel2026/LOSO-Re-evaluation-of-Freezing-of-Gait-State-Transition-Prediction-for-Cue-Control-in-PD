@@ -1,0 +1,5 @@
+,cue_sensitivity,cue_specificity,cue_precision,cue_f1,balanced_acc,episodes,predicted_before_onset_%,detected_%,median_lead_time_s,false_alarms_per_hour,median_cue_off_delay_s,timely_pre_onset_%,event_f1
+C0 base,0.893,0.426,0.64,0.746,0.659,303.0,79.538,97.69,15.5,44.616,13.0,17.822,0.741
+C1 +context,0.878,0.384,0.619,0.726,0.631,303.0,70.297,98.02,25.5,30.391,17.0,9.571,0.798
+C2 +event tuning,0.78,0.463,0.624,0.693,0.622,303.0,57.426,87.789,54.0,33.947,20.0,7.591,0.766
+C3 +model selection,0.771,0.473,0.625,0.691,0.622,303.0,56.766,88.119,54.25,34.27,19.25,7.591,0.772

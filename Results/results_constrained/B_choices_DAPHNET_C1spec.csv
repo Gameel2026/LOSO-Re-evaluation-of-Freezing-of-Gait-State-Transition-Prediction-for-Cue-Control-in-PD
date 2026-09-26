@@ -1,0 +1,11 @@
+,model,theta_on,theta_off,constraint_changed_choice,constraint_feasible
+1,RF,0.55,0.1,False,True
+2,RF,0.45,0.3,False,True
+3,RF,0.55,0.1,False,True
+4,RF,0.6,0.2,False,True
+5,RF,0.6,0.1,False,True
+6,RF,0.55,0.2,False,True
+7,RF,0.45,0.2,False,True
+8,RF,0.45,0.2,False,True
+9,RF,0.35,0.2,False,True
+10,RF,0.5,0.1,False,True

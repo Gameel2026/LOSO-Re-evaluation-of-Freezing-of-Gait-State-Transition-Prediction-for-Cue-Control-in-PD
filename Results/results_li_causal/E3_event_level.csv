@@ -1,0 +1,5 @@
+,cue_sensitivity,cue_specificity,cue_precision,cue_f1,balanced_acc,episodes,predicted_before_onset_%,detected_%,median_lead_time_s,false_alarms_per_hour,median_cue_off_delay_s
+RF (per-window),0.717,0.615,0.68,0.698,0.666,303.0,65.017,99.34,1.0,542.506,0.5
+Moving avg (k=3),0.725,0.694,0.73,0.727,0.709,303.0,53.465,96.37,1.5,193.66,1.0
+HMM forward (causal),0.686,0.789,0.788,0.733,0.737,303.0,30.033,82.508,7.5,38.473,2.5
+Viterbi (offline),0.704,0.805,0.805,0.751,0.755,303.0,58.086,69.967,5.5,3.233,11.75

@@ -1,0 +1,17 @@
+comparison,metric,n,median_A,median_B,median_diff,CI95_low,CI95_high,rank_biserial,A_better,p_raw,p_holm
+C3 Shank vs C0 Shank,predicted_before_onset_%,11,63.1579,90.196,-10.5261,-25.5322,0.0,-0.8667,1/11,0.0209,0.1253
+C3 Shank vs C0 Shank,timely_pre_onset_%,11,5.2632,16.667,-6.6663,-23.333,0.0,-0.6889,1/11,0.0661,0.2373
+C3 Shank vs C0 Shank,detected_%,11,100.0,100.0,0.0,-13.333,0.0,-1.0,0/11,0.0422,0.2108
+C3 Shank vs C0 Shank,median_lead_time_s,11,30.0,12.25,20.25,-0.5,99.0,0.6727,7/11,0.0593,0.2373
+C3 Shank vs C0 Shank,false_alarms_per_hour,12,10.8895,30.1625,-21.7168,-37.4958,-2.6241,-0.6061,9/12,0.0754,0.2373
+C3 Shank vs C0 Shank,balanced_acc,11,0.6367,0.664,-0.0488,-0.0706,-0.0048,-0.5152,2/11,0.1475,0.2373
+C3 Shank vs RF (per-window),predicted_before_onset_%,11,63.1579,72.727,0.0,-26.667,8.333,-0.3455,5/11,0.3329,0.6658
+C3 Shank vs RF (per-window),detected_%,11,100.0,100.0,0.0,-20.0,0.0,-1.0,0/11,0.0431,0.1293
+C3 Shank vs RF (per-window),median_lead_time_s,11,30.0,1.0,29.0,0.5,125.5,0.9636,9/11,0.0069,0.0276
+C3 Shank vs RF (per-window),false_alarms_per_hour,12,10.8895,568.2,-560.3984,-722.4267,-391.4888,-1.0,12/12,0.0005,0.0024
+C3 Shank vs RF (per-window),balanced_acc,11,0.6367,0.665,-0.0448,-0.137,0.0484,-0.3333,4/11,0.3652,0.6658
+C3 Shank vs HMM forward (causal),predicted_before_onset_%,11,63.1579,23.404,26.667,0.0,63.1579,0.8909,8/11,0.0125,0.0501
+C3 Shank vs HMM forward (causal),detected_%,11,100.0,96.667,0.0,0.0,6.667,0.5238,5/11,0.2476,0.4951
+C3 Shank vs HMM forward (causal),median_lead_time_s,11,30.0,6.75,30.0,1.5,118.0,0.8788,10/11,0.0068,0.0342
+C3 Shank vs HMM forward (causal),false_alarms_per_hour,12,10.8895,33.8245,-9.149,-21.4695,8.2142,-0.3333,8/12,0.3394,0.4951
+C3 Shank vs HMM forward (causal),balanced_acc,11,0.6367,0.726,-0.0773,-0.235,0.0229,-0.6061,4/11,0.083,0.249

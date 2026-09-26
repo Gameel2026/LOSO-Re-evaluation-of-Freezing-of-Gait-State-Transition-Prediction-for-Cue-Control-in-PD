@@ -1,0 +1,4 @@
+,cue_sensitivity,cue_specificity,cue_precision,cue_f1,balanced_acc,episodes,predicted_before_onset_%,detected_%,median_lead_time_s,false_alarms_per_hour,median_cue_off_delay_s,timely_pre_onset_%,event_f1
+Thigh,0.709,0.757,0.381,0.496,0.733,236.0,61.864,83.051,14.75,44.432,10.75,10.169,0.537
+Trunk,0.652,0.812,0.422,0.513,0.732,236.0,60.593,81.78,8.0,33.728,7.5,20.763,0.606
+All three,0.608,0.823,0.421,0.497,0.716,236.0,54.661,81.356,7.0,38.171,5.75,20.339,0.59

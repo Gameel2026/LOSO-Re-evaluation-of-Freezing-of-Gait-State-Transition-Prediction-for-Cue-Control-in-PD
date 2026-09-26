@@ -1,0 +1,4 @@
+,observed,surrogate_mean,surrogate_95th,p_one_sided
+predicted_before_onset_%,56.7657,65.7541,69.637,1.0
+timely_pre_onset_%,7.5908,9.9851,12.8713,0.9602
+detected_%,88.1188,81.3977,84.4884,0.005
