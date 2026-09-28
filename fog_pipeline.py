@@ -89,14 +89,12 @@ def contiguous_runs(mask: np.ndarray) -> list[tuple[int, int]]:
 
 
 def bandpass(x: np.ndarray, cfg: Config) -> np.ndarray:
-    if cfg.causal_filter:
-        sos = signal.butter(cfg.filt_order, cfg.band, btype="bandpass", fs=cfg.fs, output="sos")
-        zi = signal.sosfilt_zi(sos)[:, :, None] * x[0][None, None, :]   # start from first sample
-        y, _ = signal.sosfilt(sos, x, axis=0, zi=zi)
-        return y
-    b, a = signal.butter(cfg.filt_order, cfg.band, btype="bandpass", fs=cfg.fs)
-    return signal.filtfilt(b, a, x, axis=0)
-
+    if not cfg.causal_filter:
+        raise ValueError("Only causal filtering is supported in this release.")
+    sos = signal.butter(cfg.filt_order, cfg.band, btype="bandpass", fs=cfg.fs, output="sos")
+    zi = signal.sosfilt_zi(sos)[:, :, None] * x[0][None, None, :]   # filter state starts at first sample
+    y, _ = signal.sosfilt(sos, x, axis=0, zi=zi)
+    return y
 
 def segment_windows(df: pd.DataFrame, cfg: Config):
     W, min_fog = cfg.win, int(round(cfg.fog_min_sec * cfg.fs))
