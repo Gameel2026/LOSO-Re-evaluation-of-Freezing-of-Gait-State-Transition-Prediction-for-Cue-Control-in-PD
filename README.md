@@ -19,7 +19,7 @@ It checks that the filter is causal, prints its group delay (20-68 ms in the 2-1
 | Multimodal FoG dataset, filtered data | Replication | Mendeley Data, https://doi.org/10.17632/r8gmbtv7w2.3 |
 | FoG-STAR | Pre-registered external validation | Zenodo, https://doi.org/10.5281/zenodo.17838806 (`sensor_data.csv`) |
 
-Set the data locations once in `paths.py`, or through the environment variables
+Set the DAPHNET and Multimodal FoG locations once in `paths.py`, or through the environment variables
 `FOG_DAPHNET`, `FOG_LI_RAW` and `FOG_LI_CONVERTED`. The FoG-STAR paths are set at the top of `fogstar_convert.py` and `run_fogstar.py`.
 
 **Pre-processing limitations (Multimodal FoG, as stated in the manuscript):** the dataset authors supply the accelerometer signals low-pass filtered and normalised (implementation not specified), and the polyphase resampling from 500 Hz to 64 Hz (`li_convert.py`) uses a symmetric anti-aliasing filter with about 0.16 s of look-ahead. FoG-STAR is resampled from 60 Hz to 64 Hz in the same way. All subsequent processing is causal.
