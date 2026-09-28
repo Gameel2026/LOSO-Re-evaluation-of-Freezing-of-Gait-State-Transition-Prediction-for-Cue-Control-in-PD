@@ -1,66 +1,86 @@
 # FoG state-transition prediction and hysteresis cue control
 
-Code and result files for the manuscript *"Subject-Independent Evaluation of Freezing of Gait State Transitions and Hysteresis-Based Cue Control in Parkinson's Disease: A Two-Dataset Study"* (submitted to Biomedical Engineering Letters).
+Code and result files for the manuscript *"Subject-Independent Evaluation of Freezing of Gait State-Transition Prediction and a Proof-of-Concept Hysteresis-Based Cue Controller in Parkinson's Disease: A Three-Dataset Study"* (submitted to Health Information Science and Systems).
 
-**This release contains exactly the code that produced the reported results.** All band-pass
-filtering is causal (forward-only Butterworth); no non-causal (zero-phase) filtering routine
-is included. Run `python verify_release.py` to check this in seconds.
+**This release contains exactly the code that produced the reported results.** All band-pass filtering is causal (forward-only Butterworth); no non-causal (zero-phase) filtering routine is included. Run `python verify_release.py` to check this in seconds.
 
 ## 1. Quick verification (no data needed)
 ```
 pip install -r requirements.txt
 python verify_release.py
+# the deep-learning scripts additionally need: pip install torch
 ```
-It checks that the filter is causal, prints its group delay (20-68 ms in the 2-15 Hz band),
-confirms that no script uses non-causal filtering, and checks the shipped results against the
-manuscript.
+It checks that the filter is causal, prints its group delay (20-68 ms in the 2-15 Hz band), confirms that no script uses non-causal filtering, and checks the shipped results against the manuscript.
 
 ## 2. Data
-| Dataset | Source |
-|---|---|
-| DAPHNET Freezing of Gait | UCI, https://doi.org/10.24432/C56K78 |
-| Multimodal FoG dataset (Li 2021), filtered data | Mendeley Data, https://doi.org/10.17632/r8gmbtv7w2.3 |
+| Dataset | Role in the study | Source |
+|---|---|---|
+| DAPHNET Freezing of Gait | Primary (development) | UCI, https://doi.org/10.24432/C56K78 |
+| Multimodal FoG dataset, filtered data | Replication | Mendeley Data, https://doi.org/10.17632/r8gmbtv7w2.3 |
+| FoG-STAR | Pre-registered external validation | Zenodo, https://doi.org/10.5281/zenodo.17838806 (`sensor_data.csv`) |
 
 Set the data locations once in `paths.py`, or through the environment variables
-`FOG_DAPHNET`, `FOG_LI_RAW` and `FOG_LI_CONVERTED`.
+`FOG_DAPHNET`, `FOG_LI_RAW` and `FOG_LI_CONVERTED`. The FoG-STAR paths are set at the top of `fogstar_convert.py` and `run_fogstar.py`.
 
-**Pre-processing limitations (Li 2021, as stated in the manuscript):** the dataset authors supply
-the accelerometer signals low-pass filtered and normalised (implementation not specified), and our
-polyphase resampling from 500 Hz to 64 Hz (`li_convert.py`) uses a symmetric anti-aliasing filter
-with about 0.16 s of look-ahead. All subsequent processing is causal.
+**Pre-processing limitations (Multimodal FoG, as stated in the manuscript):** the dataset authors supply the accelerometer signals low-pass filtered and normalised (implementation not specified), and the polyphase resampling from 500 Hz to 64 Hz (`li_convert.py`) uses a symmetric anti-aliasing filter with about 0.16 s of look-ahead. FoG-STAR is resampled from 60 Hz to 64 Hz in the same way. All subsequent processing is causal.
 
-## 3. Full reproduction (run in this order)
+## 3. Pre-registration of the FoG-STAR validation
+`PREREGISTRATION_FoGSTAR.md` fixes the conversion rules, the analysis (identical to the manuscript, specificity floor 0.70) and hypotheses H1-H4 for FoG-STAR. It was committed to this repository before any model was trained or evaluated on FoG-STAR; its commit date documents this. Later commits add code and results but do not modify the plan.
+
+## 4. Full reproduction (run in this order)
 | Step | Script | Output folder | Time* |
 |---|---|---|---|
 | 1 | `fog_rerun_causal.py` | `results_causal/` DAPHNET: protocol decomposition P0-P3, decoders, event metrics | 1.5 h |
 | 2 | `fog_fix2.py` | P0 on real windows, surrogate test, threshold sweep | 0.5 h |
-| 3 | `fog_fix3.py` | classifiers, label lengths, event-level tuning | 2.5 h |
-| 4 | `fog_improve.py` | `results_improve/` ablation C0-C3 | 2-4 h |
+| 3 | `fog_fix3.py` | alternative classifiers, label lengths, event-level tuning | 2.5 h |
+| 4 | `fog_improve.py` | `results_improve/` controller ablation C0-C3 | 2-4 h |
 | 5 | `fog_final_c1.py` | temporal-context controller: sensors, surrogate, statistics | 1.5 h |
-| 6 | `li_check.py`, `li_convert.py` | Li 2021 diagnostic and conversion | minutes |
+| 6 | `li_check.py`, `li_convert.py` | Multimodal FoG diagnostic and conversion | minutes |
 | 7 | `run_li.py` (`resume_li.py` if interrupted) | `results_li_causal/`, `results_li_improve/` | 3-4 h |
-| 8 | `fog_constrained.py` | `results_constrained/` controller with specificity floor, both datasets | 2-3 h |
+| 8 | `fog_constrained.py` | `results_constrained/` controller with specificity floor, DAPHNET and Multimodal FoG | 2-3 h |
 | 9 | `fog_sensors_final.py` | sensor comparison with the final controller | 1-1.5 h |
 | 10 | `final_tests.py` | per-patient tests vs RF and HMM | seconds |
+| 11 | `fog_floor_sensitivity.py` | `results_floor/` controller with specificity floors 0.60-0.80 and without a floor | 1-2 h |
+| 12 | `fog_deep.py` | `results_deep/` 1D-CNN and LSTM baselines (0.5 s input; 2 s and 4 s context); needs PyTorch | 1-2 h |
+| 13 | `final_tests.py` | `results_lstm_controller/` controller driven by the 4 s LSTM (secondary analysis); needs PyTorch | 1-2 h |
+| 14 | `fogstar_convert.py`, `run_fogstar.py` | `results_fogstar_causal/`, `results_fogstar_controller/` pre-registered validation on FoG-STAR | < 1 h |
+| 15 | `fogstar_check.py`, `fogstar_activity.py` | post-hoc descriptive analysis of pre-onset recording and activity (no model outputs) | minutes |
+| 16 | `fogstar_stratified.py`, `fog_precursor.py` | further post-hoc analyses of the FoG-STAR result (stratification by pre-onset activity; pre-freezing separability) | < 30 min |
+| 17 | `fog_auprc.py` | `results_auprc/` AUPRC on the three datasets (reserve analysis, not reported in the manuscript) | 0.5-1 h |
 
-\*Standard laptop. Shared modules: `fog_pipeline.py` (loading, causal filtering, features, labelling),
-`fog_study.py` (decoders, hysteresis, event metrics), `fog_stats.py` (statistics), `li_io.py` (reader).
+\*Standard laptop. Shared modules: `fog_pipeline.py` (loading, causal filtering, features, labelling),`fog_study.py` (decoders, hysteresis, event metrics), `fog_stats.py` (statistics), `li_io.py` (reader).
 
-## 4. Result files (`results/`) and where they appear in the manuscript
-| Manuscript item | File |
-|---|---|
-| Table 3, Fig. 3 | `results_causal/E1_protocols.csv`, `F2_A_P0_real_only.csv`, `CM_*.csv` (and `results_li_causal/`) |
-| Table 4 | `E2_decoders.csv` |
-| Table 5 | `E3_event_level.csv`; proposed controller: `results_constrained/B1_summary.csv` |
-| Fig. 5 | `results_constrained/B2_surrogate_*_C0spec.csv` |
-| Table 6 | `results_constrained/B5_final_tests.csv` |
-| Table 7 | `results_constrained/S_*.csv` |
-| Online Resource | `I1_ablation_shank.csv`, `F3_*.csv`, `B4_tests_*.csv`, `B3_per_subject_*.csv` (per patient), `B_choices_*_C0spec.csv` (thresholds per fold) |
+## 5. Result files and where they appear in the manuscript
+| Manuscript item | Content | File |
+|---|---|---|
+| Table 5; Figs. 4-5 | Protocol decomposition P0-P3; confusion matrices | `results_causal/E1_protocols.csv`, `F2_A_P0_real_only.csv`, `CM_*.csv` (same files in `results_li_causal/`) |
+| Table 6 | Window-level decoders | `results_causal/E2_decoders.csv`, `results_li_causal/E2_decoders.csv` |
+| Table 7; Fig. 6 | Event-level cue performance | `E3_event_level.csv`; proposed controller: `results_constrained/B1_summary.csv` |
+| Table 8 | Per-patient results of the proposed controller | `results_constrained/B3_per_subject_*.csv` |
+| Fig. 7 | Surrogate test | `results_constrained/B2_surrogate_*_C0spec.csv` |
+| Table 9 | Effect of the specificity floor | `results_constrained/B1_summary.csv`, `B4_tests_*.csv` |
+| Table 10 | Thresholds per fold | `results_constrained/B_choices_*_C0spec.csv` |
+| Table 11 | Specificity-floor sensitivity | `results_floor/FS1_summary.csv`, `FS2_surrogate.csv`, `FS4_tests.csv` |
+| Table 12 | Per-patient comparison with RF and HMM | `results_constrained/B5_final_tests.csv` |
+| Table 13 | Sensor location | `results_constrained/S_sensors_summary.csv`, `S_surrogate_*.csv`, `S_tests_sensors.csv` |
+| Table 14 | Alternative classifiers and label lengths | `results_causal/F3_*.csv` |
+| Table 15 | Controller ablation | `results_improve/I1_ablation_shank.csv`, `results_li_improve/` |
+| Fig. 8 | Threshold sweep | `results_causal/F2_B3_threshold_sweep.csv`, `F2_threshold_sweep.png` |
+| Table 16; Fig. 9 | Deep-learning baselines | `results_deep/DL1_summary.csv`, `DL3_tests.csv`, `DL4_confusion_*.csv` |
+| Table 17 | LSTM-driven controller | `results_lstm_controller/LC1_summary.csv`, `LC2_surrogate.csv`, `LC4_tests.csv` |
+| Tables 18-19 | Pre-registered validation on FoG-STAR (H1-H4) | `results_fogstar_causal/E1_protocols.csv`, `E2_decoders.csv`, `E3_event_level.csv`, `F2_A_P0_real_only.csv`; `results_fogstar_controller/X1_summary.csv`, `X2_surrogate.csv`, `X3_per_subject.csv`, `X4_tests.csv` |
+| Section 3.9 (post hoc) | Pre-onset recording, activity, stratified and separability analyses | `fogstar_check.csv`, `fogstar_activity.csv`, `results_fogstar_controller/X5_stratified.csv`, `results_precursor/P1_separability.csv` |
+| Fig. 10 | Summary across the three datasets | values from the files above |
 
 ## 5. Reproducibility notes
 * Feature selection, oversampling and threshold tuning are fitted on training subjects inside each
   leave-one-subject-out fold (steps P0-P1 deliberately reconstruct the original protocol).
 * Fixed random seed (`Config.seed = 42`). Exact package versions: `environment_used.txt`.
 
-## 6. Citation
+## 6. Reproducibility notes
+- Feature selection, oversampling, standardisation and threshold tuning are fitted on training patients inside each leave-one-subject-out fold (steps P0–P1 deliberately reconstruct the original protocol).
+- Each dataset is evaluated separately with leave-one-subject-out validation; no model is trained on one dataset and tested on another.
+- Fixed random seed (`Config.seed = 42`). Exact package versions: `environment_used.txt`.
+
+## 7. Citation
 See `CITATION.cff`. Archived release DOI: to be added (Zenodo).
