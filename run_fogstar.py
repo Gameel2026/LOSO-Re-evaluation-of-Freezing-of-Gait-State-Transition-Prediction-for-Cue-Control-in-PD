@@ -1,12 +1,3 @@
-"""
-run_fogstar.py - pre-registered external validation on FoG-STAR (see PREREGISTRATION_FoGSTAR.md).
-Uses the existing analysis scripts unchanged; only data paths are redirected. Nothing is tuned on FoG-STAR.
-Stages:
-  CAUSAL     protocol decomposition P0-P3, decoders, event metrics (ankle, lower back, both)
-  FIX2       P0 on real windows only, surrogate test of the original controller
-  CONTROLLER primary controller (specificity floor 0.70) and unconstrained controller, surrogate test,
-             per-patient tests against per-window RF and HMM filtering  -> results_fogstar_controller/
-"""
 import os
 import pandas as pd
 import fog_rerun_causal as rc
