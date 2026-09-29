@@ -1,0 +1,2 @@
+episodes,predicted_before_onset_%,detected_%,median_lead_time_s,false_alarms_per_hour,median_cue_off_delay_s,pre_onset_%,timely_pre_onset_%
+101,47.525,82.178,8.5,105.265,2.5,47.525,16.832
