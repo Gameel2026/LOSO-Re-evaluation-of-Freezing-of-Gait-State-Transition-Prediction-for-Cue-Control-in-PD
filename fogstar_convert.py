@@ -4,12 +4,12 @@ import numpy as np
 import pandas as pd
 from scipy.signal import resample_poly
 
-CSV = r"D:\FoG-STAR\sensor_data.csv"          # path of the downloaded sensor_data.csv
-FOGSTAR_OUT = r"D:\FoG-STAR\daphnet_format"     # base name of the output folders
+CSV = r"D:\FoG-STAR\sensor_data.csv"          
+FOGSTAR_OUT = r"D:\FoG-STAR\daphnet_format"     
 DRY_RUN = True
 FS_IN, FS_OUT, UP, DOWN = 60, 64, 16, 15
-GUARD = 10                                      # input samples excluded around each missing sample
-COLMAP = {}                                     # optional manual override, e.g. {"subject": "subjectID", ...}
+GUARD = 10                                      
+COLMAP = {}                                    
 
 
 def find(cols, *must, exclude=()):
