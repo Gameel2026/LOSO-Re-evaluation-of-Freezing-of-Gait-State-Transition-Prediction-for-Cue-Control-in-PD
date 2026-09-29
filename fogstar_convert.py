@@ -1,11 +1,3 @@
-"""
-fogstar_convert.py - converts FoG-STAR (sensor_data.csv) to the DAPHNET text format used by the pipeline.
-Rules are fixed in PREREGISTRATION_FoGSTAR.md. Run with DRY_RUN = True first: it only prints the column
-mapping and a data summary (no FoG-related modelling), then set DRY_RUN = False to write the files.
-
-Output folders: <FOGSTAR_OUT>_ankle, <FOGSTAR_OUT>_back, <FOGSTAR_OUT>_ankleback  (files S??R??.txt)
-Columns written: t_ms, ank_x..z (ankle), thi_x..z (other ankle), tr_x..z (lower back), label (0/1/2)
-"""
 import os
 import re
 import numpy as np
