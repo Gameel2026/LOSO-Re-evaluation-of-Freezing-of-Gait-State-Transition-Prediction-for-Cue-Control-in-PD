@@ -1,0 +1,5 @@
+dataset,controller,cue_sensitivity,cue_specificity,cue_precision,cue_f1,balanced_acc,episodes,predicted_before_onset_%,detected_%,median_lead_time_s,false_alarms_per_hour,median_cue_off_delay_s,timely_pre_onset_%,event_f1
+DAPHNET,RF controller (primary),0.6728,0.7698,0.3813,0.4867,0.7213,236,68.2203,89.4068,5.0,127.237,3.75,30.0847,0.4725
+DAPHNET,LSTM controller (secondary),0.6361,0.8655,0.4993,0.5594,0.7508,236,52.5424,80.0847,7.0,26.0533,7.0,18.2203,0.6422
+Multimodal FoG,RF controller (primary),0.6832,0.7466,0.7548,0.7172,0.7149,303,45.8746,92.0792,2.0,96.0216,1.0,32.3432,0.7548
+Multimodal FoG,LSTM controller (secondary),0.7019,0.6878,0.7196,0.7106,0.6948,303,45.2145,86.1386,4.0,48.4957,3.0,23.1023,0.7622

@@ -1,0 +1,13 @@
+dataset,controller,metric,observed,surrogate_mean,surrogate_95th,p_one_sided
+DAPHNET,RF controller (primary),timely_pre_onset_%,30.0847,16.0424,19.9364,0.005
+DAPHNET,RF controller (primary),detected_%,89.4068,54.2712,61.4407,0.005
+DAPHNET,RF controller (primary),predicted_before_onset_%,68.2203,37.2754,44.9364,0.005
+DAPHNET,LSTM controller (secondary),timely_pre_onset_%,18.2203,7.5911,11.0169,0.005
+DAPHNET,LSTM controller (secondary),detected_%,80.0847,39.5996,47.0551,0.005
+DAPHNET,LSTM controller (secondary),predicted_before_onset_%,52.5424,28.8792,36.0169,0.005
+Multimodal FoG,RF controller (primary),timely_pre_onset_%,32.3432,22.4488,26.7492,0.005
+Multimodal FoG,RF controller (primary),detected_%,92.0792,78.6436,81.1881,0.005
+Multimodal FoG,RF controller (primary),predicted_before_onset_%,45.8746,48.1139,52.8218,0.801
+Multimodal FoG,LSTM controller (secondary),timely_pre_onset_%,23.1023,16.071,19.1419,0.005
+Multimodal FoG,LSTM controller (secondary),detected_%,86.1386,75.1485,78.2178,0.005
+Multimodal FoG,LSTM controller (secondary),predicted_before_onset_%,45.2145,50.6683,54.4719,0.9851

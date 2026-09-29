@@ -1,0 +1,23 @@
+dataset,subject,epochs,val_balanced_acc,theta_on,theta_off,floor_changed_F1_choice,floor_feasible
+DAPHNET,1,3,0.8362,0.9,0.3,False,True
+DAPHNET,2,2,0.8204,0.85,0.5,False,True
+DAPHNET,3,2,0.7397,0.9,0.2,False,True
+DAPHNET,4,3,0.7424,0.9,0.2,False,True
+DAPHNET,5,1,0.7494,0.9,0.4,False,True
+DAPHNET,6,2,0.7351,0.9,0.3,False,True
+DAPHNET,7,2,0.7378,0.9,0.1,False,True
+DAPHNET,8,2,0.7529,0.85,0.4,False,True
+DAPHNET,9,3,0.7266,0.9,0.1,False,True
+DAPHNET,10,5,0.7197,0.85,0.1,False,True
+Multimodal FoG,1,1,0.702,0.7,0.4,True,True
+Multimodal FoG,2,5,0.6966,0.55,0.2,True,True
+Multimodal FoG,3,1,0.6606,0.75,0.3,True,True
+Multimodal FoG,4,2,0.6992,0.55,0.4,True,True
+Multimodal FoG,5,2,0.7031,0.5,0.4,True,True
+Multimodal FoG,6,2,0.6811,0.65,0.4,True,True
+Multimodal FoG,7,2,0.6855,0.5,0.4,True,True
+Multimodal FoG,8,2,0.7052,0.65,0.5,True,True
+Multimodal FoG,9,2,0.7058,0.6,0.4,True,True
+Multimodal FoG,10,1,0.6476,0.75,0.5,True,True
+Multimodal FoG,11,12,0.7202,0.85,0.3,True,True
+Multimodal FoG,12,6,0.7348,0.5,0.2,True,True
