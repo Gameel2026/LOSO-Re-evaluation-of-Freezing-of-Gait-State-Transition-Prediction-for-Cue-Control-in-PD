@@ -1,0 +1,7 @@
+dataset,metric,n,median_proposed,median_fourclass,proposed_better,p_raw,p_holm
+DAPHNET,AUPRC,8,0.4374,0.4472,5/8,0.25,0.25
+DAPHNET,AUROC,8,0.7365,0.7349,6/8,0.1094,0.2188
+Multimodal FoG,AUPRC,11,0.7814,0.7777,8/11,0.2061,0.4121
+Multimodal FoG,AUROC,11,0.7624,0.7578,9/11,0.2061,0.4121
+FoG-STAR,AUPRC,16,0.511,0.52,5/16,0.6685,1.0
+FoG-STAR,AUROC,16,0.6096,0.6151,7/16,0.5282,1.0

@@ -1,0 +1,7 @@
+controller,metric,observed,surrogate_mean,surrogate_95th,p_one_sided
+"Controller, floor 0.70 (primary)",timely_pre_onset_%,13.8614,14.6139,19.802,0.6766
+"Controller, floor 0.70 (primary)",detected_%,67.3267,55.1535,60.396,0.005
+"Controller, floor 0.70 (primary)",predicted_before_onset_%,32.6733,39.1188,45.5446,0.9701
+"Controller, no floor",timely_pre_onset_%,13.8614,16.7079,23.7624,0.791
+"Controller, no floor",detected_%,74.2574,64.4406,68.3663,0.005
+"Controller, no floor",predicted_before_onset_%,39.604,48.5198,54.4554,0.99

@@ -1,0 +1,7 @@
+dataset,model,prevalence (chance AUPRC),AUPRC pooled,AUROC pooled
+DAPHNET,Proposed controller (binary RF),0.1741,0.3515,0.7558
+DAPHNET,Four-class RF (P3),0.1741,0.3539,0.7597
+Multimodal FoG,Proposed controller (binary RF),0.533,0.7479,0.7353
+Multimodal FoG,Four-class RF (P3),0.533,0.7437,0.7259
+FoG-STAR,Proposed controller (binary RF),0.3126,0.4505,0.6533
+FoG-STAR,Four-class RF (P3),0.3126,0.4588,0.6593

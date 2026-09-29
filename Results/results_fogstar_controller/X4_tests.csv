@@ -1,0 +1,17 @@
+comparison,metric,n,median_A,median_B,median_diff,CI95_low,CI95_high,rank_biserial,A_better,p_raw,p_holm
+"Controller, floor 0.70 (primary) vs RF (per-window)",predicted_before_onset_%,16,20.8333,41.6665,0.0,-33.3337,5.0,-0.697,4/16,0.0408,0.0815
+"Controller, floor 0.70 (primary) vs RF (per-window)",detected_%,16,80.3571,100.0,-7.1429,-44.4444,0.0,-1.0,0/16,0.0117,0.0469
+"Controller, floor 0.70 (primary) vs RF (per-window)",median_lead_time_s,16,1.75,0.5,1.0,0.0,2.5,0.7692,9/16,0.013,0.0469
+"Controller, floor 0.70 (primary) vs RF (per-window)",false_alarms_per_hour,22,63.3589,655.968,-648.1419,-761.848,-493.5421,-1.0,22/22,0.0,0.0
+"Controller, floor 0.70 (primary) vs RF (per-window)",balanced_acc,16,0.5824,0.558,0.0243,-0.0279,0.0589,0.2206,10/16,0.4637,0.4637
+"Controller, floor 0.70 (primary) vs HMM forward (causal)",predicted_before_onset_%,16,20.8333,0.0,13.3332,0.0,33.3333,1.0,9/16,0.0077,0.0231
+"Controller, floor 0.70 (primary) vs HMM forward (causal)",detected_%,16,80.3571,18.3335,24.0385,0.0003,50.0,1.0,12/16,0.0022,0.0088
+"Controller, floor 0.70 (primary) vs HMM forward (causal)",median_lead_time_s,16,1.75,0.0,1.0,0.0,2.0,0.6364,9/16,0.0741,0.1482
+"Controller, floor 0.70 (primary) vs HMM forward (causal)",false_alarms_per_hour,22,63.3589,17.207,36.0158,13.559,110.1934,0.8947,3/22,0.0006,0.0031
+"Controller, floor 0.70 (primary) vs HMM forward (causal)",balanced_acc,16,0.5824,0.513,0.04,-0.047,0.1024,0.2667,10/16,0.3635,0.3635
+"Controller, floor 0.70 (primary) vs Controller, no floor",predicted_before_onset_%,16,20.8333,33.3333,0.0,-10.0,0.0,-1.0,0/16,0.0422,0.253
+"Controller, floor 0.70 (primary) vs Controller, no floor",timely_pre_onset_%,16,3.8462,13.3333,0.0,-10.0,0.0,-0.1111,3/16,0.7792,0.8131
+"Controller, floor 0.70 (primary) vs Controller, no floor",detected_%,16,80.3571,80.5556,0.0,-11.1111,0.0,-0.8667,1/16,0.0796,0.3981
+"Controller, floor 0.70 (primary) vs Controller, no floor",median_lead_time_s,16,1.75,2.0,0.0,-0.5,0.0,-0.4286,2/16,0.271,0.8131
+"Controller, floor 0.70 (primary) vs Controller, no floor",false_alarms_per_hour,22,63.3589,112.7508,-14.0979,-43.9024,0.0,-0.3595,13/22,0.193,0.7719
+"Controller, floor 0.70 (primary) vs Controller, no floor",balanced_acc,16,0.5824,0.5688,0.0028,-0.0224,0.0485,0.2762,8/16,0.3627,0.8131

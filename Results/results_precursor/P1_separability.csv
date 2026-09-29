@@ -1,0 +1,7 @@
+dataset,comparison,AUC_pooled,AUC_median_per_patient,patients
+DAPHNET,Pre-FoG vs No-FoG,0.758,0.741,8
+DAPHNET,FoG vs No-FoG (reference),0.835,0.88,8
+Multimodal FoG,Pre-FoG vs No-FoG,0.569,0.585,11
+Multimodal FoG,FoG vs No-FoG (reference),0.852,0.884,11
+FoG-STAR,Pre-FoG vs No-FoG,0.603,0.59,16
+FoG-STAR,FoG vs No-FoG (reference),0.77,0.776,16

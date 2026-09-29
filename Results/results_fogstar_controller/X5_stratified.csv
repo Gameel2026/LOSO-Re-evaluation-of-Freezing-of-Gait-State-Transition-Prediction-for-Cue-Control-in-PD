@@ -1,0 +1,7 @@
+stratum,episodes,patients,metric,observed,surrogate_mean,surrogate_95th,p_one_sided
+walking-preceded,61,14,timely_activation_%,11.475,10.828,18.033,0.512
+walking-preceded,61,14,detection_%,60.656,44.369,50.82,0.005
+turning/standing-preceded,40,12,timely_activation_%,17.5,20.388,30.0,0.771
+turning/standing-preceded,40,12,detection_%,77.5,71.6,80.0,0.154
+all,101,16,timely_activation_%,13.861,14.614,19.802,0.677
+all,101,16,detection_%,67.327,55.153,60.396,0.005

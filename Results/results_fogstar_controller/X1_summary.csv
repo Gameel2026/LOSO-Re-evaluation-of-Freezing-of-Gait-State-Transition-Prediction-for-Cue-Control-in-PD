@@ -1,0 +1,3 @@
+controller,cue_sensitivity,cue_specificity,cue_precision,cue_f1,balanced_acc,episodes,predicted_before_onset_%,detected_%,median_lead_time_s,false_alarms_per_hour,median_cue_off_delay_s,timely_pre_onset_%,event_f1
+"Controller, floor 0.70 (primary)",0.561,0.7339,0.4894,0.5228,0.6474,101,32.6733,67.3267,4.5,95.2716,3.25,13.8614,0.5216
+"Controller, no floor",0.6477,0.6092,0.4298,0.5167,0.6285,101,39.604,74.2574,8.0,105.2651,4.5,13.8614,0.4756

@@ -1,0 +1,289 @@
+dataset,feature,t_s,z_mean_over_axes
+DAPHNET,Freeze index,-8.0,0.639
+DAPHNET,Freeze index,-7.5,0.69
+DAPHNET,Freeze index,-7.0,0.726
+DAPHNET,Freeze index,-6.5,0.7
+DAPHNET,Freeze index,-6.0,0.713
+DAPHNET,Freeze index,-5.5,0.454
+DAPHNET,Freeze index,-5.0,0.661
+DAPHNET,Freeze index,-4.5,0.74
+DAPHNET,Freeze index,-4.0,0.47
+DAPHNET,Freeze index,-3.5,0.732
+DAPHNET,Freeze index,-3.0,0.717
+DAPHNET,Freeze index,-2.5,0.554
+DAPHNET,Freeze index,-2.0,0.733
+DAPHNET,Freeze index,-1.5,0.803
+DAPHNET,Freeze index,-1.0,0.771
+DAPHNET,Freeze index,-0.5,1.075
+DAPHNET,Freeze index,0.0,1.502
+DAPHNET,Freeze index,0.5,1.153
+DAPHNET,Freeze index,1.0,1.206
+DAPHNET,Freeze index,1.5,1.27
+DAPHNET,Freeze index,2.0,1.279
+DAPHNET,Freeze index,2.5,1.163
+DAPHNET,Freeze index,3.0,1.139
+DAPHNET,Freeze index,3.5,0.901
+DAPHNET,Locomotor-band power,-8.0,6.79
+DAPHNET,Locomotor-band power,-7.5,6.615
+DAPHNET,Locomotor-band power,-7.0,6.736
+DAPHNET,Locomotor-band power,-6.5,6.948
+DAPHNET,Locomotor-band power,-6.0,6.928
+DAPHNET,Locomotor-band power,-5.5,7.345
+DAPHNET,Locomotor-band power,-5.0,7.174
+DAPHNET,Locomotor-band power,-4.5,7.318
+DAPHNET,Locomotor-band power,-4.0,7.075
+DAPHNET,Locomotor-band power,-3.5,7.146
+DAPHNET,Locomotor-band power,-3.0,7.239
+DAPHNET,Locomotor-band power,-2.5,7.233
+DAPHNET,Locomotor-band power,-2.0,7.223
+DAPHNET,Locomotor-band power,-1.5,7.049
+DAPHNET,Locomotor-band power,-1.0,7.254
+DAPHNET,Locomotor-band power,-0.5,6.934
+DAPHNET,Locomotor-band power,0.0,7.045
+DAPHNET,Locomotor-band power,0.5,6.93
+DAPHNET,Locomotor-band power,1.0,6.89
+DAPHNET,Locomotor-band power,1.5,7.016
+DAPHNET,Locomotor-band power,2.0,6.822
+DAPHNET,Locomotor-band power,2.5,6.982
+DAPHNET,Locomotor-band power,3.0,7.13
+DAPHNET,Locomotor-band power,3.5,7.162
+DAPHNET,Freeze-band power,-8.0,6.907
+DAPHNET,Freeze-band power,-7.5,6.938
+DAPHNET,Freeze-band power,-7.0,6.884
+DAPHNET,Freeze-band power,-6.5,6.971
+DAPHNET,Freeze-band power,-6.0,7.059
+DAPHNET,Freeze-band power,-5.5,7.24
+DAPHNET,Freeze-band power,-5.0,7.399
+DAPHNET,Freeze-band power,-4.5,7.484
+DAPHNET,Freeze-band power,-4.0,6.999
+DAPHNET,Freeze-band power,-3.5,7.405
+DAPHNET,Freeze-band power,-3.0,7.437
+DAPHNET,Freeze-band power,-2.5,7.368
+DAPHNET,Freeze-band power,-2.0,7.479
+DAPHNET,Freeze-band power,-1.5,7.197
+DAPHNET,Freeze-band power,-1.0,7.411
+DAPHNET,Freeze-band power,-0.5,7.433
+DAPHNET,Freeze-band power,0.0,7.738
+DAPHNET,Freeze-band power,0.5,7.605
+DAPHNET,Freeze-band power,1.0,7.325
+DAPHNET,Freeze-band power,1.5,7.634
+DAPHNET,Freeze-band power,2.0,7.297
+DAPHNET,Freeze-band power,2.5,7.46
+DAPHNET,Freeze-band power,3.0,7.46
+DAPHNET,Freeze-band power,3.5,7.475
+DAPHNET,Standard deviation,-8.0,5.333
+DAPHNET,Standard deviation,-7.5,5.302
+DAPHNET,Standard deviation,-7.0,5.443
+DAPHNET,Standard deviation,-6.5,5.588
+DAPHNET,Standard deviation,-6.0,5.618
+DAPHNET,Standard deviation,-5.5,5.849
+DAPHNET,Standard deviation,-5.0,5.926
+DAPHNET,Standard deviation,-4.5,5.907
+DAPHNET,Standard deviation,-4.0,5.824
+DAPHNET,Standard deviation,-3.5,5.821
+DAPHNET,Standard deviation,-3.0,5.916
+DAPHNET,Standard deviation,-2.5,5.845
+DAPHNET,Standard deviation,-2.0,5.874
+DAPHNET,Standard deviation,-1.5,5.951
+DAPHNET,Standard deviation,-1.0,6.054
+DAPHNET,Standard deviation,-0.5,5.954
+DAPHNET,Standard deviation,0.0,6.025
+DAPHNET,Standard deviation,0.5,6.027
+DAPHNET,Standard deviation,1.0,5.984
+DAPHNET,Standard deviation,1.5,5.969
+DAPHNET,Standard deviation,2.0,5.911
+DAPHNET,Standard deviation,2.5,6.061
+DAPHNET,Standard deviation,3.0,6.007
+DAPHNET,Standard deviation,3.5,6.106
+Multimodal FoG,Freeze index,-8.0,1.201
+Multimodal FoG,Freeze index,-7.5,1.188
+Multimodal FoG,Freeze index,-7.0,1.153
+Multimodal FoG,Freeze index,-6.5,1.174
+Multimodal FoG,Freeze index,-6.0,1.221
+Multimodal FoG,Freeze index,-5.5,1.135
+Multimodal FoG,Freeze index,-5.0,1.004
+Multimodal FoG,Freeze index,-4.5,1.106
+Multimodal FoG,Freeze index,-4.0,1.078
+Multimodal FoG,Freeze index,-3.5,0.967
+Multimodal FoG,Freeze index,-3.0,1.046
+Multimodal FoG,Freeze index,-2.5,1.052
+Multimodal FoG,Freeze index,-2.0,0.96
+Multimodal FoG,Freeze index,-1.5,0.98
+Multimodal FoG,Freeze index,-1.0,1.211
+Multimodal FoG,Freeze index,-0.5,1.409
+Multimodal FoG,Freeze index,0.0,1.871
+Multimodal FoG,Freeze index,0.5,2.164
+Multimodal FoG,Freeze index,1.0,2.245
+Multimodal FoG,Freeze index,1.5,2.104
+Multimodal FoG,Freeze index,2.0,2.076
+Multimodal FoG,Freeze index,2.5,1.994
+Multimodal FoG,Freeze index,3.0,2.124
+Multimodal FoG,Freeze index,3.5,2.188
+Multimodal FoG,Locomotor-band power,-8.0,1.771
+Multimodal FoG,Locomotor-band power,-7.5,1.631
+Multimodal FoG,Locomotor-band power,-7.0,1.678
+Multimodal FoG,Locomotor-band power,-6.5,1.797
+Multimodal FoG,Locomotor-band power,-6.0,1.837
+Multimodal FoG,Locomotor-band power,-5.5,1.46
+Multimodal FoG,Locomotor-band power,-5.0,1.726
+Multimodal FoG,Locomotor-band power,-4.5,1.594
+Multimodal FoG,Locomotor-band power,-4.0,1.876
+Multimodal FoG,Locomotor-band power,-3.5,1.486
+Multimodal FoG,Locomotor-band power,-3.0,1.742
+Multimodal FoG,Locomotor-band power,-2.5,1.696
+Multimodal FoG,Locomotor-band power,-2.0,1.47
+Multimodal FoG,Locomotor-band power,-1.5,1.682
+Multimodal FoG,Locomotor-band power,-1.0,1.469
+Multimodal FoG,Locomotor-band power,-0.5,1.254
+Multimodal FoG,Locomotor-band power,0.0,0.708
+Multimodal FoG,Locomotor-band power,0.5,0.378
+Multimodal FoG,Locomotor-band power,1.0,0.632
+Multimodal FoG,Locomotor-band power,1.5,0.378
+Multimodal FoG,Locomotor-band power,2.0,0.502
+Multimodal FoG,Locomotor-band power,2.5,0.633
+Multimodal FoG,Locomotor-band power,3.0,0.55
+Multimodal FoG,Locomotor-band power,3.5,0.616
+Multimodal FoG,Freeze-band power,-8.0,2.088
+Multimodal FoG,Freeze-band power,-7.5,1.896
+Multimodal FoG,Freeze-band power,-7.0,1.861
+Multimodal FoG,Freeze-band power,-6.5,2.008
+Multimodal FoG,Freeze-band power,-6.0,2.166
+Multimodal FoG,Freeze-band power,-5.5,1.728
+Multimodal FoG,Freeze-band power,-5.0,1.938
+Multimodal FoG,Freeze-band power,-4.5,1.822
+Multimodal FoG,Freeze-band power,-4.0,2.248
+Multimodal FoG,Freeze-band power,-3.5,1.814
+Multimodal FoG,Freeze-band power,-3.0,2.08
+Multimodal FoG,Freeze-band power,-2.5,2.139
+Multimodal FoG,Freeze-band power,-2.0,1.772
+Multimodal FoG,Freeze-band power,-1.5,2.007
+Multimodal FoG,Freeze-band power,-1.0,2.147
+Multimodal FoG,Freeze-band power,-0.5,2.064
+Multimodal FoG,Freeze-band power,0.0,1.796
+Multimodal FoG,Freeze-band power,0.5,1.317
+Multimodal FoG,Freeze-band power,1.0,1.604
+Multimodal FoG,Freeze-band power,1.5,1.105
+Multimodal FoG,Freeze-band power,2.0,1.234
+Multimodal FoG,Freeze-band power,2.5,1.347
+Multimodal FoG,Freeze-band power,3.0,1.214
+Multimodal FoG,Freeze-band power,3.5,1.245
+Multimodal FoG,Standard deviation,-8.0,0.22
+Multimodal FoG,Standard deviation,-7.5,0.17
+Multimodal FoG,Standard deviation,-7.0,0.214
+Multimodal FoG,Standard deviation,-6.5,0.197
+Multimodal FoG,Standard deviation,-6.0,0.255
+Multimodal FoG,Standard deviation,-5.5,0.173
+Multimodal FoG,Standard deviation,-5.0,0.231
+Multimodal FoG,Standard deviation,-4.5,0.191
+Multimodal FoG,Standard deviation,-4.0,0.312
+Multimodal FoG,Standard deviation,-3.5,0.181
+Multimodal FoG,Standard deviation,-3.0,0.249
+Multimodal FoG,Standard deviation,-2.5,0.252
+Multimodal FoG,Standard deviation,-2.0,0.212
+Multimodal FoG,Standard deviation,-1.5,0.241
+Multimodal FoG,Standard deviation,-1.0,0.259
+Multimodal FoG,Standard deviation,-0.5,0.231
+Multimodal FoG,Standard deviation,0.0,0.044
+Multimodal FoG,Standard deviation,0.5,-0.048
+Multimodal FoG,Standard deviation,1.0,0.078
+Multimodal FoG,Standard deviation,1.5,-0.104
+Multimodal FoG,Standard deviation,2.0,-0.109
+Multimodal FoG,Standard deviation,2.5,-0.058
+Multimodal FoG,Standard deviation,3.0,-0.07
+Multimodal FoG,Standard deviation,3.5,-0.127
+FoG-STAR,Freeze index,-8.0,0.795
+FoG-STAR,Freeze index,-7.5,0.68
+FoG-STAR,Freeze index,-7.0,0.607
+FoG-STAR,Freeze index,-6.5,0.528
+FoG-STAR,Freeze index,-6.0,0.504
+FoG-STAR,Freeze index,-5.5,0.619
+FoG-STAR,Freeze index,-5.0,0.566
+FoG-STAR,Freeze index,-4.5,0.537
+FoG-STAR,Freeze index,-4.0,0.754
+FoG-STAR,Freeze index,-3.5,0.545
+FoG-STAR,Freeze index,-3.0,0.597
+FoG-STAR,Freeze index,-2.5,0.591
+FoG-STAR,Freeze index,-2.0,0.738
+FoG-STAR,Freeze index,-1.5,0.824
+FoG-STAR,Freeze index,-1.0,0.835
+FoG-STAR,Freeze index,-0.5,0.901
+FoG-STAR,Freeze index,0.0,1.285
+FoG-STAR,Freeze index,0.5,1.118
+FoG-STAR,Freeze index,1.0,2.015
+FoG-STAR,Freeze index,1.5,1.573
+FoG-STAR,Freeze index,2.0,1.626
+FoG-STAR,Freeze index,2.5,1.444
+FoG-STAR,Freeze index,3.0,1.42
+FoG-STAR,Freeze index,3.5,1.657
+FoG-STAR,Locomotor-band power,-8.0,3.855
+FoG-STAR,Locomotor-band power,-7.5,3.599
+FoG-STAR,Locomotor-band power,-7.0,4.121
+FoG-STAR,Locomotor-band power,-6.5,4.512
+FoG-STAR,Locomotor-band power,-6.0,4.137
+FoG-STAR,Locomotor-band power,-5.5,4.061
+FoG-STAR,Locomotor-band power,-5.0,4.096
+FoG-STAR,Locomotor-band power,-4.5,3.815
+FoG-STAR,Locomotor-band power,-4.0,4.257
+FoG-STAR,Locomotor-band power,-3.5,3.759
+FoG-STAR,Locomotor-band power,-3.0,4.184
+FoG-STAR,Locomotor-band power,-2.5,3.817
+FoG-STAR,Locomotor-band power,-2.0,3.79
+FoG-STAR,Locomotor-band power,-1.5,4.06
+FoG-STAR,Locomotor-band power,-1.0,3.92
+FoG-STAR,Locomotor-band power,-0.5,3.546
+FoG-STAR,Locomotor-band power,0.0,3.576
+FoG-STAR,Locomotor-band power,0.5,3.561
+FoG-STAR,Locomotor-band power,1.0,2.646
+FoG-STAR,Locomotor-band power,1.5,3.307
+FoG-STAR,Locomotor-band power,2.0,2.579
+FoG-STAR,Locomotor-band power,2.5,3.192
+FoG-STAR,Locomotor-band power,3.0,2.536
+FoG-STAR,Locomotor-band power,3.5,3.058
+FoG-STAR,Freeze-band power,-8.0,3.809
+FoG-STAR,Freeze-band power,-7.5,3.423
+FoG-STAR,Freeze-band power,-7.0,3.805
+FoG-STAR,Freeze-band power,-6.5,4.049
+FoG-STAR,Freeze-band power,-6.0,3.804
+FoG-STAR,Freeze-band power,-5.5,3.631
+FoG-STAR,Freeze-band power,-5.0,3.75
+FoG-STAR,Freeze-band power,-4.5,3.346
+FoG-STAR,Freeze-band power,-4.0,4.021
+FoG-STAR,Freeze-band power,-3.5,3.387
+FoG-STAR,Freeze-band power,-3.0,3.827
+FoG-STAR,Freeze-band power,-2.5,3.453
+FoG-STAR,Freeze-band power,-2.0,3.155
+FoG-STAR,Freeze-band power,-1.5,3.965
+FoG-STAR,Freeze-band power,-1.0,3.563
+FoG-STAR,Freeze-band power,-0.5,3.411
+FoG-STAR,Freeze-band power,0.0,4.073
+FoG-STAR,Freeze-band power,0.5,3.775
+FoG-STAR,Freeze-band power,1.0,3.616
+FoG-STAR,Freeze-band power,1.5,3.631
+FoG-STAR,Freeze-band power,2.0,3.092
+FoG-STAR,Freeze-band power,2.5,3.647
+FoG-STAR,Freeze-band power,3.0,2.91
+FoG-STAR,Freeze-band power,3.5,3.473
+FoG-STAR,Standard deviation,-8.0,1.366
+FoG-STAR,Standard deviation,-7.5,1.237
+FoG-STAR,Standard deviation,-7.0,1.684
+FoG-STAR,Standard deviation,-6.5,1.803
+FoG-STAR,Standard deviation,-6.0,1.722
+FoG-STAR,Standard deviation,-5.5,1.583
+FoG-STAR,Standard deviation,-5.0,1.704
+FoG-STAR,Standard deviation,-4.5,1.469
+FoG-STAR,Standard deviation,-4.0,1.944
+FoG-STAR,Standard deviation,-3.5,1.509
+FoG-STAR,Standard deviation,-3.0,1.778
+FoG-STAR,Standard deviation,-2.5,1.42
+FoG-STAR,Standard deviation,-2.0,1.423
+FoG-STAR,Standard deviation,-1.5,1.794
+FoG-STAR,Standard deviation,-1.0,1.594
+FoG-STAR,Standard deviation,-0.5,1.766
+FoG-STAR,Standard deviation,0.0,1.769
+FoG-STAR,Standard deviation,0.5,1.653
+FoG-STAR,Standard deviation,1.0,1.417
+FoG-STAR,Standard deviation,1.5,1.2
+FoG-STAR,Standard deviation,2.0,1.168
+FoG-STAR,Standard deviation,2.5,1.518
+FoG-STAR,Standard deviation,3.0,1.265
+FoG-STAR,Standard deviation,3.5,1.484
