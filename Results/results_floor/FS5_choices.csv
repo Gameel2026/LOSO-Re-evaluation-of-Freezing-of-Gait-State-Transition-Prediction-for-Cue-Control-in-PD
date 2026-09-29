@@ -1,0 +1,133 @@
+dataset,floor,subject,theta_on,theta_off,floor_changed_F1_choice,floor_feasible
+DAPHNET,no floor,1,0.7,0.1,False,True
+DAPHNET,floor 0.60,1,0.7,0.1,False,True
+DAPHNET,floor 0.65,1,0.7,0.1,False,True
+DAPHNET,floor 0.70,1,0.7,0.1,False,True
+DAPHNET,floor 0.75,1,0.7,0.1,False,True
+DAPHNET,floor 0.80,1,0.7,0.1,False,True
+DAPHNET,no floor,2,0.5,0.1,False,True
+DAPHNET,floor 0.60,2,0.5,0.1,False,True
+DAPHNET,floor 0.65,2,0.5,0.1,False,True
+DAPHNET,floor 0.70,2,0.5,0.1,False,True
+DAPHNET,floor 0.75,2,0.55,0.1,True,True
+DAPHNET,floor 0.80,2,0.45,0.2,True,True
+DAPHNET,no floor,3,0.35,0.1,False,True
+DAPHNET,floor 0.60,3,0.35,0.1,False,True
+DAPHNET,floor 0.65,3,0.35,0.1,False,True
+DAPHNET,floor 0.70,3,0.4,0.1,True,True
+DAPHNET,floor 0.75,3,0.3,0.2,True,True
+DAPHNET,floor 0.80,3,0.35,0.2,True,True
+DAPHNET,no floor,4,0.55,0.1,False,True
+DAPHNET,floor 0.60,4,0.55,0.1,False,True
+DAPHNET,floor 0.65,4,0.55,0.1,False,True
+DAPHNET,floor 0.70,4,0.55,0.1,False,True
+DAPHNET,floor 0.75,4,0.6,0.1,True,True
+DAPHNET,floor 0.80,4,0.65,0.1,True,True
+DAPHNET,no floor,5,0.4,0.1,False,True
+DAPHNET,floor 0.60,5,0.4,0.1,False,True
+DAPHNET,floor 0.65,5,0.4,0.1,False,True
+DAPHNET,floor 0.70,5,0.4,0.1,False,True
+DAPHNET,floor 0.75,5,0.4,0.1,False,True
+DAPHNET,floor 0.80,5,0.45,0.1,True,True
+DAPHNET,no floor,6,0.55,0.1,False,True
+DAPHNET,floor 0.60,6,0.55,0.1,False,True
+DAPHNET,floor 0.65,6,0.55,0.1,False,True
+DAPHNET,floor 0.70,6,0.55,0.1,False,True
+DAPHNET,floor 0.75,6,0.55,0.1,False,True
+DAPHNET,floor 0.80,6,0.65,0.1,True,True
+DAPHNET,no floor,7,0.4,0.1,False,True
+DAPHNET,floor 0.60,7,0.4,0.1,False,True
+DAPHNET,floor 0.65,7,0.4,0.1,False,True
+DAPHNET,floor 0.70,7,0.45,0.1,True,True
+DAPHNET,floor 0.75,7,0.35,0.2,True,True
+DAPHNET,floor 0.80,7,0.45,0.2,True,True
+DAPHNET,no floor,8,0.4,0.1,False,True
+DAPHNET,floor 0.60,8,0.4,0.1,False,True
+DAPHNET,floor 0.65,8,0.4,0.1,False,True
+DAPHNET,floor 0.70,8,0.45,0.1,True,True
+DAPHNET,floor 0.75,8,0.35,0.2,True,True
+DAPHNET,floor 0.80,8,0.45,0.2,True,True
+DAPHNET,no floor,9,0.45,0.1,False,True
+DAPHNET,floor 0.60,9,0.45,0.1,False,True
+DAPHNET,floor 0.65,9,0.45,0.1,False,True
+DAPHNET,floor 0.70,9,0.45,0.1,False,True
+DAPHNET,floor 0.75,9,0.45,0.1,False,True
+DAPHNET,floor 0.80,9,0.55,0.1,True,True
+DAPHNET,no floor,10,0.3,0.1,False,True
+DAPHNET,floor 0.60,10,0.35,0.1,True,True
+DAPHNET,floor 0.65,10,0.45,0.1,True,True
+DAPHNET,floor 0.70,10,0.35,0.2,True,True
+DAPHNET,floor 0.75,10,0.6,0.1,True,True
+DAPHNET,floor 0.80,10,0.4,0.3,True,True
+Multimodal FoG,no floor,1,0.65,0.2,False,True
+Multimodal FoG,floor 0.60,1,0.75,0.3,True,True
+Multimodal FoG,floor 0.65,1,0.65,0.4,True,True
+Multimodal FoG,floor 0.70,1,0.75,0.4,True,True
+Multimodal FoG,floor 0.75,1,0.8,0.4,True,True
+Multimodal FoG,floor 0.80,1,0.75,0.5,True,True
+Multimodal FoG,no floor,2,0.65,0.2,False,True
+Multimodal FoG,floor 0.60,2,0.8,0.3,True,True
+Multimodal FoG,floor 0.65,2,0.75,0.4,True,True
+Multimodal FoG,floor 0.70,2,0.8,0.4,True,True
+Multimodal FoG,floor 0.75,2,0.75,0.5,True,True
+Multimodal FoG,floor 0.80,2,0.8,0.5,True,True
+Multimodal FoG,no floor,3,0.65,0.2,False,True
+Multimodal FoG,floor 0.60,3,0.7,0.3,True,True
+Multimodal FoG,floor 0.65,3,0.65,0.4,True,True
+Multimodal FoG,floor 0.70,3,0.7,0.4,True,True
+Multimodal FoG,floor 0.75,3,0.75,0.4,True,True
+Multimodal FoG,floor 0.80,3,0.8,0.4,True,True
+Multimodal FoG,no floor,4,0.85,0.1,False,True
+Multimodal FoG,floor 0.60,4,0.75,0.3,True,True
+Multimodal FoG,floor 0.65,4,0.7,0.4,True,True
+Multimodal FoG,floor 0.70,4,0.75,0.4,True,True
+Multimodal FoG,floor 0.75,4,0.8,0.4,True,True
+Multimodal FoG,floor 0.80,4,0.85,0.4,True,True
+Multimodal FoG,no floor,5,0.7,0.2,False,True
+Multimodal FoG,floor 0.60,5,0.75,0.3,True,True
+Multimodal FoG,floor 0.65,5,0.8,0.3,True,True
+Multimodal FoG,floor 0.70,5,0.75,0.4,True,True
+Multimodal FoG,floor 0.75,5,0.8,0.4,True,True
+Multimodal FoG,floor 0.80,5,0.85,0.4,True,True
+Multimodal FoG,no floor,6,0.7,0.2,False,True
+Multimodal FoG,floor 0.60,6,0.75,0.3,True,True
+Multimodal FoG,floor 0.65,6,0.7,0.4,True,True
+Multimodal FoG,floor 0.70,6,0.75,0.4,True,True
+Multimodal FoG,floor 0.75,6,0.75,0.5,True,True
+Multimodal FoG,floor 0.80,6,0.8,0.5,True,True
+Multimodal FoG,no floor,7,0.7,0.2,False,True
+Multimodal FoG,floor 0.60,7,0.7,0.3,True,True
+Multimodal FoG,floor 0.65,7,0.75,0.3,True,True
+Multimodal FoG,floor 0.70,7,0.8,0.3,True,True
+Multimodal FoG,floor 0.75,7,0.75,0.4,True,True
+Multimodal FoG,floor 0.80,7,0.75,0.5,True,True
+Multimodal FoG,no floor,8,0.65,0.2,False,True
+Multimodal FoG,floor 0.60,8,0.65,0.3,True,True
+Multimodal FoG,floor 0.65,8,0.75,0.3,True,True
+Multimodal FoG,floor 0.70,8,0.75,0.3,True,True
+Multimodal FoG,floor 0.75,8,0.9,0.2,True,True
+Multimodal FoG,floor 0.80,8,0.8,0.4,True,True
+Multimodal FoG,no floor,9,0.7,0.2,False,True
+Multimodal FoG,floor 0.60,9,0.75,0.3,True,True
+Multimodal FoG,floor 0.65,9,0.8,0.3,True,True
+Multimodal FoG,floor 0.70,9,0.75,0.4,True,True
+Multimodal FoG,floor 0.75,9,0.75,0.5,True,True
+Multimodal FoG,floor 0.80,9,0.8,0.5,True,True
+Multimodal FoG,no floor,10,0.7,0.2,False,True
+Multimodal FoG,floor 0.60,10,0.75,0.3,True,True
+Multimodal FoG,floor 0.65,10,0.8,0.3,True,True
+Multimodal FoG,floor 0.70,10,0.75,0.4,True,True
+Multimodal FoG,floor 0.75,10,0.9,0.3,True,True
+Multimodal FoG,floor 0.80,10,0.85,0.4,True,True
+Multimodal FoG,no floor,11,0.75,0.2,False,True
+Multimodal FoG,floor 0.60,11,0.75,0.3,True,True
+Multimodal FoG,floor 0.65,11,0.8,0.3,True,True
+Multimodal FoG,floor 0.70,11,0.75,0.4,True,True
+Multimodal FoG,floor 0.75,11,0.8,0.4,True,True
+Multimodal FoG,floor 0.80,11,0.75,0.5,True,True
+Multimodal FoG,no floor,12,0.75,0.3,False,True
+Multimodal FoG,floor 0.60,12,0.75,0.3,False,True
+Multimodal FoG,floor 0.65,12,0.75,0.3,False,True
+Multimodal FoG,floor 0.70,12,0.75,0.4,True,True
+Multimodal FoG,floor 0.75,12,0.75,0.4,True,True
+Multimodal FoG,floor 0.80,12,0.8,0.4,True,True

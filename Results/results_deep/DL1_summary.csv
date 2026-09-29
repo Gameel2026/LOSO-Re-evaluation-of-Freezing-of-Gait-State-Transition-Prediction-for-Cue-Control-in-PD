@@ -1,0 +1,11 @@
+dataset,part,model,accuracy,balanced_acc,macro_F1,recall_No-FoG,recall_Pre-FoG,recall_FoG,recall_Post-FoG,transition_recall
+DAPHNET,A,"RF (features, 0.5 s)",0.7078,0.3486,0.3308,0.8015,0.1498,0.3824,0.0606,0.1052
+DAPHNET,A,"CNN (raw, 0.5 s)",0.5875,0.4128,0.3468,0.6247,0.2075,0.5614,0.2577,0.2326
+DAPHNET,A,"LSTM (raw, 0.5 s)",0.5104,0.4065,0.3222,0.5304,0.2876,0.5196,0.2885,0.288
+DAPHNET,B,"CNN (raw, 2 s)",0.6208,0.4288,0.3648,0.6647,0.2001,0.5571,0.2933,0.2467
+DAPHNET,B,"LSTM (features, 4 s)",0.6139,0.4409,0.3558,0.665,0.2664,0.409,0.4231,0.3448
+Multimodal FoG,A,"RF (features, 0.5 s)",0.5846,0.3961,0.3927,0.615,0.1587,0.7467,0.0641,0.1114
+Multimodal FoG,A,"CNN (raw, 0.5 s)",0.5279,0.409,0.3923,0.4322,0.2471,0.7818,0.1749,0.211
+Multimodal FoG,A,"LSTM (raw, 0.5 s)",0.4981,0.3926,0.3677,0.351,0.2809,0.8007,0.1378,0.2093
+Multimodal FoG,B,"CNN (raw, 2 s)",0.5721,0.4109,0.4072,0.5491,0.1371,0.7833,0.1742,0.1556
+Multimodal FoG,B,"LSTM (features, 4 s)",0.501,0.4783,0.4232,0.4068,0.4121,0.6531,0.441,0.4265

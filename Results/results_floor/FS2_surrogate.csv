@@ -1,0 +1,25 @@
+dataset,floor,metric,observed,surrogate_mean,surrogate_95th,p_one_sided
+DAPHNET,no floor,timely_pre_onset_%,30.5085,16.6525,20.7627,0.005
+DAPHNET,no floor,detected_%,91.5254,55.161,63.1356,0.005
+DAPHNET,floor 0.60,timely_pre_onset_%,30.5085,16.6525,20.7627,0.005
+DAPHNET,floor 0.60,detected_%,91.5254,55.161,63.1356,0.005
+DAPHNET,floor 0.65,timely_pre_onset_%,30.5085,16.6525,20.7627,0.005
+DAPHNET,floor 0.65,detected_%,91.5254,55.161,63.1356,0.005
+DAPHNET,floor 0.70,timely_pre_onset_%,30.0847,16.0424,19.9364,0.005
+DAPHNET,floor 0.70,detected_%,89.4068,54.2712,61.4407,0.005
+DAPHNET,floor 0.75,timely_pre_onset_%,42.7966,20.6292,25.8475,0.005
+DAPHNET,floor 0.75,detected_%,88.5593,53.9174,61.4407,0.005
+DAPHNET,floor 0.80,timely_pre_onset_%,37.2881,17.697,22.0551,0.005
+DAPHNET,floor 0.80,detected_%,86.0169,49.4258,57.2034,0.005
+Multimodal FoG,no floor,timely_pre_onset_%,17.8218,12.5017,15.198,0.005
+Multimodal FoG,no floor,detected_%,97.6898,90.335,92.4092,0.005
+Multimodal FoG,floor 0.60,timely_pre_onset_%,32.0132,19.2244,22.7888,0.005
+Multimodal FoG,floor 0.60,detected_%,94.3894,82.6436,85.1485,0.005
+Multimodal FoG,floor 0.65,timely_pre_onset_%,31.0231,20.9571,25.4125,0.005
+Multimodal FoG,floor 0.65,detected_%,90.7591,79.7574,82.5083,0.005
+Multimodal FoG,floor 0.70,timely_pre_onset_%,32.3432,22.4488,26.7492,0.005
+Multimodal FoG,floor 0.70,detected_%,92.0792,78.6436,81.1881,0.005
+Multimodal FoG,floor 0.75,timely_pre_onset_%,20.132,18.066,22.1122,0.209
+Multimodal FoG,floor 0.75,detected_%,84.8185,72.6898,75.5776,0.005
+Multimodal FoG,floor 0.80,timely_pre_onset_%,23.4323,20.429,24.4389,0.1493
+Multimodal FoG,floor 0.80,detected_%,88.1188,74.0066,76.8977,0.005

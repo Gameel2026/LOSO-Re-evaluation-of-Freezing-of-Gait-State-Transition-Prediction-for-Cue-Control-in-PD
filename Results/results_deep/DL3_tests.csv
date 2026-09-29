@@ -1,0 +1,25 @@
+dataset,question,comparison,metric,n,median_first,median_second,first_better,p_raw,p_holm
+DAPHNET,A: model effect,"CNN (raw, 0.5 s) vs RF (features, 0.5 s)",transition_recall,8,0.2508,0.1115,8/8,0.0078,0.0234
+DAPHNET,A: model effect,"CNN (raw, 0.5 s) vs RF (features, 0.5 s)",balanced_acc,8,0.4081,0.357,8/8,0.0078,0.0234
+DAPHNET,A: model effect,"CNN (raw, 0.5 s) vs RF (features, 0.5 s)",macro_F1,8,0.3643,0.3162,7/8,0.0547,0.0547
+DAPHNET,A: model effect,"LSTM (raw, 0.5 s) vs RF (features, 0.5 s)",transition_recall,8,0.262,0.1115,8/8,0.0078,0.0234
+DAPHNET,A: model effect,"LSTM (raw, 0.5 s) vs RF (features, 0.5 s)",balanced_acc,8,0.4109,0.357,8/8,0.0078,0.0234
+DAPHNET,A: model effect,"LSTM (raw, 0.5 s) vs RF (features, 0.5 s)",macro_F1,8,0.2834,0.3162,3/8,0.8438,0.8438
+DAPHNET,B: context effect (CNN),"CNN (raw, 2 s) vs CNN (raw, 0.5 s)",transition_recall,8,0.2658,0.2508,5/8,0.5469,1.0
+DAPHNET,B: context effect (CNN),"CNN (raw, 2 s) vs CNN (raw, 0.5 s)",balanced_acc,8,0.4373,0.4081,4/8,0.5469,1.0
+DAPHNET,B: context effect (CNN),"CNN (raw, 2 s) vs CNN (raw, 0.5 s)",macro_F1,8,0.3825,0.3643,3/8,0.8438,1.0
+DAPHNET,B: context effect (features),"LSTM (features, 4 s) vs RF (features, 0.5 s)",transition_recall,8,0.3261,0.1115,8/8,0.0078,0.0234
+DAPHNET,B: context effect (features),"LSTM (features, 4 s) vs RF (features, 0.5 s)",balanced_acc,8,0.4333,0.357,8/8,0.0078,0.0234
+DAPHNET,B: context effect (features),"LSTM (features, 4 s) vs RF (features, 0.5 s)",macro_F1,8,0.3789,0.3162,7/8,0.0547,0.0547
+Multimodal FoG,A: model effect,"CNN (raw, 0.5 s) vs RF (features, 0.5 s)",transition_recall,11,0.2083,0.0973,9/11,0.0049,0.0146
+Multimodal FoG,A: model effect,"CNN (raw, 0.5 s) vs RF (features, 0.5 s)",balanced_acc,11,0.3935,0.377,5/11,0.6377,1.0
+Multimodal FoG,A: model effect,"CNN (raw, 0.5 s) vs RF (features, 0.5 s)",macro_F1,11,0.3632,0.3506,4/11,0.5195,1.0
+Multimodal FoG,A: model effect,"LSTM (raw, 0.5 s) vs RF (features, 0.5 s)",transition_recall,11,0.2283,0.0973,10/11,0.0137,0.041
+Multimodal FoG,A: model effect,"LSTM (raw, 0.5 s) vs RF (features, 0.5 s)",balanced_acc,11,0.3911,0.377,6/11,0.9658,0.9658
+Multimodal FoG,A: model effect,"LSTM (raw, 0.5 s) vs RF (features, 0.5 s)",macro_F1,11,0.3359,0.3506,5/11,0.2402,0.4805
+Multimodal FoG,B: context effect (CNN),"CNN (raw, 2 s) vs CNN (raw, 0.5 s)",transition_recall,11,0.1167,0.2083,3/11,0.123,0.3691
+Multimodal FoG,B: context effect (CNN),"CNN (raw, 2 s) vs CNN (raw, 0.5 s)",balanced_acc,11,0.3948,0.3935,4/11,0.3203,0.6406
+Multimodal FoG,B: context effect (CNN),"CNN (raw, 2 s) vs CNN (raw, 0.5 s)",macro_F1,11,0.3627,0.3632,6/11,0.7646,0.7646
+Multimodal FoG,B: context effect (features),"LSTM (features, 4 s) vs RF (features, 0.5 s)",transition_recall,11,0.3533,0.0973,11/11,0.001,0.0029
+Multimodal FoG,B: context effect (features),"LSTM (features, 4 s) vs RF (features, 0.5 s)",balanced_acc,11,0.4288,0.377,7/11,0.042,0.084
+Multimodal FoG,B: context effect (features),"LSTM (features, 4 s) vs RF (features, 0.5 s)",macro_F1,11,0.3743,0.3506,6/11,0.9658,0.9658
