@@ -5,7 +5,7 @@ import fog_fix2 as f2
 import fog_improve as fi
 import fog_floor_sensitivity as fs
 
-FOGSTAR_OUT = r"D:\FoG-STAR\daphnet_format"          # same base name as in fogstar_convert.py
+FOGSTAR_OUT = r"D:\FoG-STAR\daphnet_format"          
 STAGES = {"CAUSAL": True, "FIX2": True, "CONTROLLER": True}
 SRC, OUT = "results_fogstar_causal", "results_fogstar_controller"
 
