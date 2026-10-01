@@ -42,11 +42,13 @@ Set the DAPHNET and Multimodal FoG locations once in `paths.py`, or through the 
 | 10 | `final_tests.py` | per-patient tests vs RF and HMM | seconds |
 | 11 | `fog_floor_sensitivity.py` | `results_floor/` controller with specificity floors 0.60-0.80 and without a floor | 1-2 h |
 | 12 | `fog_deep.py` | `results_deep/` 1D-CNN and LSTM baselines (0.5 s input; 2 s and 4 s context); needs PyTorch | 1-2 h |
-| 13 | `final_tests.py` | `results_lstm_controller/` controller driven by the 4 s LSTM (secondary analysis); needs PyTorch | 1-2 h |
+| 13 | `fog_lstm_controller.py` | `results_lstm_controller/` controller driven by the 4 s LSTM (secondary analysis); needs PyTorch | 1-2 h |
 | 14 | `fogstar_convert.py`, `run_fogstar.py` | `results_fogstar_causal/`, `results_fogstar_controller/` pre-registered validation on FoG-STAR | < 1 h |
 | 15 | `fogstar_check.py`, `fogstar_activity.py` | post-hoc descriptive analysis of pre-onset recording and activity (no model outputs) | minutes |
 | 16 | `fogstar_stratified.py`, `fog_precursor.py` | further post-hoc analyses of the FoG-STAR result (stratification by pre-onset activity; pre-freezing separability) | < 30 min |
 | 17 | `fog_auprc.py` | `results_auprc/` AUPRC on the three datasets (reserve analysis, not reported in the manuscript) | 0.5-1 h |
+| 18 | `fog_feature_sensitivity.py` | `results_features/` number of selected features (10, 23, 40, 72) for the four-class RF (P3) and the final controller, development datasets; resumes after an interruption | 2-3 h |
+| 19 | `fog_nested_features.py` | `results_nested/` number of features chosen within each training fold, on all three datasets, compared with the 23-feature controller in the same folds; resumes after an interruption | 2-3 h |
 
 \*Standard laptop. Shared modules: `fog_pipeline.py` (loading, causal filtering, features, labelling),`fog_study.py` (decoders, hysteresis, event metrics), `fog_stats.py` (statistics), `li_io.py` (reader).
 
@@ -66,21 +68,26 @@ Set the DAPHNET and Multimodal FoG locations once in `paths.py`, or through the 
 | Table 14 | Alternative classifiers and label lengths | `results_causal/F3_*.csv` |
 | Table 15 | Controller ablation | `results_improve/I1_ablation_shank.csv`, `results_li_improve/` |
 | Fig. 8 | Threshold sweep | `results_causal/F2_B3_threshold_sweep.csv`, `F2_threshold_sweep.png` |
-| Table 16; Fig. 9 | Deep-learning baselines | `results_deep/DL1_summary.csv`, `DL3_tests.csv`, `DL4_confusion_*.csv` |
-| Table 17 | LSTM-driven controller | `results_lstm_controller/LC1_summary.csv`, `LC2_surrogate.csv`, `LC4_tests.csv` |
-| Tables 18-19 | Pre-registered validation on FoG-STAR (H1-H4) | `results_fogstar_causal/E1_protocols.csv`, `E2_decoders.csv`, `E3_event_level.csv`, `F2_A_P0_real_only.csv`; `results_fogstar_controller/X1_summary.csv`, `X2_surrogate.csv`, `X3_per_subject.csv`, `X4_tests.csv` |
+| Table 16 | Number of selected features (fixed and nested) | `results_features/FK1_fourclass.csv`, `FK2_controller.csv`, `FK3_surrogate.csv`, `FK4_tests.csv`; `results_nested/N1_summary.csv`, `N2_surrogate.csv`, `N4_tests.csv`, `N5_choices.csv` |
+| Table 17; Fig. 9 | Deep-learning baselines | `results_deep/DL1_summary.csv`, `DL3_tests.csv`, `DL4_confusion_*.csv` |
+| Table 18 | LSTM-driven controller | `results_lstm_controller/LC1_summary.csv`, `LC2_surrogate.csv`, `LC4_tests.csv` |
+| Tables 19-20 | Pre-registered validation on FoG-STAR (H1-H4) | `results_fogstar_causal/E1_protocols.csv`, `E2_decoders.csv`, `E3_event_level.csv`, `F2_A_P0_real_only.csv`; `results_fogstar_controller/X1_summary.csv`, `X2_surrogate.csv`, `X3_per_subject.csv`, `X4_tests.csv` |
 | Section 3.9 (post hoc) | Pre-onset recording, activity, stratified and separability analyses | `fogstar_check.csv`, `fogstar_activity.csv`, `results_fogstar_controller/X5_stratified.csv`, `results_precursor/P1_separability.csv` |
 | Fig. 10 | Summary across the three datasets | values from the files above |
 
-## 5. Reproducibility notes
+## 6. Reproducibility notes
 * Feature selection, oversampling and threshold tuning are fitted on training subjects inside each
   leave-one-subject-out fold (steps P0-P1 deliberately reconstruct the original protocol).
 * Fixed random seed (`Config.seed = 42`). Exact package versions: `environment_used.txt`.
 
 ## 6. Reproducibility notes
-- Feature selection, oversampling, standardisation and threshold tuning are fitted on training patients inside each leave-one-subject-out fold (steps P0–P1 deliberately reconstruct the original protocol).
-- Each dataset is evaluated separately with leave-one-subject-out validation; no model is trained on one dataset and tested on another.
-- Fixed random seed (`Config.seed = 42`). Exact package versions: `environment_used.txt`.
+* Feature selection, oversampling, standardisation and threshold tuning are fitted on training
+  patients inside each leave-one-subject-out fold (steps P0-P1 deliberately reconstruct the
+  original protocol).
+* Each dataset is evaluated separately with leave-one-subject-out validation; no model is trained
+  on one dataset and tested on another.
+* The folders `results_features/checkpoints/` and `results_nested/checkpoints/` hold temporary files used only to resume an interrupted run and are not part of the results.
+* Fixed random seed (`Config.seed = 42`). Exact package versions: `environment_used.txt`.
 
 ## 7. Citation
 See `CITATION.cff`. Archived release DOI: to be added (Zenodo).
