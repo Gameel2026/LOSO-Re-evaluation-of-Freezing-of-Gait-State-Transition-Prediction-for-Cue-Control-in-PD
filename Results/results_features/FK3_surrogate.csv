@@ -1,0 +1,17 @@
+dataset,n_features,metric,observed,surrogate_mean,surrogate_95th,p_one_sided
+DAPHNET,10,timely_pre_onset_%,40.678,19.4534,23.75,0.005
+DAPHNET,10,detected_%,89.8305,54.8729,62.7119,0.005
+DAPHNET,23,timely_pre_onset_%,30.0847,16.0424,19.9364,0.005
+DAPHNET,23,detected_%,89.4068,54.2712,61.4407,0.005
+DAPHNET,40,timely_pre_onset_%,30.0847,10.2436,13.5593,0.005
+DAPHNET,40,detected_%,85.5932,44.6843,52.5424,0.005
+DAPHNET,72,timely_pre_onset_%,31.7797,10.4703,13.9831,0.005
+DAPHNET,72,detected_%,86.4407,42.5847,50.4237,0.005
+Multimodal FoG,10,timely_pre_onset_%,31.0231,22.5017,26.4026,0.005
+Multimodal FoG,10,detected_%,89.4389,77.8399,80.8581,0.005
+Multimodal FoG,23,timely_pre_onset_%,32.3432,22.4488,26.7492,0.005
+Multimodal FoG,23,detected_%,92.0792,78.6436,81.1881,0.005
+Multimodal FoG,40,timely_pre_onset_%,24.4224,18.5644,22.1122,0.005
+Multimodal FoG,40,detected_%,90.7591,77.2789,80.198,0.005
+Multimodal FoG,72,timely_pre_onset_%,23.7624,17.6254,20.8086,0.005
+Multimodal FoG,72,detected_%,88.4488,76.4472,79.538,0.005

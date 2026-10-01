@@ -1,0 +1,7 @@
+dataset,controller,cue_sensitivity,cue_specificity,cue_precision,cue_f1,balanced_acc,episodes,predicted_before_onset_%,detected_%,median_lead_time_s,false_alarms_per_hour,median_cue_off_delay_s,timely_pre_onset_%,event_f1
+DAPHNET,"Controller, 23 features (primary)",0.6728,0.7698,0.3813,0.4867,0.7213,236,68.2203,89.4068,5.0,127.237,3.75,30.0847,0.4725
+DAPHNET,"Controller, nested feature number",0.6127,0.8772,0.5125,0.5582,0.7449,236,62.2881,86.4407,4.0,33.9299,4.0,31.7797,0.6888
+Multimodal FoG,"Controller, 23 features (primary)",0.6832,0.7466,0.7548,0.7172,0.7149,303,45.8746,92.0792,2.0,96.0216,1.0,32.3432,0.7548
+Multimodal FoG,"Controller, nested feature number",0.6905,0.7009,0.7249,0.7073,0.6957,303,43.8944,90.429,3.5,95.6982,2.0,25.0825,0.7154
+FoG-STAR,"Controller, 23 features (primary)",0.561,0.7339,0.4894,0.5228,0.6474,101,32.6733,67.3267,4.5,95.2716,3.25,13.8614,0.5216
+FoG-STAR,"Controller, nested feature number",0.5935,0.725,0.4953,0.54,0.6593,101,35.6436,71.2871,6.5,73.9521,3.75,12.8713,0.5458

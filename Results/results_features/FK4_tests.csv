@@ -1,0 +1,37 @@
+dataset,comparison,metric,n,median_A,median_B,median_diff,CI95_low,CI95_high,rank_biserial,A_better,p_raw,p_holm
+DAPHNET,"Controller, 10 features vs Controller, 23 features",predicted_before_onset_%,8,65.8144,70.4969,4.0404,-10.0,17.3913,0.2778,4/8,0.5469,1.0
+DAPHNET,"Controller, 10 features vs Controller, 23 features",timely_pre_onset_%,8,35.4167,21.131,10.303,2.662,33.3333,0.9286,6/8,0.028,0.1406
+DAPHNET,"Controller, 10 features vs Controller, 23 features",detected_%,8,89.4022,89.4022,1.8519,0.0,7.1429,0.6,4/8,0.2249,0.8997
+DAPHNET,"Controller, 10 features vs Controller, 23 features",median_lead_time_s,8,3.75,6.625,-3.5,-7.75,-0.5,-0.8333,1/8,0.0234,0.1406
+DAPHNET,"Controller, 10 features vs Controller, 23 features",false_alarms_per_hour,10,122.8349,98.8449,14.0373,-17.4936,66.1484,0.3455,3/10,0.375,1.0
+DAPHNET,"Controller, 10 features vs Controller, 23 features",balanced_acc,8,0.7113,0.6995,-0.0087,-0.0331,0.0095,-0.3333,3/8,0.4609,1.0
+DAPHNET,"Controller, 40 features vs Controller, 23 features",predicted_before_onset_%,8,72.4638,70.4969,5.2083,-10.6061,14.2857,0.0556,5/8,0.9453,1.0
+DAPHNET,"Controller, 40 features vs Controller, 23 features",timely_pre_onset_%,8,15.7143,21.131,0.0,-4.3478,6.0606,0.0667,2/8,0.8927,1.0
+DAPHNET,"Controller, 40 features vs Controller, 23 features",detected_%,8,91.9485,89.4022,0.0,-10.0,8.3333,-0.3333,2/8,0.4982,1.0
+DAPHNET,"Controller, 40 features vs Controller, 23 features",median_lead_time_s,8,10.125,6.625,1.125,-1.25,6.0,0.5,5/8,0.25,1.0
+DAPHNET,"Controller, 40 features vs Controller, 23 features",false_alarms_per_hour,10,43.2167,98.8449,-54.9068,-75.2957,-27.9112,-1.0,10/10,0.002,0.0117
+DAPHNET,"Controller, 40 features vs Controller, 23 features",balanced_acc,8,0.7375,0.6995,0.029,-0.0125,0.0574,0.3889,5/8,0.3828,1.0
+DAPHNET,"Controller, 72 features vs Controller, 23 features",predicted_before_onset_%,8,58.7879,70.4969,0.0,-16.6667,13.6957,-0.1429,3/8,0.7532,1.0
+DAPHNET,"Controller, 72 features vs Controller, 23 features",timely_pre_onset_%,8,22.9167,21.131,0.0,-4.3478,10.0,0.3333,3/8,0.5002,1.0
+DAPHNET,"Controller, 72 features vs Controller, 23 features",detected_%,8,85.5324,89.4022,-0.7576,-11.1111,2.0833,-0.4286,2/8,0.3454,1.0
+DAPHNET,"Controller, 72 features vs Controller, 23 features",median_lead_time_s,8,5.0,6.625,-0.625,-5.0,3.75,-0.2857,2/8,0.499,1.0
+DAPHNET,"Controller, 72 features vs Controller, 23 features",false_alarms_per_hour,10,27.2282,98.8449,-53.0158,-103.1613,-25.6651,-0.9636,9/10,0.0039,0.0234
+DAPHNET,"Controller, 72 features vs Controller, 23 features",balanced_acc,8,0.7367,0.6995,0.0377,-0.021,0.0679,0.6667,6/8,0.1094,0.5469
+Multimodal FoG,"Controller, 10 features vs Controller, 23 features",predicted_before_onset_%,11,54.5455,40.9091,0.0,-9.0909,13.6364,0.2,4/11,0.594,1.0
+Multimodal FoG,"Controller, 10 features vs Controller, 23 features",timely_pre_onset_%,11,29.7872,31.4286,0.0,-8.3333,13.6364,0.0667,4/11,0.859,1.0
+Multimodal FoG,"Controller, 10 features vs Controller, 23 features",detected_%,11,100.0,100.0,0.0,0.0,3.3333,0.0667,3/11,0.8927,1.0
+Multimodal FoG,"Controller, 10 features vs Controller, 23 features",median_lead_time_s,11,2.0,1.5,0.0,-0.75,1.0,-0.0545,5/11,0.9592,1.0
+Multimodal FoG,"Controller, 10 features vs Controller, 23 features",false_alarms_per_hour,12,112.9592,106.7369,16.9537,-9.9597,51.0486,0.3636,4/12,0.286,1.0
+Multimodal FoG,"Controller, 10 features vs Controller, 23 features",balanced_acc,11,0.68,0.7003,0.0043,-0.0413,0.0135,0.0606,7/11,0.8984,1.0
+Multimodal FoG,"Controller, 40 features vs Controller, 23 features",predicted_before_onset_%,11,43.1373,40.9091,0.0,-7.8947,4.5455,-0.0556,3/11,0.8886,0.8886
+Multimodal FoG,"Controller, 40 features vs Controller, 23 features",timely_pre_onset_%,11,33.3333,31.4286,-7.8431,-9.0909,0.0,-0.5556,1/11,0.1614,0.5765
+Multimodal FoG,"Controller, 40 features vs Controller, 23 features",detected_%,11,100.0,100.0,0.0,-2.8571,0.0,-0.8,1/11,0.1441,0.5765
+Multimodal FoG,"Controller, 40 features vs Controller, 23 features",median_lead_time_s,11,2.0,1.5,0.5,0.0,2.5,0.7455,8/11,0.0318,0.1905
+Multimodal FoG,"Controller, 40 features vs Controller, 23 features",false_alarms_per_hour,12,94.3608,106.7369,-10.9778,-31.0647,2.6239,-0.5455,8/12,0.1095,0.5476
+Multimodal FoG,"Controller, 40 features vs Controller, 23 features",balanced_acc,11,0.6959,0.7003,-0.0049,-0.0089,0.0074,-0.303,3/11,0.4131,0.8262
+Multimodal FoG,"Controller, 72 features vs Controller, 23 features",predicted_before_onset_%,11,40.0,40.9091,0.0,-13.6364,5.7143,-0.1111,4/11,0.7671,0.8262
+Multimodal FoG,"Controller, 72 features vs Controller, 23 features",timely_pre_onset_%,11,22.7273,31.4286,-7.8947,-14.8936,5.7143,-0.4848,4/11,0.1748,0.6992
+Multimodal FoG,"Controller, 72 features vs Controller, 23 features",detected_%,11,97.1429,100.0,0.0,-3.3333,0.0,-0.6,1/11,0.1756,0.6992
+Multimodal FoG,"Controller, 72 features vs Controller, 23 features",median_lead_time_s,11,2.0,1.5,0.75,0.0,1.0,0.8333,7/11,0.029,0.1449
+Multimodal FoG,"Controller, 72 features vs Controller, 23 features",false_alarms_per_hour,12,58.2307,106.7369,-27.8986,-49.8379,-4.5455,-1.0,9/12,0.0077,0.0461
+Multimodal FoG,"Controller, 72 features vs Controller, 23 features",balanced_acc,11,0.7154,0.7003,-0.0122,-0.0315,0.0151,-0.303,4/11,0.4131,0.8262

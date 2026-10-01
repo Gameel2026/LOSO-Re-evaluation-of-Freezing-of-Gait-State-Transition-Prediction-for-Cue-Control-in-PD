@@ -1,0 +1,13 @@
+dataset,controller,metric,observed,surrogate_mean,surrogate_95th,p_one_sided
+DAPHNET,"Controller, 23 features (primary)",timely_pre_onset_%,30.0847,16.0424,19.9364,0.005
+DAPHNET,"Controller, 23 features (primary)",detected_%,89.4068,54.2712,61.4407,0.005
+DAPHNET,"Controller, nested feature number",timely_pre_onset_%,31.7797,10.4703,13.9831,0.005
+DAPHNET,"Controller, nested feature number",detected_%,86.4407,42.5847,50.4237,0.005
+Multimodal FoG,"Controller, 23 features (primary)",timely_pre_onset_%,32.3432,22.4488,26.7492,0.005
+Multimodal FoG,"Controller, 23 features (primary)",detected_%,92.0792,78.6436,81.1881,0.005
+Multimodal FoG,"Controller, nested feature number",timely_pre_onset_%,25.0825,19.1683,22.7723,0.005
+Multimodal FoG,"Controller, nested feature number",detected_%,90.429,78.0594,80.8581,0.005
+FoG-STAR,"Controller, 23 features (primary)",timely_pre_onset_%,13.8614,14.6139,19.802,0.6766
+FoG-STAR,"Controller, 23 features (primary)",detected_%,67.3267,55.1535,60.396,0.005
+FoG-STAR,"Controller, nested feature number",timely_pre_onset_%,12.8713,15.4851,20.8416,0.8209
+FoG-STAR,"Controller, nested feature number",detected_%,71.2871,57.3119,62.3762,0.005
