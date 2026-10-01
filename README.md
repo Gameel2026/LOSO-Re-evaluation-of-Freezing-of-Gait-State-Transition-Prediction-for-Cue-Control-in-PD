@@ -1,4 +1,5 @@
 # FoG state-transition prediction and hysteresis cue control
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23080696.svg)](https://doi.org/10.5281/zenodo.23080696)
 
 Code and result files for the manuscript *"Subject-Independent Evaluation of Freezing of Gait State-Transition Prediction and a Proof-of-Concept Hysteresis-Based Cue Controller in Parkinson's Disease: A Three-Dataset Study"* (submitted to Health Information Science and Systems).
 
@@ -90,4 +91,4 @@ Set the DAPHNET and Multimodal FoG locations once in `paths.py`, or through the 
 * Fixed random seed (`Config.seed = 42`). Exact package versions: `environment_used.txt`.
 
 ## 7. Citation
-See `CITATION.cff`. Archived release DOI: to be added (Zenodo).
+See `CITATION.cff`. Archived release: https://doi.org/10.5281/zenodo.23080696
