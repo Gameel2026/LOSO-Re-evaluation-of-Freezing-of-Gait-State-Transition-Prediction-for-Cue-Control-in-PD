@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23080695.svg)](https://doi.org/10.5281/zenodo.23080695)
 
-Code and result files for the manuscript *"Subject-Independent Evaluation of Freezing of Gait State-Transition Prediction and a Proof-of-Concept Hysteresis-Based Cue Controller in Parkinson's Disease: A Three-Dataset Study"* (submitted to *Health Information Science and Systems*).
+Code and result files for the manuscript *"Subject-Independent Evaluation of Freezing-of-Gait Transition Prediction in Parkinson’s Disease: From Window-Level to Event-Level Assessment for Wearable Cueing"* (submitted to *Health Information Science and Systems*).
 
 **This release contains exactly the code that produced the reported results.** All band-pass
 filtering is causal (forward-only Butterworth); no non-causal (zero-phase) filtering routine
