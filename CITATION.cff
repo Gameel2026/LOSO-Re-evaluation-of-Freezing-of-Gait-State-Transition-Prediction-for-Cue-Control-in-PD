@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the article and this software release."
 doi: 10.5281/zenodo.23080695
-title: "Subject-Independent Evaluation of Freezing of Gait State-Transition Prediction and a Proof-of-Concept Hysteresis-Based Cue Controller in Parkinson's Disease: A Three-Dataset Study"
+title: "Subject-Independent Evaluation of Freezing-of-Gait Transition Prediction in Parkinson’s Disease: From Window-Level to Event-Level Assessment for Wearable Cueing"
 authors:
   - family-names: Soliman
     given-names: Ahmed M.
