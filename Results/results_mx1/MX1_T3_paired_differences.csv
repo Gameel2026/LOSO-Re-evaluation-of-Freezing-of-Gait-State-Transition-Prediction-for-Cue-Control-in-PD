@@ -1,0 +1,127 @@
+dataset,comparison,metric,difference,CI_low,CI_high
+DAPHNET,U* - Primary,coverage_%,-2.542,-10.417,2.565
+DAPHNET,U* - Primary,timely_%,-7.203,-10.781,-1.282
+DAPHNET,U* - Primary,timely_lead1_%,-3.814,-8.333,-0.33
+DAPHNET,U* - Primary,cue_at_onset_%,-5.932,-13.975,0.794
+DAPHNET,U* - Primary,false_alarms_per_hour,-89.066,-170.18,-40.012
+DAPHNET,U* - Primary,time_cue_on_%,-0.292,-5.1,5.825
+DAPHNET,U* (no hold) - Primary,coverage_%,-14.831,-26.132,-7.407
+DAPHNET,U* (no hold) - Primary,timely_%,-10.169,-14.42,-3.488
+DAPHNET,U* (no hold) - Primary,timely_lead1_%,-5.508,-8.633,-2.272
+DAPHNET,U* (no hold) - Primary,cue_at_onset_%,-11.017,-14.426,-4.972
+DAPHNET,U* (no hold) - Primary,false_alarms_per_hour,-89.066,-171.233,-35.41
+DAPHNET,U* (no hold) - Primary,time_cue_on_%,-10.741,-14.318,-6.229
+DAPHNET,U* - U* (no hold),coverage_%,12.288,6.194,19.372
+DAPHNET,U* - U* (no hold),timely_%,2.966,-1.538,6.452
+DAPHNET,U* - U* (no hold),timely_lead1_%,1.695,-2.4,4.878
+DAPHNET,U* - U* (no hold),cue_at_onset_%,5.085,-2.732,11.382
+DAPHNET,U* - U* (no hold),false_alarms_per_hour,0.0,-12.947,12.33
+DAPHNET,U* - U* (no hold),time_cue_on_%,10.449,6.91,13.852
+DAPHNET,D - U*,coverage_%,-18.22,-25.658,-9.852
+DAPHNET,D - U*,timely_%,3.814,-2.846,11.791
+DAPHNET,D - U*,timely_lead1_%,5.508,0.0,11.941
+DAPHNET,D - U*,cue_at_onset_%,-0.424,-8.082,9.033
+DAPHNET,D - U*,false_alarms_per_hour,1.616,-10.671,18.938
+DAPHNET,D - U*,time_cue_on_%,-14.412,-20.198,-9.317
+DAPHNET,A - D,coverage_%,5.508,-5.856,18.751
+DAPHNET,A - D,timely_%,-3.39,-8.607,2.842
+DAPHNET,A - D,timely_lead1_%,-4.661,-7.944,-0.943
+DAPHNET,A - D,cue_at_onset_%,-2.119,-6.191,4.211
+DAPHNET,A - D,false_alarms_per_hour,7.069,-5.716,22.221
+DAPHNET,A - D,time_cue_on_%,2.222,-1.526,6.778
+DAPHNET,D - Primary,coverage_%,-20.763,-33.974,-10.919
+DAPHNET,D - Primary,timely_%,-3.39,-10.607,6.604
+DAPHNET,D - Primary,timely_lead1_%,1.695,-4.939,7.254
+DAPHNET,D - Primary,cue_at_onset_%,-6.356,-12.5,0.856
+DAPHNET,D - Primary,false_alarms_per_hour,-87.45,-175.571,-28.181
+DAPHNET,D - Primary,time_cue_on_%,-14.704,-19.468,-10.537
+DAPHNET,A - Primary,coverage_%,-15.254,-26.805,-4.494
+DAPHNET,A - Primary,timely_%,-6.78,-13.082,3.086
+DAPHNET,A - Primary,timely_lead1_%,-2.966,-9.756,2.857
+DAPHNET,A - Primary,cue_at_onset_%,-8.475,-16.335,1.641
+DAPHNET,A - Primary,false_alarms_per_hour,-80.381,-164.629,-14.008
+DAPHNET,A - Primary,time_cue_on_%,-12.482,-19.689,-6.912
+Multimodal FoG,U* - Primary,coverage_%,-6.931,-12.671,-2.03
+Multimodal FoG,U* - Primary,timely_%,-8.911,-14.488,-4.402
+Multimodal FoG,U* - Primary,timely_lead1_%,-4.62,-8.766,-0.413
+Multimodal FoG,U* - Primary,cue_at_onset_%,-4.62,-11.821,2.685
+Multimodal FoG,U* - Primary,false_alarms_per_hour,-44.616,-74.918,-20.643
+Multimodal FoG,U* - Primary,time_cue_on_%,0.813,-2.504,4.288
+Multimodal FoG,U* (no hold) - Primary,coverage_%,-6.271,-13.024,-1.081
+Multimodal FoG,U* (no hold) - Primary,timely_%,-13.861,-19.255,-8.846
+Multimodal FoG,U* (no hold) - Primary,timely_lead1_%,-8.581,-11.579,-5.102
+Multimodal FoG,U* (no hold) - Primary,cue_at_onset_%,-7.261,-11.029,-3.154
+Multimodal FoG,U* (no hold) - Primary,false_alarms_per_hour,-53.669,-79.403,-30.723
+Multimodal FoG,U* (no hold) - Primary,time_cue_on_%,-1.666,-4.487,1.757
+Multimodal FoG,U* - U* (no hold),coverage_%,-0.66,-3.2,0.896
+Multimodal FoG,U* - U* (no hold),timely_%,4.95,1.465,8.772
+Multimodal FoG,U* - U* (no hold),timely_lead1_%,3.96,0.662,7.692
+Multimodal FoG,U* - U* (no hold),cue_at_onset_%,2.64,-2.174,8.146
+Multimodal FoG,U* - U* (no hold),false_alarms_per_hour,9.053,-4.57,29.098
+Multimodal FoG,U* - U* (no hold),time_cue_on_%,2.479,-1.632,5.665
+Multimodal FoG,D - U*,coverage_%,2.31,-1.653,6.02
+Multimodal FoG,D - U*,timely_%,-0.99,-6.05,4.367
+Multimodal FoG,D - U*,timely_lead1_%,-1.98,-6.687,3.203
+Multimodal FoG,D - U*,cue_at_onset_%,0.66,-4.939,6.115
+Multimodal FoG,D - U*,false_alarms_per_hour,3.88,-7.441,18.715
+Multimodal FoG,D - U*,time_cue_on_%,6.053,0.451,12.496
+Multimodal FoG,A - D,coverage_%,-0.33,-2.454,1.454
+Multimodal FoG,A - D,timely_%,0.99,-1.007,3.774
+Multimodal FoG,A - D,timely_lead1_%,0.99,-0.815,3.352
+Multimodal FoG,A - D,cue_at_onset_%,0.66,-1.334,3.061
+Multimodal FoG,A - D,false_alarms_per_hour,1.617,-4.676,8.481
+Multimodal FoG,A - D,time_cue_on_%,-2.636,-6.212,-0.565
+Multimodal FoG,D - Primary,coverage_%,-4.62,-9.873,-0.362
+Multimodal FoG,D - Primary,timely_%,-9.901,-15.407,-3.252
+Multimodal FoG,D - Primary,timely_lead1_%,-6.601,-12.316,-0.41
+Multimodal FoG,D - Primary,cue_at_onset_%,-3.96,-13.899,5.396
+Multimodal FoG,D - Primary,false_alarms_per_hour,-40.736,-61.54,-20.934
+Multimodal FoG,D - Primary,time_cue_on_%,6.866,-0.296,15.477
+Multimodal FoG,A - Primary,coverage_%,-4.95,-9.89,-0.216
+Multimodal FoG,A - Primary,timely_%,-8.911,-14.769,-2.252
+Multimodal FoG,A - Primary,timely_lead1_%,-5.611,-11.839,0.862
+Multimodal FoG,A - Primary,cue_at_onset_%,-3.3,-12.368,5.221
+Multimodal FoG,A - Primary,false_alarms_per_hour,-39.12,-60.305,-17.506
+Multimodal FoG,A - Primary,time_cue_on_%,4.23,-1.919,11.661
+FoG-STAR,U* - Primary,coverage_%,-9.901,-21.334,-2.29
+FoG-STAR,U* - Primary,timely_%,-6.931,-12.384,-2.469
+FoG-STAR,U* - Primary,timely_lead1_%,-6.931,-12.613,-2.062
+FoG-STAR,U* - Primary,cue_at_onset_%,-4.95,-10.0,0.0
+FoG-STAR,U* - Primary,false_alarms_per_hour,-62.626,-94.122,-34.633
+FoG-STAR,U* - Primary,time_cue_on_%,-3.118,-7.182,0.949
+FoG-STAR,U* (no hold) - Primary,coverage_%,-9.901,-18.667,-2.97
+FoG-STAR,U* (no hold) - Primary,timely_%,-6.931,-12.644,-2.521
+FoG-STAR,U* (no hold) - Primary,timely_lead1_%,-6.931,-12.767,-2.062
+FoG-STAR,U* (no hold) - Primary,cue_at_onset_%,-5.941,-11.111,-1.149
+FoG-STAR,U* (no hold) - Primary,false_alarms_per_hour,-55.964,-88.155,-26.722
+FoG-STAR,U* (no hold) - Primary,time_cue_on_%,-6.931,-11.187,-2.694
+FoG-STAR,U* - U* (no hold),coverage_%,0.0,-7.143,5.607
+FoG-STAR,U* - U* (no hold),timely_%,0.0,0.0,0.0
+FoG-STAR,U* - U* (no hold),timely_lead1_%,0.0,0.0,0.0
+FoG-STAR,U* - U* (no hold),cue_at_onset_%,0.99,0.0,3.478
+FoG-STAR,U* - U* (no hold),false_alarms_per_hour,-6.662,-11.161,-2.918
+FoG-STAR,U* - U* (no hold),time_cue_on_%,3.812,1.907,5.616
+FoG-STAR,D - U*,coverage_%,-6.931,-15.476,1.124
+FoG-STAR,D - U*,timely_%,0.0,-2.778,3.126
+FoG-STAR,D - U*,timely_lead1_%,-2.97,-7.368,0.0
+FoG-STAR,D - U*,cue_at_onset_%,-4.95,-9.589,-1.075
+FoG-STAR,D - U*,false_alarms_per_hour,13.325,0.671,25.789
+FoG-STAR,D - U*,time_cue_on_%,-6.551,-12.189,-1.361
+FoG-STAR,A - D,coverage_%,-0.99,-8.751,6.898
+FoG-STAR,A - D,timely_%,-1.98,-8.738,4.11
+FoG-STAR,A - D,timely_lead1_%,1.98,-2.02,5.769
+FoG-STAR,A - D,cue_at_onset_%,5.941,0.0,12.174
+FoG-STAR,A - D,false_alarms_per_hour,-29.314,-42.452,-17.981
+FoG-STAR,A - D,time_cue_on_%,6.107,0.336,11.92
+FoG-STAR,D - Primary,coverage_%,-16.832,-27.778,-8.064
+FoG-STAR,D - Primary,timely_%,-6.931,-12.069,-2.632
+FoG-STAR,D - Primary,timely_lead1_%,-9.901,-18.31,-3.371
+FoG-STAR,D - Primary,cue_at_onset_%,-9.901,-18.182,-2.667
+FoG-STAR,D - Primary,false_alarms_per_hour,-49.301,-87.902,-17.105
+FoG-STAR,D - Primary,time_cue_on_%,-9.67,-14.716,-4.66
+FoG-STAR,A - Primary,coverage_%,-17.822,-29.886,-7.619
+FoG-STAR,A - Primary,timely_%,-8.911,-18.804,-1.281
+FoG-STAR,A - Primary,timely_lead1_%,-7.921,-17.568,0.0
+FoG-STAR,A - Primary,cue_at_onset_%,-3.96,-11.628,3.798
+FoG-STAR,A - Primary,false_alarms_per_hour,-78.616,-116.652,-45.627
+FoG-STAR,A - Primary,time_cue_on_%,-3.563,-8.833,2.252

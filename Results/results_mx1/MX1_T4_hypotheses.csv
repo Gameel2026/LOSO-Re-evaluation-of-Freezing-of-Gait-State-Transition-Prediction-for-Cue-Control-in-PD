@@ -1,0 +1,10 @@
+dataset,hypothesis,result
+DAPHNET,H1 U* vs primary,not supported
+DAPHNET,H2 D vs U*,not supported
+DAPHNET,H3 A vs D (lead >= 1 s),not supported
+Multimodal FoG,H1 U* vs primary,not supported
+Multimodal FoG,H2 D vs U*,not supported
+Multimodal FoG,"H4 A vs D (lead >= 1 s), equivalence +/-5",supported
+FoG-STAR,H1 U* vs primary,not supported
+FoG-STAR,H2 D vs U*,not supported
+FoG-STAR,"H4 A vs D (lead >= 1 s), equivalence +/-5",inconclusive

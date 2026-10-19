@@ -1,0 +1,37 @@
+dataset,controller,metric,observed,surrogate_mean,surrogate_95th,p_one_sided
+DAPHNET,U*,timely_lead1_%,19.068,9.229,12.288,0.005
+DAPHNET,U*,cue_at_onset_%,28.39,16.172,20.339,0.005
+DAPHNET,U*,timely_%,22.881,10.621,13.983,0.005
+DAPHNET,U* (no hold),timely_lead1_%,17.373,8.237,11.441,0.005
+DAPHNET,U* (no hold),cue_at_onset_%,23.305,12.511,16.949,0.005
+DAPHNET,U* (no hold),timely_%,19.915,9.761,13.157,0.005
+DAPHNET,D,timely_lead1_%,24.576,10.426,13.581,0.005
+DAPHNET,D,cue_at_onset_%,27.966,13.905,17.797,0.005
+DAPHNET,D,timely_%,26.695,11.945,15.678,0.005
+DAPHNET,A,timely_lead1_%,19.915,9.932,13.136,0.005
+DAPHNET,A,cue_at_onset_%,25.847,14.6,18.644,0.005
+DAPHNET,A,timely_%,23.305,11.377,15.254,0.005
+Multimodal FoG,U*,timely_lead1_%,17.492,15.962,19.158,0.244
+Multimodal FoG,U*,cue_at_onset_%,24.092,27.38,30.693,0.95
+Multimodal FoG,U*,timely_%,23.432,18.188,21.782,0.025
+Multimodal FoG,U* (no hold),timely_lead1_%,13.531,13.363,16.172,0.488
+Multimodal FoG,U* (no hold),cue_at_onset_%,21.452,24.026,27.063,0.925
+Multimodal FoG,U* (no hold),timely_%,18.482,15.691,18.812,0.09
+Multimodal FoG,D,timely_lead1_%,15.512,15.512,18.168,0.527
+Multimodal FoG,D,cue_at_onset_%,24.752,28.624,32.673,0.97
+Multimodal FoG,D,timely_%,22.442,17.601,21.122,0.025
+Multimodal FoG,A,timely_lead1_%,16.502,16.069,19.802,0.448
+Multimodal FoG,A,cue_at_onset_%,25.413,28.672,32.343,0.95
+Multimodal FoG,A,timely_%,23.432,18.252,21.782,0.03
+FoG-STAR,U*,timely_lead1_%,4.95,9.203,13.861,0.98
+FoG-STAR,U*,cue_at_onset_%,9.901,14.782,18.812,0.98
+FoG-STAR,U*,timely_%,6.931,10.342,14.851,0.945
+FoG-STAR,U* (no hold),timely_lead1_%,4.95,9.619,13.861,0.985
+FoG-STAR,U* (no hold),cue_at_onset_%,8.911,14.401,18.812,0.98
+FoG-STAR,U* (no hold),timely_%,6.931,10.807,14.901,0.96
+FoG-STAR,D,timely_lead1_%,1.98,10.599,15.842,1.0
+FoG-STAR,D,cue_at_onset_%,4.95,15.267,19.851,1.0
+FoG-STAR,D,timely_%,6.931,12.198,17.822,0.98
+FoG-STAR,A,timely_lead1_%,3.96,6.767,9.95,0.9
+FoG-STAR,A,cue_at_onset_%,10.891,11.594,15.842,0.657
+FoG-STAR,A,timely_%,4.95,7.698,11.881,0.925
