@@ -1,0 +1,10 @@
+dataset,controller,metric,observed,surrogate_mean,surrogate_95th,p_one_sided
+DAPHNET,M,timely_lead1_%,26.695,13.282,16.949,0.005
+DAPHNET,M,cue_at_onset_%,35.169,18.919,22.881,0.005
+DAPHNET,M,timely_%,33.898,16.447,20.763,0.005
+Multimodal FoG,M,timely_lead1_%,21.452,17.086,20.792,0.03
+Multimodal FoG,M,cue_at_onset_%,28.383,27.584,31.37,0.413
+Multimodal FoG,M,timely_%,30.033,20.896,25.083,0.005
+FoG-STAR,M,timely_lead1_%,10.891,14.639,19.802,0.92
+FoG-STAR,M,cue_at_onset_%,15.842,19.574,24.752,0.915
+FoG-STAR,M,timely_%,13.861,17.119,21.782,0.881

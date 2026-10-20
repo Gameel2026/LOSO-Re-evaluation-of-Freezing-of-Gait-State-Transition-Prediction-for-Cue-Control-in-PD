@@ -1,0 +1,9 @@
+,,coverage_%,coverage_%,timely_%,timely_%,timely_lead1_%,timely_lead1_%,cue_at_onset_%,cue_at_onset_%,false_alarms_per_hour,false_alarms_per_hour,time_cue_on_%,time_cue_on_%
+,,min,max,min,max,min,max,min,max,min,max,min,max
+dataset,controller,,,,,,,,,,,,
+DAPHNET,M,86.02,91.95,29.24,39.41,22.88,30.08,31.78,38.98,90.68,117.74,28.27,31.75
+DAPHNET,Primary,88.56,91.1,26.27,33.05,18.22,25.0,27.12,36.86,75.13,127.24,28.59,30.72
+FoG-STAR,M,66.34,73.27,8.91,19.8,4.95,13.86,9.9,18.81,85.94,119.92,35.2,38.23
+FoG-STAR,Primary,66.34,78.22,10.89,17.82,6.93,11.88,10.89,14.85,92.61,116.59,35.69,37.91
+Multimodal FoG,M,89.44,90.43,26.4,30.36,18.15,22.44,25.41,28.71,71.45,85.35,48.33,50.08
+Multimodal FoG,Primary,87.79,92.08,24.75,32.34,16.83,22.11,23.76,28.71,85.03,96.02,46.63,48.9

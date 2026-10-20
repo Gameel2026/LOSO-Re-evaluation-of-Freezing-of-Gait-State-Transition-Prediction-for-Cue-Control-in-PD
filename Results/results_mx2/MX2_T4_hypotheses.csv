@@ -1,0 +1,14 @@
+dataset,hypothesis,estimate,CI_low,CI_high,result,primary_range,M_range
+Pooled (three cohorts),H1 fewer false alarms per hour,-21.895,-73.032,21.677,not supported,,
+DAPHNET,H2 coverage non-inferiority (-10),-3.39,-8.421,0.0,supported,,
+DAPHNET,H3 cue-on time non-inferiority (+5),-2.452,-4.955,-0.08,supported,,
+DAPHNET,H4 lead >= 1 s non-inferiority (-10),3.814,-2.89,14.545,supported,,
+Multimodal FoG,H2 coverage non-inferiority (-10),-1.65,-5.042,1.156,supported,,
+Multimodal FoG,H3 cue-on time non-inferiority (+5),1.832,-0.278,4.238,supported,,
+Multimodal FoG,H4 lead >= 1 s non-inferiority (-10),-0.66,-7.42,7.242,supported,,
+FoG-STAR,H2 coverage non-inferiority (-10),0.99,-10.528,11.679,inconclusive,,
+FoG-STAR,H3 cue-on time non-inferiority (+5),0.805,-2.665,4.182,supported,,
+FoG-STAR,H4 lead >= 1 s non-inferiority (-10),-0.99,-7.501,4.412,supported,,
+DAPHNET,H5 narrower false-alarm range across seeds,-25.043,,,supported,75.1-127.2,90.7-117.7
+Multimodal FoG,H5 narrower false-alarm range across seeds,2.91,,,not supported,85.0-96.0,71.5-85.4
+FoG-STAR,H5 narrower false-alarm range across seeds,9.994,,,not supported,92.6-116.6,85.9-119.9

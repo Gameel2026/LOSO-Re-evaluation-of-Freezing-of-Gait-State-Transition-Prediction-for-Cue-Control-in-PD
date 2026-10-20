@@ -1,0 +1,6 @@
+dataset,M_mode,M_hold_s,folds
+DAPHNET,dominant,0.0,47
+DAPHNET,dominant,2.0,1
+DAPHNET,dominant,3.0,2
+FoG-STAR,dominant,0.0,110
+Multimodal FoG,dominant,0.0,60

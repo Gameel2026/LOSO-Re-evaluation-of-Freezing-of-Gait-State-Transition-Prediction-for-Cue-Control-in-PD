@@ -1,0 +1,25 @@
+dataset,comparison,metric,difference,CI_low,CI_high
+DAPHNET,M - Primary,coverage_%,-3.39,-8.421,0.0
+DAPHNET,M - Primary,timely_%,3.814,-2.613,15.183
+DAPHNET,M - Primary,timely_lead1_%,3.814,-2.89,14.545
+DAPHNET,M - Primary,cue_at_onset_%,0.847,-6.768,11.583
+DAPHNET,M - Primary,false_alarms_per_hour,-36.555,-130.382,50.58
+DAPHNET,M - Primary,time_cue_on_%,-2.452,-4.955,-0.08
+Multimodal FoG,M - Primary,coverage_%,-1.65,-5.042,1.156
+Multimodal FoG,M - Primary,timely_%,-2.31,-12.106,8.174
+Multimodal FoG,M - Primary,timely_lead1_%,-0.66,-7.42,7.242
+Multimodal FoG,M - Primary,cue_at_onset_%,-0.33,-7.208,7.076
+Multimodal FoG,M - Primary,false_alarms_per_hour,-10.669,-34.213,11.368
+Multimodal FoG,M - Primary,time_cue_on_%,1.832,-0.278,4.238
+FoG-STAR,M - Primary,coverage_%,0.99,-10.528,11.679
+FoG-STAR,M - Primary,timely_%,0.0,-8.642,7.2
+FoG-STAR,M - Primary,timely_lead1_%,-0.99,-7.501,4.412
+FoG-STAR,M - Primary,cue_at_onset_%,0.99,-4.706,5.435
+FoG-STAR,M - Primary,false_alarms_per_hour,3.331,-44.503,47.549
+FoG-STAR,M - Primary,time_cue_on_%,0.805,-2.665,4.182
+Pooled (three cohorts),M - Primary,coverage_%,-1.875,-4.683,0.805
+Pooled (three cohorts),M - Primary,timely_%,0.312,-5.045,6.505
+Pooled (three cohorts),M - Primary,timely_lead1_%,0.938,-3.498,5.968
+Pooled (three cohorts),M - Primary,cue_at_onset_%,0.312,-4.172,5.148
+Pooled (three cohorts),M - Primary,false_alarms_per_hour,-21.895,-73.032,21.677
+Pooled (three cohorts),M - Primary,time_cue_on_%,-0.551,-2.172,1.006
