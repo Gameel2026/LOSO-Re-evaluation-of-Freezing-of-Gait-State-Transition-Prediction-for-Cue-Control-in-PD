@@ -1,0 +1,11 @@
+cohort,controller,episodes,coverage_%,coverage_check_%,on_at_onset_%_of_episodes,latency_median_s_covered,latency_p75_s_covered,latency_p90_s_covered,lead2_%,lead2_check_%,lead2_new_cue_%,lead2_carried_over_%
+DAPHNET,Primary rule,236,89.407,89.407,68.22,0.0,0.0,1.5,22.881,22.881,19.492,3.39
+DAPHNET,M,236,86.017,86.017,69.068,0.0,0.0,1.0,26.695,26.695,21.61,5.085
+Multimodal FoG,Primary rule,303,92.079,92.079,45.875,0.0,1.0,1.5,22.112,22.112,18.152,3.96
+Multimodal FoG,M,303,90.429,90.429,45.215,0.0,1.0,2.0,21.452,21.452,17.492,3.96
+FoG-STAR,Primary rule,101,67.327,67.327,32.673,0.0,1.5,3.5,11.881,11.881,9.901,1.98
+FoG-STAR,M,101,68.317,68.317,32.673,0.0,1.5,3.5,10.891,10.891,9.901,0.99
+tdcsfog (lab),Primary rule,942,81.741,81.741,46.391,0.0,0.5,2.0,14.65,14.65,11.465,3.185
+tdcsfog (lab),M,942,80.998,80.998,45.966,0.0,0.5,2.0,13.907,13.907,10.616,3.291
+defog (home),Primary rule,625,52.16,52.16,24.64,0.0,2.0,5.75,11.04,11.04,6.72,4.32
+defog (home),M,625,46.72,46.72,22.56,0.0,2.0,6.45,9.12,9.12,5.28,3.84
