@@ -1,0 +1,13 @@
+cohort,min_segment_length_s,windows_retained_%,episodes_retained,metric,observed,surrogate_mean,surrogate_95th,p_one_sided
+tdcsfog (lab),30.0,97.386,939,timely_lead1_%,13.845,11.916,13.424,0.035
+tdcsfog (lab),30.0,97.386,939,cue_at_onset_%,22.577,20.35,21.944,0.03
+tdcsfog (lab),30.0,97.386,939,timely_%,21.086,14.236,16.081,0.005
+tdcsfog (lab),60.0,56.087,592,timely_lead1_%,13.682,12.536,14.704,0.169
+tdcsfog (lab),60.0,56.087,592,cue_at_onset_%,24.324,23.688,25.853,0.318
+tdcsfog (lab),60.0,56.087,592,timely_%,20.777,14.69,17.061,0.005
+defog (home),30.0,65.052,485,timely_lead1_%,10.928,12.048,14.021,0.841
+defog (home),30.0,65.052,485,cue_at_onset_%,15.464,16.892,19.186,0.851
+defog (home),30.0,65.052,485,timely_%,14.845,15.54,17.948,0.711
+defog (home),60.0,41.525,317,timely_lead1_%,9.779,11.628,13.58,0.915
+defog (home),60.0,41.525,317,cue_at_onset_%,14.511,17.495,19.89,1.0
+defog (home),60.0,41.525,317,timely_%,13.88,14.678,17.35,0.721
