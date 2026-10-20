@@ -1,0 +1,16 @@
+cohort,role,comparison,positive_windows,negative_windows,patients_with_both_classes,AUC_pooled,AUC_CI_low,AUC_CI_high,AUC_median_per_patient
+DAPHNET,development,"Pre-onset, lead >= 1 s vs No-FoG",1233,29443,8,0.74,0.699,0.787,0.714
+DAPHNET,development,Last window before onset vs No-FoG,201,29443,8,0.802,0.76,0.85,0.79
+DAPHNET,development,FoG (reference) vs No-FoG,3418,29443,8,0.784,0.746,0.825,0.798
+Multimodal FoG,development,"Pre-onset, lead >= 1 s vs No-FoG",1628,10400,11,0.562,0.498,0.623,0.586
+Multimodal FoG,development,Last window before onset vs No-FoG,250,10400,11,0.703,0.628,0.78,0.768
+Multimodal FoG,development,FoG (reference) vs No-FoG,8280,10400,11,0.815,0.765,0.857,0.859
+FoG-STAR,development,"Pre-onset, lead >= 1 s vs No-FoG",635,7429,16,0.499,0.425,0.576,0.509
+FoG-STAR,development,Last window before onset vs No-FoG,98,7429,16,0.62,0.51,0.725,0.634
+FoG-STAR,development,FoG (reference) vs No-FoG,2136,7429,16,0.722,0.667,0.795,0.719
+tdcsfog (lab),external,"Pre-onset, lead >= 1 s vs No-FoG",4873,64217,41,0.623,0.584,0.663,0.658
+tdcsfog (lab),external,Last window before onset vs No-FoG,839,64217,41,0.74,0.711,0.772,0.762
+tdcsfog (lab),external,FoG (reference) vs No-FoG,34481,64217,41,0.879,0.841,0.898,0.854
+defog (home),external,"Pre-onset, lead >= 1 s vs No-FoG",2636,132361,42,0.653,0.608,0.697,0.607
+defog (home),external,Last window before onset vs No-FoG,487,132361,42,0.692,0.648,0.734,0.639
+defog (home),external,FoG (reference) vs No-FoG,10397,132361,42,0.711,0.671,0.751,0.662

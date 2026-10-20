@@ -1,0 +1,2 @@
+comparison,difference,CI_low,CI_high
+"AUC lead >= 1 s, tdcsfog minus defog",-0.03,-0.087,0.031
