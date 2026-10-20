@@ -1,0 +1,43 @@
+cohort,operating_point,false_alarms_per_hour,time_cue_on_%,coverage_%,metric,observed,surrogate_mean,surrogate_95th,p_one_sided
+tdcsfog (lab),registered per-fold operating points,69.272,41.752,80.998,timely_lead1_%,13.907,12.076,13.493,0.035
+tdcsfog (lab),registered per-fold operating points,69.272,41.752,80.998,cue_at_onset_%,22.611,20.483,22.081,0.03
+tdcsfog (lab),registered per-fold operating points,69.272,41.752,80.998,timely_%,21.231,14.361,16.136,0.005
+tdcsfog (lab),fixed on 0.20 / off 0.05,54.867,89.617,99.788,timely_lead1_%,9.766,8.495,9.766,0.065
+tdcsfog (lab),fixed on 0.20 / off 0.05,54.867,89.617,99.788,cue_at_onset_%,11.146,17.745,19.427,1.0
+tdcsfog (lab),fixed on 0.20 / off 0.05,54.867,89.617,99.788,timely_%,10.722,9.654,11.04,0.124
+tdcsfog (lab),fixed on 0.20 / off 0.10,129.508,85.628,99.469,timely_lead1_%,14.862,13.811,15.605,0.154
+tdcsfog (lab),fixed on 0.20 / off 0.10,129.508,85.628,99.469,cue_at_onset_%,19.958,24.927,27.07,1.0
+tdcsfog (lab),fixed on 0.20 / off 0.10,129.508,85.628,99.469,timely_%,17.834,16.175,18.047,0.06
+tdcsfog (lab),fixed on 0.25 / off 0.05,50.284,88.549,99.682,timely_lead1_%,10.722,8.349,9.66,0.005
+tdcsfog (lab),fixed on 0.25 / off 0.05,50.284,88.549,99.682,cue_at_onset_%,12.845,17.624,19.114,1.0
+tdcsfog (lab),fixed on 0.25 / off 0.05,50.284,88.549,99.682,timely_%,11.783,9.453,11.04,0.005
+tdcsfog (lab),fixed on 0.25 / off 0.10,113.794,83.56,99.363,timely_lead1_%,14.544,13.16,14.761,0.095
+tdcsfog (lab),fixed on 0.25 / off 0.10,113.794,83.56,99.363,cue_at_onset_%,19.958,24.115,26.008,1.0
+tdcsfog (lab),fixed on 0.25 / off 0.10,113.794,83.56,99.363,timely_%,18.365,15.309,16.985,0.005
+tdcsfog (lab),fixed on 0.30 / off 0.05,46.225,87.052,99.575,timely_lead1_%,10.403,8.191,9.448,0.01
+tdcsfog (lab),fixed on 0.30 / off 0.05,46.225,87.052,99.575,cue_at_onset_%,13.482,17.396,18.795,1.0
+tdcsfog (lab),fixed on 0.30 / off 0.05,46.225,87.052,99.575,timely_%,12.527,9.234,10.515,0.005
+tdcsfog (lab),fixed on 0.30 / off 0.10,101.092,81.142,99.257,timely_lead1_%,14.119,12.489,14.013,0.04
+tdcsfog (lab),fixed on 0.30 / off 0.10,101.092,81.142,99.257,cue_at_onset_%,20.17,23.239,25.165,1.0
+tdcsfog (lab),fixed on 0.30 / off 0.10,101.092,81.142,99.257,timely_%,17.941,14.483,16.035,0.005
+defog (home),registered per-fold operating points,117.138,13.804,46.72,timely_lead1_%,9.12,11.126,12.808,0.98
+defog (home),registered per-fold operating points,117.138,13.804,46.72,cue_at_onset_%,12.8,15.151,16.8,0.985
+defog (home),registered per-fold operating points,117.138,13.804,46.72,timely_%,12.96,14.36,16.32,0.871
+defog (home),fixed on 0.20 / off 0.05,178.899,41.091,80.48,timely_lead1_%,16.0,16.618,18.56,0.692
+defog (home),fixed on 0.20 / off 0.05,178.899,41.091,80.48,cue_at_onset_%,27.04,27.026,29.28,0.507
+defog (home),fixed on 0.20 / off 0.05,178.899,41.091,80.48,timely_%,20.48,20.395,22.72,0.468
+defog (home),fixed on 0.20 / off 0.10,331.922,28.142,75.04,timely_lead1_%,23.36,23.208,25.6,0.453
+defog (home),fixed on 0.20 / off 0.10,331.922,28.142,75.04,cue_at_onset_%,31.2,30.109,32.488,0.234
+defog (home),fixed on 0.20 / off 0.10,331.922,28.142,75.04,timely_%,34.56,30.85,33.44,0.015
+defog (home),fixed on 0.25 / off 0.05,118.347,34.134,73.12,timely_lead1_%,12.16,13.853,16.0,0.93
+defog (home),fixed on 0.25 / off 0.05,118.347,34.134,73.12,cue_at_onset_%,21.44,23.323,25.288,0.925
+defog (home),fixed on 0.25 / off 0.05,118.347,34.134,73.12,timely_%,15.52,17.017,19.04,0.905
+defog (home),fixed on 0.25 / off 0.10,206.273,20.739,63.68,timely_lead1_%,16.48,17.466,19.696,0.771
+defog (home),fixed on 0.25 / off 0.10,206.273,20.739,63.68,cue_at_onset_%,21.76,23.086,25.448,0.886
+defog (home),fixed on 0.25 / off 0.10,206.273,20.739,63.68,timely_%,24.16,22.882,25.288,0.204
+defog (home),fixed on 0.30 / off 0.05,72.933,25.669,59.84,timely_lead1_%,7.52,10.3,12.0,1.0
+defog (home),fixed on 0.30 / off 0.05,72.933,25.669,59.84,cue_at_onset_%,15.2,17.647,19.528,0.995
+defog (home),fixed on 0.30 / off 0.05,72.933,25.669,59.84,timely_%,10.24,12.6,14.4,0.99
+defog (home),fixed on 0.30 / off 0.10,117.138,13.804,46.72,timely_lead1_%,9.12,11.126,12.808,0.98
+defog (home),fixed on 0.30 / off 0.10,117.138,13.804,46.72,cue_at_onset_%,12.8,15.151,16.8,0.985
+defog (home),fixed on 0.30 / off 0.10,117.138,13.804,46.72,timely_%,12.96,14.36,16.32,0.871
