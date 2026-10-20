@@ -1,0 +1,6 @@
+cohort,within_segment_AUC_lead1,CI_low,CI_high,segments_contributing,patients_contributing
+DAPHNET,0.764,0.704,0.837,27,8
+Multimodal FoG,0.607,0.574,0.641,42,11
+FoG-STAR,0.493,0.445,0.556,46,16
+tdcsfog (lab),0.656,0.632,0.683,407,41
+defog (home),0.526,0.504,0.551,261,42
