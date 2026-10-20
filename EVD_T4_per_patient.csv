@@ -1,0 +1,3 @@
+cohort,patients,fewer_false_alarms,equal_false_alarms,more_false_alarms,median_FA_difference_per_h,FA_difference_IQR_low,FA_difference_IQR_high,patients_with_episodes,lower_coverage,equal_coverage,higher_coverage,median_coverage_difference
+tdcsfog (lab),62,32,8,22,-1.454,-15.916,10.06,41,12,18,11,0.0
+defog (home),45,43,1,1,-20.611,-33.103,-13.71,42,18,21,3,0.0

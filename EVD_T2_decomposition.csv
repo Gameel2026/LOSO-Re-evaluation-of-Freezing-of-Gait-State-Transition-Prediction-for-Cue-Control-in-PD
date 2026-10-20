@@ -1,0 +1,61 @@
+cohort,component,metric,difference,CI_low,CI_high
+tdcsfog (lab),Order A: threshold selection,coverage_%,0.743,-0.493,2.115
+tdcsfog (lab),Order A: threshold selection,timely_%,0.531,-0.311,1.445
+tdcsfog (lab),Order A: threshold selection,timely_lead1_%,0.212,-0.493,0.871
+tdcsfog (lab),Order A: threshold selection,cue_at_onset_%,0.318,-0.453,1.087
+tdcsfog (lab),Order A: threshold selection,false_alarms_per_hour,0.065,-3.936,4.07
+tdcsfog (lab),Order A: threshold selection,time_cue_on_%,-0.032,-0.601,0.55
+tdcsfog (lab),Order A: score (larger ensemble),coverage_%,-1.486,-2.999,-0.115
+tdcsfog (lab),Order A: score (larger ensemble),timely_%,-0.849,-2.546,0.781
+tdcsfog (lab),Order A: score (larger ensemble),timely_lead1_%,-0.955,-2.496,0.603
+tdcsfog (lab),Order A: score (larger ensemble),cue_at_onset_%,-1.062,-2.609,0.443
+tdcsfog (lab),Order A: score (larger ensemble),false_alarms_per_hour,-4.845,-7.548,-2.555
+tdcsfog (lab),Order A: score (larger ensemble),time_cue_on_%,-0.429,-0.922,-0.036
+tdcsfog (lab),Order B: score (larger ensemble),coverage_%,-1.592,-3.579,0.111
+tdcsfog (lab),Order B: score (larger ensemble),timely_%,-1.274,-3.142,0.674
+tdcsfog (lab),Order B: score (larger ensemble),timely_lead1_%,-1.805,-3.38,-0.281
+tdcsfog (lab),Order B: score (larger ensemble),cue_at_onset_%,-1.805,-3.499,-0.214
+tdcsfog (lab),Order B: score (larger ensemble),false_alarms_per_hour,-4.452,-7.324,-2.142
+tdcsfog (lab),Order B: score (larger ensemble),time_cue_on_%,-0.376,-0.932,0.094
+tdcsfog (lab),Order B: threshold selection,coverage_%,0.849,-0.483,2.706
+tdcsfog (lab),Order B: threshold selection,timely_%,0.955,0.0,2.158
+tdcsfog (lab),Order B: threshold selection,timely_lead1_%,1.062,0.09,2.234
+tdcsfog (lab),Order B: threshold selection,cue_at_onset_%,1.062,0.0,2.328
+tdcsfog (lab),Order B: threshold selection,false_alarms_per_hour,-0.327,-4.038,3.179
+tdcsfog (lab),Order B: threshold selection,time_cue_on_%,-0.085,-0.759,0.584
+tdcsfog (lab),Total: M minus primary rule,coverage_%,-0.743,-2.831,1.272
+tdcsfog (lab),Total: M minus primary rule,timely_%,-0.318,-2.257,1.619
+tdcsfog (lab),Total: M minus primary rule,timely_lead1_%,-0.743,-2.617,1.141
+tdcsfog (lab),Total: M minus primary rule,cue_at_onset_%,-0.743,-2.584,0.987
+tdcsfog (lab),Total: M minus primary rule,false_alarms_per_hour,-4.78,-9.914,-0.263
+tdcsfog (lab),Total: M minus primary rule,time_cue_on_%,-0.461,-1.265,0.301
+defog (home),Order A: threshold selection,coverage_%,0.0,0.0,0.0
+defog (home),Order A: threshold selection,timely_%,0.0,0.0,0.0
+defog (home),Order A: threshold selection,timely_lead1_%,0.0,0.0,0.0
+defog (home),Order A: threshold selection,cue_at_onset_%,0.0,0.0,0.0
+defog (home),Order A: threshold selection,false_alarms_per_hour,0.0,0.0,0.0
+defog (home),Order A: threshold selection,time_cue_on_%,0.0,0.0,0.0
+defog (home),Order A: score (larger ensemble),coverage_%,-5.44,-8.029,-2.348
+defog (home),Order A: score (larger ensemble),timely_%,-3.04,-5.37,-0.48
+defog (home),Order A: score (larger ensemble),timely_lead1_%,-1.92,-3.903,0.214
+defog (home),Order A: score (larger ensemble),cue_at_onset_%,-1.76,-4.032,0.596
+defog (home),Order A: score (larger ensemble),false_alarms_per_hour,-25.536,-31.237,-20.012
+defog (home),Order A: score (larger ensemble),time_cue_on_%,-1.161,-1.497,-0.831
+defog (home),Order B: score (larger ensemble),coverage_%,-5.44,-8.026,-2.454
+defog (home),Order B: score (larger ensemble),timely_%,-3.04,-5.422,-0.506
+defog (home),Order B: score (larger ensemble),timely_lead1_%,-1.92,-3.936,0.175
+defog (home),Order B: score (larger ensemble),cue_at_onset_%,-1.76,-4.024,0.584
+defog (home),Order B: score (larger ensemble),false_alarms_per_hour,-25.536,-31.187,-20.083
+defog (home),Order B: score (larger ensemble),time_cue_on_%,-1.161,-1.502,-0.826
+defog (home),Order B: threshold selection,coverage_%,0.0,0.0,0.0
+defog (home),Order B: threshold selection,timely_%,0.0,0.0,0.0
+defog (home),Order B: threshold selection,timely_lead1_%,0.0,0.0,0.0
+defog (home),Order B: threshold selection,cue_at_onset_%,0.0,0.0,0.0
+defog (home),Order B: threshold selection,false_alarms_per_hour,0.0,0.0,0.0
+defog (home),Order B: threshold selection,time_cue_on_%,0.0,0.0,0.0
+defog (home),Total: M minus primary rule,coverage_%,-5.44,-7.947,-2.559
+defog (home),Total: M minus primary rule,timely_%,-3.04,-5.327,-0.464
+defog (home),Total: M minus primary rule,timely_lead1_%,-1.92,-3.837,0.181
+defog (home),Total: M minus primary rule,cue_at_onset_%,-1.76,-3.918,0.598
+defog (home),Total: M minus primary rule,false_alarms_per_hour,-25.536,-31.368,-19.822
+defog (home),Total: M minus primary rule,time_cue_on_%,-1.161,-1.51,-0.83
