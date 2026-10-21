@@ -7,7 +7,7 @@ Code, analysis plans and result files for a method article submitted to *Methods
 1. a subject-independent, leakage-free evaluation framework for freezing-of-gait (FoG) transition labelling and cue control, built as a stepwise protocol decomposition (P0 to P3), with event-level burden measures (episode coverage, timely activation, false alarms per hour, cue-on time), a within-segment circular-shift chance reference and patient-level bootstrap confidence intervals;
 2. a hysteresis cue controller evaluated under this framework, with pre-specified, time-stamped analysis plans and a pre-specified external validation on two independent cohorts.
 
-All band-pass filtering is causal (forward-only Butterworth). `python verify_release.py` checks this in seconds without data.
+All band-pass filtering is causal (forward-only Butterworth). `python verify_release.py` checks this in seconds without data and, when run from the repository folder, compares the external-validation and ladder result files with their release checksums.
 
 ## 1. Reference environment
 
@@ -66,7 +66,7 @@ Each plan was committed before the analysis it describes was executed; results w
 | Post hoc: within-segment separability and onset-locked profile | `MX_ONSET_PROFILE.md`, `mx2_onset_profile.py` | 694bbb0 (results 8792a08) | |
 | Post hoc: activation latency and early-activation composition | `MX_LATENCY_LEAD_SPLIT.md`, `mx2_latency_lead_split.py` | 7151500 (results c755a9f) | |
 | Post hoc: coverage chance reference, episode durations, false-alarm time base | `MX_FINAL_DESCRIPTIVES.md`, `mx2_final_descriptives.py` | bbb2322 (results 66cf50b) | |
-| Post hoc: protocols P0 to P3 across seeds with patient-bootstrap intervals | `MX_LADDER_UNCERTAINTY.md`, `mx_ladder_uncertainty.py` | d3bac56 (script configuration corrected before the final run, a3e8947) | |
+| Post hoc: protocols P0 to P3 across seeds with patient-bootstrap intervals | `MX_LADDER_UNCERTAINTY.md`, `mx_ladder_uncertainty.py` | d3bac56 (script configuration corrected before the final run, a3e8947; results 59c3910) | |
 | External validation results (seed 42 and seeds 1 to 4) | `Results/results_mx2_external/` | 10c0291 | v1.6.0 |
 | Post hoc results | `Results/<folder named in each plan>` | | v1.6.0 |
 
@@ -120,7 +120,7 @@ Shared modules: `fog_pipeline.py` (loading, causal filtering, windowing, feature
 
 ## 6. Notes
 
-* Feature selection, oversampling, standardisation and threshold selection are fitted on training patients inside each leave-one-subject-out fold (protocols P0 and P1 use record-wise folds by design).
+* In protocols P2 and P3 and in every controller analysis, all data-dependent steps (oversampling, threshold selection and, in P3 and the controllers, feature selection) are fitted on the training patients inside each leave-one-subject-out fold. By design of the protocol decomposition, P0 and P1 use record-wise folds, P0 applies oversampling to the complete window set, and P0 to P2 use a fixed feature set. In the result files, "P0 Original" denotes P0 and "P1 SMOTE in folds" denotes P1.
 * Event metrics, hysteresis states and the chance reference operate within contiguous annotated segments.
 * Result files of all steps are collected under `Results/`, in folders with the names written by the scripts.
 * Checkpoint folders (`ckpt_*`, `checkpoints/`) are only used to resume interrupted runs.
