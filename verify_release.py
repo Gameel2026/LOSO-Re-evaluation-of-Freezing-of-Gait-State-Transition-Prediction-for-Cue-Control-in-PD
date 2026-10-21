@@ -20,10 +20,10 @@ print("[3] no non-causal filtering in any script: OK")
 
 try:
     import pandas as pd
-    b1 = pd.read_csv("results/results_constrained/B1_summary.csv", index_col=0)
+    b1 = pd.read_csv("Results/results_constrained/B1_summary.csv", index_col=0)
     for ds, t, d in [("DAPHNET C0spec", 30.085, 89.407), ("Li2021 C0spec", 32.343, 92.079)]:
         assert abs(b1.loc[ds, "timely_pre_onset_%"] - t) < 0.01 and abs(b1.loc[ds, "detected_%"] - d) < 0.01
     print("[4] shipped results match the manuscript (timely activation 30.1% / 32.3%; detection 89.4% / 92.1%): OK")
 except FileNotFoundError:
-    print("[4] results/ not found - skipped")
+    print("[4] Results/ not found - skipped")
 print("All checks passed.")
