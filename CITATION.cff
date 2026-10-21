@@ -13,3 +13,4 @@ authors:
   - family-names: Hassan
     given-names: Mohammed A.
 repository-code: "https://github.com/Gameel2026/LOSO-Re-evaluation-of-Freezing-of-Gait-State-Transition-Prediction-for-Cue-Control-in-PD"
+license: MIT
