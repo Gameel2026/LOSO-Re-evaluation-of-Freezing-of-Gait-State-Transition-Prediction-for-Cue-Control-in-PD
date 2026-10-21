@@ -4,8 +4,8 @@
 
 Code, analysis plans and result files for a method article submitted to *MethodsX*. The method has two parts:
 
-1. a subject-independent, leakage-free evaluation framework for freezing-of-gait (FoG) transition labelling and cue control, built as a stepwise protocol decomposition (P0 to P3), with event-level burden measures (episode coverage, timely activation, false alarms per hour, cue-on time), a within-segment circular-shift chance reference and patient-level bootstrap confidence intervals;
-2. a hysteresis cue controller evaluated under this framework, with pre-specified, time-stamped analysis plans and a pre-specified external validation on two independent cohorts.
+1. a subject-independent evaluation framework for freezing-of-gait (FoG) transition labelling and cue control, in which every data-dependent step of the controller is fitted on training patients, built as a stepwise protocol decomposition (P0 to P3), with event-level measures (episode coverage, activation timing, false alarms per hour, cue-on time), a within-segment circular-shift chance reference and patient-level bootstrap confidence intervals;
+2. a hysteresis cue controller evaluated under this framework, with pre-specified, time-stamped analysis plans and a pre-specified external validation on two external cohorts, in which the frozen pipeline is retrained and tested within each cohort.
 
 All band-pass filtering is causal (forward-only Butterworth). `python verify_release.py` checks this in seconds without data and, when run from the repository folder, compares the external-validation and ladder result files with their release checksums.
 
@@ -35,7 +35,7 @@ The deep-learning scripts (`fog_deep.py`, `fog_lstm_controller.py`) additionally
 | DAPHNET Freezing of Gait | Development | UCI, https://doi.org/10.24432/C56K78 |
 | Multimodal FoG dataset (filtered data) | Development | Mendeley Data, https://doi.org/10.17632/r8gmbtv7w2.3 |
 | FoG-STAR | Development (pre-specified evaluation) | Zenodo, https://doi.org/10.5281/zenodo.17838806 (`sensor_data.csv`) |
-| tdcsfog (laboratory) and defog (home), lower-back sensor | External validation | Zenodo, https://doi.org/10.5281/zenodo.12565292 (`Competition Dataset.zip`, labelled training files; CC BY 4.0); described in Salomon et al., Nat Commun 2024, https://doi.org/10.1038/s41467-024-49027-0 |
+| tdcsfog (laboratory) and defog (home protocol), lower-back sensor | External validation | Zenodo, https://doi.org/10.5281/zenodo.12565292 (`Competition Dataset.zip`, labelled training files; CC BY 4.0); described in Salomon et al., Nat Commun 2024, https://doi.org/10.1038/s41467-024-49027-0 |
 
 Set the DAPHNET and Multimodal FoG locations in `paths.py` (or the environment variables `FOG_DAPHNET`, `FOG_LI_RAW`, `FOG_LI_CONVERTED`). The FoG-STAR paths are set at the top of `fogstar_convert.py` and `run_fogstar.py`. The external cohorts are converted with `kaggle_convert.py`: set `ROOT` and `OUT` to local folders and `DRY_RUN = False`.
 
@@ -67,9 +67,9 @@ Each plan was committed before the analysis it describes was executed; results w
 | Post hoc: activation latency and early-activation composition | `MX_LATENCY_LEAD_SPLIT.md`, `mx2_latency_lead_split.py` | 7151500 (results c755a9f) | |
 | Post hoc: coverage chance reference, episode durations, false-alarm time base | `MX_FINAL_DESCRIPTIVES.md`, `mx2_final_descriptives.py` | bbb2322 (results 66cf50b) | |
 | Post hoc: protocols P0 to P3 across seeds with patient-bootstrap intervals | `MX_LADDER_UNCERTAINTY.md`, `mx_ladder_uncertainty.py` | d3bac56 (script configuration corrected before the final run, a3e8947; results 59c3910) | |
-| External validation results (seed 42 and seeds 1 to 4) | `Results/results_mx2_external/` | 10c0291 | v1.6.0 |
+| External validation results (seed 42 and seeds 1 to 4) | `Results/results_mx2_external/` | 10c0291 | v1.6.0, 10.5281/zenodo.23534688 |
 | Descriptive: composition of annotated FoG types in the external cohorts | `MX_FOG_TYPE_COMPOSITION.md`, `mx2_fog_type_composition.py` | a40580a (results a0e11d0) | |
-| Post hoc results | `Results/<folder named in each plan>` | | v1.6.0 |
+| Post hoc results | `Results/<folder named in each plan>` | | v1.6.0, 10.5281/zenodo.23534688 |
 
 ## 4. Reproducing the method article
 
@@ -122,6 +122,9 @@ Shared modules: `fog_pipeline.py` (loading, causal filtering, windowing, feature
 ## 6. Notes
 
 * In protocols P2 and P3 and in every controller analysis, all data-dependent steps (oversampling, threshold selection and, in P3 and the controllers, feature selection) are fitted on the training patients inside each leave-one-subject-out fold. By design of the protocol decomposition, P0 and P1 use record-wise folds, P0 applies oversampling to the complete window set, and P0 to P2 use a fixed feature set. In the result files, "P0 Original" denotes P0 and "P1 SMOTE in folds" denotes P1.
+* Inner calibration of the controllers is not nested with respect to feature selection: the 23 features are selected once on all training patients of a fold, so the inner scores used for operating-point selection may be optimistic. The held-out patient is never used for model fitting, feature selection or operating-point selection.
+* The matched-false-alarm operating curves of the Freeze-index reference (`mx_reference_analyses.py`, A7) are swept on the test patients; they are optimistic for both detectors and are not used for selection or comparative inference. The window-level Freeze-index reference uses 0.5 s windows and is not the published 4 s configuration.
+* The fixed 23-feature set of P0 to P2 (`HYBRID_23` in `fog_pipeline.py`) was compiled from the feature set reported by Khosla et al. (2024): 22 names are taken from the feature table of that article and the 23rd (spectralEntropy_1) from its feature ranking.
 * Event metrics, hysteresis states and the chance reference operate within contiguous annotated segments.
 * Result files of all steps are collected under `Results/`, in folders with the names written by the scripts.
 * Checkpoint folders (`ckpt_*`, `checkpoints/`) are only used to resume interrupted runs.
