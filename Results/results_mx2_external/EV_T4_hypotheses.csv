@@ -1,0 +1,8 @@
+cohort,hypothesis,estimate,CI_low,CI_high,result
+Pooled (external cohorts),EV1 fewer false alarms per hour (primary),-16.718,-21.305,-12.468,supported
+tdcsfog (lab),EV2 coverage non-inferiority (-10),-0.743,-2.915,1.352,supported
+tdcsfog (lab),EV3 cue-on time non-inferiority (+5),-0.461,-1.257,0.274,supported
+tdcsfog (lab),EV4 lead >= 1 s non-inferiority (-10),-0.743,-2.564,1.117,supported
+defog (home),EV2 coverage non-inferiority (-10),-5.44,-7.957,-2.453,supported
+defog (home),EV3 cue-on time non-inferiority (+5),-1.161,-1.499,-0.84,supported
+defog (home),EV4 lead >= 1 s non-inferiority (-10),-1.92,-3.859,0.205,supported

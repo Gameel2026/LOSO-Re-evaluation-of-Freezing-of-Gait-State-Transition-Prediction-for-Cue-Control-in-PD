@@ -1,0 +1,7 @@
+,,coverage_%,coverage_%,timely_%,timely_%,timely_lead1_%,timely_lead1_%,cue_at_onset_%,cue_at_onset_%,false_alarms_per_hour,false_alarms_per_hour,time_cue_on_%,time_cue_on_%
+,,min,max,min,max,min,max,min,max,min,max,min,max
+cohort,controller,,,,,,,,,,,,
+defog (home),M,46.72,49.76,12.96,14.56,8.96,10.08,12.48,14.72,112.06,117.14,13.8,14.01
+defog (home),Primary rule,51.84,54.72,15.84,17.76,11.04,12.64,14.56,17.28,137.89,144.22,14.86,15.38
+tdcsfog (lab),M,80.89,81.74,21.23,22.19,13.91,15.18,22.29,23.67,67.24,69.86,41.75,42.34
+tdcsfog (lab),Primary rule,80.25,81.74,20.49,22.08,14.12,14.65,22.4,23.35,69.8,74.05,41.68,42.21

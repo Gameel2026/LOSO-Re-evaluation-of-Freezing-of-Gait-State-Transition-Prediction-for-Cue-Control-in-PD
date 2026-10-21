@@ -1,0 +1,5 @@
+cohort,controller,coverage_%,timely_%,timely_lead1_%,cue_at_onset_%,false_alarms_per_hour,time_cue_on_%,coverage_%_CI_low,timely_%_CI_low,timely_lead1_%_CI_low,cue_at_onset_%_CI_low,false_alarms_per_hour_CI_low,time_cue_on_%_CI_low,coverage_%_CI_high,timely_%_CI_high,timely_lead1_%_CI_high,cue_at_onset_%_CI_high,false_alarms_per_hour_CI_high,time_cue_on_%_CI_high
+tdcsfog (lab),Primary rule,81.741,21.55,14.65,23.355,74.051,42.213,77.494,18.388,12.128,19.979,53.009,28.912,85.729,24.96,17.425,26.81,97.353,56.265
+tdcsfog (lab),M,80.998,21.231,13.907,22.611,69.272,41.752,75.981,17.789,11.322,18.967,50.384,27.967,85.587,25.058,16.645,26.127,91.215,55.87
+defog (home),Primary rule,52.16,16.0,11.04,14.56,142.674,14.965,45.648,12.721,8.647,11.332,115.154,11.276,58.373,18.97,13.208,17.361,173.245,18.864
+defog (home),M,46.72,12.96,9.12,12.8,117.138,13.804,40.152,9.94,7.195,10.373,92.16,10.318,53.165,16.295,11.244,15.4,145.196,17.75

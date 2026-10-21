@@ -1,0 +1,7 @@
+cohort,controller,metric,observed,surrogate_mean,surrogate_95th,p_one_sided
+tdcsfog (lab),M,timely_lead1_%,13.907,12.076,13.493,0.035
+tdcsfog (lab),M,cue_at_onset_%,22.611,20.483,22.081,0.03
+tdcsfog (lab),M,timely_%,21.231,14.361,16.136,0.005
+defog (home),M,timely_lead1_%,9.12,11.126,12.808,0.98
+defog (home),M,cue_at_onset_%,12.8,15.151,16.8,0.985
+defog (home),M,timely_%,12.96,14.36,16.32,0.871

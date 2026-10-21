@@ -1,0 +1,25 @@
+cohort,comparison,metric,difference,CI_low,CI_high
+tdcsfog (lab),M - Primary rule,coverage_%,-0.743,-2.915,1.352
+tdcsfog (lab),M - Primary rule,timely_%,-0.318,-2.217,1.68
+tdcsfog (lab),M - Primary rule,timely_lead1_%,-0.743,-2.564,1.117
+tdcsfog (lab),M - Primary rule,cue_at_onset_%,-0.743,-2.577,0.978
+tdcsfog (lab),M - Primary rule,false_alarms_per_hour,-4.78,-9.827,-0.067
+tdcsfog (lab),M - Primary rule,time_cue_on_%,-0.461,-1.257,0.274
+defog (home),M - Primary rule,coverage_%,-5.44,-7.957,-2.453
+defog (home),M - Primary rule,timely_%,-3.04,-5.415,-0.452
+defog (home),M - Primary rule,timely_lead1_%,-1.92,-3.859,0.205
+defog (home),M - Primary rule,cue_at_onset_%,-1.76,-3.931,0.63
+defog (home),M - Primary rule,false_alarms_per_hour,-25.536,-31.212,-19.984
+defog (home),M - Primary rule,time_cue_on_%,-1.161,-1.499,-0.84
+Pooled (external cohorts),M - Primary rule,coverage_%,-2.616,-4.361,-0.863
+Pooled (external cohorts),M - Primary rule,timely_%,-1.404,-2.918,0.135
+Pooled (external cohorts),M - Primary rule,timely_lead1_%,-1.213,-2.58,0.197
+Pooled (external cohorts),M - Primary rule,cue_at_onset_%,-1.149,-2.575,0.27
+Pooled (external cohorts),M - Primary rule,false_alarms_per_hour,-16.718,-21.305,-12.468
+Pooled (external cohorts),M - Primary rule,time_cue_on_%,-0.863,-1.243,-0.495
+"Pooled (five cohorts, secondary)",M - Primary rule,coverage_%,-2.401,-3.825,-0.964
+"Pooled (five cohorts, secondary)",M - Primary rule,timely_%,-0.906,-2.772,1.128
+"Pooled (five cohorts, secondary)",M - Primary rule,timely_lead1_%,-0.589,-2.194,1.131
+"Pooled (five cohorts, secondary)",M - Primary rule,cue_at_onset_%,-0.725,-2.365,0.936
+"Pooled (five cohorts, secondary)",M - Primary rule,false_alarms_per_hour,-17.804,-29.564,-8.231
+"Pooled (five cohorts, secondary)",M - Primary rule,time_cue_on_%,-0.798,-1.254,-0.364
