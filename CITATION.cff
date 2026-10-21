@@ -2,7 +2,8 @@ cff-version: 1.2.0
 message: "If you use this code or these results, please cite the archived software release."
 title: "Subject-independent evaluation of freezing-of-gait cue control: code, analysis plans and results"
 doi: 10.5281/zenodo.23080695
-version: 1.6.0
+version: 1.6.1
+date-released: 2026-10-21
 authors:
   - family-names: Soliman
     given-names: Ahmed M.
