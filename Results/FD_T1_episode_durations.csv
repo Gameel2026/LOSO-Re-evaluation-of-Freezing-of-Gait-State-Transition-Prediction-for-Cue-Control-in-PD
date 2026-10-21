@@ -1,0 +1,6 @@
+cohort,episodes,duration_median_s,duration_p25_s,duration_p75_s,episodes_up_to_1s_%,episodes_up_to_2s_%,episodes_up_to_5s_%
+DAPHNET,236,5.5,2.5,10.0,11.864,23.729,49.576
+Multimodal FoG,303,9.0,4.0,17.0,1.65,11.221,35.974
+FoG-STAR,101,5.5,2.5,11.5,8.911,19.802,49.505
+tdcsfog (lab),942,4.0,1.5,10.5,14.013,32.59,58.811
+defog (home),625,4.0,1.5,10.0,20.96,36.48,57.44
