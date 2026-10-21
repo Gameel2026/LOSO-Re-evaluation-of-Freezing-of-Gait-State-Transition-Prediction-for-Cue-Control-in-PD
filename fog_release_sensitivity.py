@@ -12,7 +12,7 @@ from fog_study import event_metrics
 from fog_pipeline import FOG, NOFOG
 from fog_stats import holm
 
-OUT = "results_hiss_sensitivity"
+OUT = "results_release_sensitivity"
 RUN = {"R1": True, "R2": False, "R3": True}
 N_SHIFTS = 2000
 FOGSTAR_CSV = r"D:\New research fog work\FoG STAR\sensor_data.csv"
