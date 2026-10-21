@@ -68,6 +68,7 @@ Each plan was committed before the analysis it describes was executed; results w
 | Post hoc: coverage chance reference, episode durations, false-alarm time base | `MX_FINAL_DESCRIPTIVES.md`, `mx2_final_descriptives.py` | bbb2322 (results 66cf50b) | |
 | Post hoc: protocols P0 to P3 across seeds with patient-bootstrap intervals | `MX_LADDER_UNCERTAINTY.md`, `mx_ladder_uncertainty.py` | d3bac56 (script configuration corrected before the final run, a3e8947; results 59c3910) | |
 | External validation results (seed 42 and seeds 1 to 4) | `Results/results_mx2_external/` | 10c0291 | v1.6.0 |
+| Descriptive: composition of annotated FoG types in the external cohorts | `MX_FOG_TYPE_COMPOSITION.md`, `mx2_fog_type_composition.py` | (pending) | |
 | Post hoc results | `Results/<folder named in each plan>` | | v1.6.0 |
 
 ## 4. Reproducing the method article
@@ -124,6 +125,7 @@ Shared modules: `fog_pipeline.py` (loading, causal filtering, windowing, feature
 * Event metrics, hysteresis states and the chance reference operate within contiguous annotated segments.
 * Result files of all steps are collected under `Results/`, in folders with the names written by the scripts.
 * Checkpoint folders (`ckpt_*`, `checkpoints/`) are only used to resume interrupted runs.
+* `Results/results_ladder_uncertainty/first_run_superseded/` holds the outputs of the first run of `mx_ladder_uncertainty.py` (commit d3bac56), which took the random-forest configuration stored in the DAPHNET feature cache (30 trees) instead of that of `fog_rerun_causal.py` (100 trees). It was superseded by the corrected script (a3e8947) and is not interpreted; it is kept because the plan states that all outputs are reported.
 
 ## 7. Licence and citation
 
