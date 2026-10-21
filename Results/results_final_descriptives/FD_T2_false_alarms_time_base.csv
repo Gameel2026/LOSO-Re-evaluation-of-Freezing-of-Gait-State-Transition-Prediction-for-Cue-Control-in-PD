@@ -1,0 +1,11 @@
+cohort,controller,hours_analysed,hours_outside_episode_zone,false_alarms,false_alarms_per_hour,false_alarms_per_hour_outside_episode_zone
+DAPHNET,Primary rule,4.951,4.089,630,127.237,154.06
+DAPHNET,M,4.951,4.089,449,90.682,109.799
+Multimodal FoG,Primary rule,3.093,1.444,297,96.022,205.615
+Multimodal FoG,M,3.093,1.444,264,85.352,182.769
+FoG-STAR,Primary rule,1.501,1.032,143,95.272,138.592
+FoG-STAR,M,1.501,1.032,148,98.603,143.438
+tdcsfog (lab),Primary rule,15.273,8.919,1131,74.051,126.808
+tdcsfog (lab),M,15.273,8.919,1058,69.272,118.623
+defog (home),Primary rule,20.677,18.383,2950,142.674,160.47
+defog (home),M,20.677,18.383,2422,117.138,131.749
