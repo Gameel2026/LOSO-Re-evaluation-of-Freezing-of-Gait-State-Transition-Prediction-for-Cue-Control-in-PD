@@ -65,7 +65,10 @@ Each plan was committed before the analysis it describes was executed; results w
 | Post hoc: segment structure | `MX_SEGMENT_STRUCTURE.md`, `mx2_segment_structure.py` | 7fccef1 (results 2e584ae) | |
 | Post hoc: within-segment separability and onset-locked profile | `MX_ONSET_PROFILE.md`, `mx2_onset_profile.py` | 694bbb0 (results 8792a08) | |
 | Post hoc: activation latency and early-activation composition | `MX_LATENCY_LEAD_SPLIT.md`, `mx2_latency_lead_split.py` | 7151500 (results c755a9f) | |
-| External validation results, seeds and post hoc results | `Results/` | | v1.6.0 |
+| Post hoc: coverage chance reference, episode durations, false-alarm time base | `MX_FINAL_DESCRIPTIVES.md`, `mx2_final_descriptives.py` | bbb2322 (results 66cf50b) | |
+| Post hoc: protocols P0 to P3 across seeds with patient-bootstrap intervals | `MX_LADDER_UNCERTAINTY.md`, `mx_ladder_uncertainty.py` | d3bac56 (script configuration corrected before the final run, a3e8947) | |
+| External validation results (seed 42 and seeds 1 to 4) | `Results/results_mx2_external/` | 10c0291 | v1.6.0 |
+| Post hoc results | `Results/<folder named in each plan>` | | v1.6.0 |
 
 ## 4. Reproducing the method article
 
@@ -82,7 +85,17 @@ Run from the repository folder (all scripts use paths relative to the working fo
 | 7 | `mx2_external_seeds.py` | `results_mx2_external/` (seeds 1 to 4 and summaries `EVS_T1`, `EVS_T3`, `EVS_T6`) |
 | 8 | post hoc scripts of section 3 | one folder per script, as named in each plan |
 
-Steps 4 to 7 save per-fold checkpoints and resume after an interruption. Running time is several hours per cohort on a standard laptop.
+Steps 4 to 8 save checkpoints and resume after an interruption. On a standard laptop, one external-validation seed takes about 7 hours for defog (45 folds) and a comparable time for tdcsfog (62 folds); `mx_ladder_uncertainty.py` takes about two hours for five seeds and three development cohorts.
+
+External-validation outputs (`Results/results_mx2_external/`): `EV_T2` to `EV_T5` (seed 42: controllers with CIs, paired differences, hypotheses EV1 to EV4, chance reference), `EV_choices_<cohort>.csv` (selected operating point per fold), `EV_counts_<cohort>.pkl` (per-patient event counts), `EV_per_window_<cohort>_seed42.csv.gz` (held-out cue states per window); `EVS_choices_<cohort>_seed<k>.csv` and `EVS_counts_<cohort>_seed<k>.pkl` for seeds 1 to 4; `EVS_T1` (all seeds), `EVS_T3` (paired differences, all seeds) and `EVS_T6` (range across seeds). Hypotheses EV1 to EV4 are evaluated on seed 42 (`EV_T4`); `EVS_T3` redraws the bootstrap in one sequence across seeds, so its seed-42 intervals differ slightly from `EV_T3`, while point estimates are identical. The seed controls the random forests and the mutual-information subsample.
+
+## 4a. Applying the method to new data
+
+1. Convert each recording to the DAPHNET text layout (time, three accelerometer axes per sensor, label 0 = not annotated, 1 = no FoG, 2 = FoG), as `kaggle_convert.py` does for the external cohorts; resample to 64 Hz.
+2. Build windows, features and labels with `fog_pipeline.py` (0.5 s windows within contiguous annotated segments; a window is FoG if at least 0.3 s is FoG; Pre-FoG 4 s and Post-FoG 3 s), cached as in `fog_rerun_causal.data_for`.
+3. Evaluate with leave-one-subject-out folds, fitting feature selection, oversampling and threshold selection on the training patients only (`mx2_external.py` shows the complete loop for a new cohort; add the cohort to `COHORTS`).
+4. Report the burden pair (false alarms per hour and cue-on time) with coverage and activation at least two windows before the onset window, each against the within-segment circular-shift reference (`mx_new_controllers.Ev`), with patient-level bootstrap intervals and the range across seeds.
+5. Customisation points: window length, Pre-FoG/Post-FoG intervals (which also define the false-alarm tolerance zone), threshold grid, specificity floor, false-alarm budget, ensemble size and hold set (`mx2_controller.py`).
 
 ## 5. Development pipeline
 
