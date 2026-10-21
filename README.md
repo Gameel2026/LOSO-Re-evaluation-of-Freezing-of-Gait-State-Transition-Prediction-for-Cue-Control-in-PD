@@ -68,7 +68,7 @@ Each plan was committed before the analysis it describes was executed; results w
 | Post hoc: coverage chance reference, episode durations, false-alarm time base | `MX_FINAL_DESCRIPTIVES.md`, `mx2_final_descriptives.py` | bbb2322 (results 66cf50b) | |
 | Post hoc: protocols P0 to P3 across seeds with patient-bootstrap intervals | `MX_LADDER_UNCERTAINTY.md`, `mx_ladder_uncertainty.py` | d3bac56 (script configuration corrected before the final run, a3e8947; results 59c3910) | |
 | External validation results (seed 42 and seeds 1 to 4) | `Results/results_mx2_external/` | 10c0291 | v1.6.0 |
-| Descriptive: composition of annotated FoG types in the external cohorts | `MX_FOG_TYPE_COMPOSITION.md`, `mx2_fog_type_composition.py` | (pending) | |
+| Descriptive: composition of annotated FoG types in the external cohorts | `MX_FOG_TYPE_COMPOSITION.md`, `mx2_fog_type_composition.py` | a40580a (results a0e11d0) | |
 | Post hoc results | `Results/<folder named in each plan>` | | v1.6.0 |
 
 ## 4. Reproducing the method article
