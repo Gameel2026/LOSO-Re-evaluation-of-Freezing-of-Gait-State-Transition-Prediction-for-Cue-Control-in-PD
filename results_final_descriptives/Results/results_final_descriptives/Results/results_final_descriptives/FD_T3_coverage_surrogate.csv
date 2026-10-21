@@ -1,5 +1,0 @@
-cohort,controller,metric,observed,surrogate_mean,surrogate_95th,p_one_sided
-tdcsfog (lab),Primary rule,coverage_%,81.741,61.116,63.057,0.005
-tdcsfog (lab),M,coverage_%,80.998,60.347,62.314,0.005
-defog (home),Primary rule,coverage_%,52.16,50.294,52.328,0.09
-defog (home),M,coverage_%,46.72,47.322,49.44,0.697
