@@ -1,0 +1,8 @@
+cohort,fog_type,episodes,episodes_%,patients,fog_time_s,fog_time_%,median_duration_s,episodes_with_mixed_types
+tdcsfog (lab),StartHesitation,72,7.59,28,819.34,4.73,2.62,1
+tdcsfog (lab),Turn,797,83.98,41,15342.19,88.61,4.05,38
+tdcsfog (lab),Walking,80,8.43,21,1153.67,6.66,3.34,6
+defog (home),StartHesitation,1,0.15,1,0.88,0.02,0.88,0
+defog (home),Turn,502,72.86,34,4349.95,82.54,3.69,7
+defog (home),Unspecified,56,8.13,18,199.44,3.78,2.11,0
+defog (home),Walking,130,18.87,24,719.86,13.66,2.24,3
