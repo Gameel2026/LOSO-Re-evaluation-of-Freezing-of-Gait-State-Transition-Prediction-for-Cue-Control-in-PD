@@ -35,7 +35,7 @@ The deep-learning scripts (`fog_deep.py`, `fog_lstm_controller.py`) additionally
 | DAPHNET Freezing of Gait | Development | UCI, https://doi.org/10.24432/C56K78 |
 | Multimodal FoG dataset (filtered data) | Development | Mendeley Data, https://doi.org/10.17632/r8gmbtv7w2.3 |
 | FoG-STAR | Development (pre-specified evaluation) | Zenodo, https://doi.org/10.5281/zenodo.17838806 (`sensor_data.csv`) |
-| tdcsfog (laboratory) and defog (home), lower-back sensor | External validation | Kaggle Parkinson's Freezing of Gait Prediction competition data (Salomon et al., Nat Commun 2024, https://doi.org/10.1038/s41467-024-49027-0), labelled training files |
+| tdcsfog (laboratory) and defog (home), lower-back sensor | External validation | Zenodo, https://doi.org/10.5281/zenodo.12565292 (`Competition Dataset.zip`, labelled training files; CC BY 4.0); described in Salomon et al., Nat Commun 2024, https://doi.org/10.1038/s41467-024-49027-0 |
 
 Set the DAPHNET and Multimodal FoG locations in `paths.py` (or the environment variables `FOG_DAPHNET`, `FOG_LI_RAW`, `FOG_LI_CONVERTED`). The FoG-STAR paths are set at the top of `fogstar_convert.py` and `run_fogstar.py`. The external cohorts are converted with `kaggle_convert.py`: set `ROOT` and `OUT` to local folders and `DRY_RUN = False`.
 
@@ -101,7 +101,7 @@ Steps 4 to 7 save per-fold checkpoints and resume after an interruption. Running
 | `fog_deep.py`, `fog_lstm_controller.py` | deep-learning baselines and LSTM-driven controller (PyTorch) | `results_deep/`, `results_lstm_controller/` |
 | `fogstar_convert.py`, `run_fogstar.py` | FoG-STAR conversion and pre-specified evaluation | `results_fogstar_causal/`, `results_fogstar_controller/` |
 | `fogstar_check.py`, `fogstar_activity.py`, `fogstar_stratified.py`, `fog_precursor.py` | FoG-STAR descriptive and post hoc analyses; pre-onset separability | `results_precursor/` |
-| `fog_auprc.py`, `fog_feature_sensitivity.py`, `fog_nested_features.py`, `hiss_sensitivity.py` | further sensitivity analyses | `results_auprc/`, `results_features/`, `results_nested/` |
+| `fog_auprc.py`, `fog_feature_sensitivity.py`, `fog_nested_features.py`, `fog_release_sensitivity.py` | further sensitivity analyses | `results_auprc/`, `results_features/`, `results_nested/`, `results_release_sensitivity/` |
 
 Shared modules: `fog_pipeline.py` (loading, causal filtering, windowing, features, labelling), `fog_study.py` (decoders, hysteresis, event metrics), `fog_stats.py` (statistics), `li_io.py` (reader), `paths.py`.
 
@@ -112,6 +112,6 @@ Shared modules: `fog_pipeline.py` (loading, causal filtering, windowing, feature
 * Result files of all steps are collected under `Results/`, in folders with the names written by the scripts.
 * Checkpoint folders (`ckpt_*`, `checkpoints/`) are only used to resume interrupted runs.
 
-## 7. Citation
+## 7. Licence and citation
 
-See `CITATION.cff`. Concept DOI (all versions): https://doi.org/10.5281/zenodo.23080695
+Code: MIT licence (`LICENSE`). Datasets remain under the licences of their sources. See `CITATION.cff`. Concept DOI (all versions): https://doi.org/10.5281/zenodo.23080695
