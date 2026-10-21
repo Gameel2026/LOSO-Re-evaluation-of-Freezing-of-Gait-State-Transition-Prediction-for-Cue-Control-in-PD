@@ -1,0 +1,619 @@
+dataset,family,theta_on,theta_off,episodes,coverage_%,timely_activation_%,false_alarms_per_hour,time_cue_on_%
+DAPHNET,Classifier + hysteresis,0.03,0.03,236,99.576,8.051,383.529,71.403
+DAPHNET,Classifier + hysteresis,0.05,0.03,236,99.576,8.051,234.076,68.533
+DAPHNET,Classifier + hysteresis,0.07,0.03,236,99.576,8.051,167.63,67.058
+DAPHNET,Classifier + hysteresis,0.09,0.03,236,99.576,8.475,132.69,66.123
+DAPHNET,Classifier + hysteresis,0.09,0.09,236,99.153,39.407,368.18,59.691
+DAPHNET,Classifier + hysteresis,0.12,0.03,236,99.576,8.898,105.829,65.111
+DAPHNET,Classifier + hysteresis,0.12,0.09,236,99.153,40.678,318.295,58.171
+DAPHNET,Classifier + hysteresis,0.14,0.03,236,99.576,8.898,95.327,64.502
+DAPHNET,Classifier + hysteresis,0.14,0.09,236,99.153,40.254,296.886,57.299
+DAPHNET,Classifier + hysteresis,0.16,0.03,236,99.576,8.898,86.642,63.986
+DAPHNET,Classifier + hysteresis,0.16,0.09,236,99.153,39.407,276.69,56.404
+DAPHNET,Classifier + hysteresis,0.16,0.16,236,98.729,62.288,623.663,47.383
+DAPHNET,Classifier + hysteresis,0.18,0.03,236,99.576,9.746,78.766,63.271
+DAPHNET,Classifier + hysteresis,0.18,0.09,236,99.153,38.983,256.898,55.31
+DAPHNET,Classifier + hysteresis,0.18,0.16,236,98.729,61.864,580.443,46.014
+DAPHNET,Classifier + hysteresis,0.21,0.03,236,99.576,10.169,67.052,62.165
+DAPHNET,Classifier + hysteresis,0.21,0.09,236,98.729,39.407,224.18,53.136
+DAPHNET,Classifier + hysteresis,0.21,0.16,236,98.305,61.864,506.928,43.094
+DAPHNET,Classifier + hysteresis,0.23,0.03,236,99.576,10.169,64.83,61.739
+DAPHNET,Classifier + hysteresis,0.23,0.09,236,98.305,39.407,215.495,52.597
+DAPHNET,Classifier + hysteresis,0.23,0.16,236,97.881,61.864,486.732,42.261
+DAPHNET,Classifier + hysteresis,0.23,0.23,236,97.458,66.525,727.877,34.698
+DAPHNET,Classifier + hysteresis,0.25,0.03,236,99.576,10.169,59.983,61.052
+DAPHNET,Classifier + hysteresis,0.25,0.09,236,98.305,38.136,200.146,51.411
+DAPHNET,Classifier + hysteresis,0.25,0.16,236,97.881,59.322,447.551,40.763
+DAPHNET,Classifier + hysteresis,0.25,0.23,236,97.458,64.407,669.307,33.111
+DAPHNET,Classifier + hysteresis,0.28,0.03,236,99.576,11.017,56.752,60.323
+DAPHNET,Classifier + hysteresis,0.28,0.09,236,97.458,36.864,180.959,49.694
+DAPHNET,Classifier + hysteresis,0.28,0.16,236,96.61,56.356,400.09,38.46
+DAPHNET,Classifier + hysteresis,0.28,0.23,236,96.186,61.441,590.945,30.679
+DAPHNET,Classifier + hysteresis,0.31,0.03,236,99.576,11.864,53.52,59.515
+DAPHNET,Classifier + hysteresis,0.31,0.09,236,97.034,36.864,165.408,48.039
+DAPHNET,Classifier + hysteresis,0.31,0.16,236,95.763,54.661,355.658,36.132
+DAPHNET,Classifier + hysteresis,0.31,0.23,236,95.339,58.051,519.652,28.398
+DAPHNET,Classifier + hysteresis,0.31,0.31,236,94.492,52.966,636.791,23.125
+DAPHNET,Classifier + hysteresis,0.35,0.03,236,99.576,12.712,47.058,58.132
+DAPHNET,Classifier + hysteresis,0.35,0.09,236,95.339,36.864,139.961,45.417
+DAPHNET,Classifier + hysteresis,0.35,0.16,236,94.068,51.695,300.724,32.993
+DAPHNET,Classifier + hysteresis,0.35,0.23,236,93.644,54.237,432.606,25.217
+DAPHNET,Classifier + hysteresis,0.35,0.31,236,92.797,47.881,523.288,20.171
+DAPHNET,Classifier + hysteresis,0.39,0.03,236,99.153,14.831,42.412,56.696
+DAPHNET,Classifier + hysteresis,0.39,0.09,236,94.492,36.017,122.996,42.898
+DAPHNET,Classifier + hysteresis,0.39,0.16,236,93.22,49.576,254.474,30.059
+DAPHNET,Classifier + hysteresis,0.39,0.23,236,93.22,51.271,356.062,22.342
+DAPHNET,Classifier + hysteresis,0.39,0.31,236,91.949,44.915,423.114,17.489
+DAPHNET,Classifier + hysteresis,0.45,0.03,236,97.881,13.136,34.94,53.551
+DAPHNET,Classifier + hysteresis,0.45,0.09,236,90.254,29.661,95.731,37.868
+DAPHNET,Classifier + hysteresis,0.45,0.16,236,87.288,39.407,184.999,25.086
+DAPHNET,Classifier + hysteresis,0.45,0.23,236,86.017,41.102,251.243,17.972
+DAPHNET,Classifier + hysteresis,0.45,0.31,236,84.322,36.017,294.059,13.526
+DAPHNET,Classifier + hysteresis,0.45,0.45,236,81.356,26.271,330.21,10.084
+DAPHNET,Classifier + hysteresis,0.52,0.03,236,94.915,13.136,26.861,48.732
+DAPHNET,Classifier + hysteresis,0.52,0.09,236,86.017,23.729,67.254,31.759
+DAPHNET,Classifier + hysteresis,0.52,0.16,236,81.356,28.814,120.168,19.568
+DAPHNET,Classifier + hysteresis,0.52,0.23,236,79.237,31.356,157.734,13.363
+DAPHNET,Classifier + hysteresis,0.52,0.31,236,77.119,26.695,178.334,9.588
+DAPHNET,Classifier + hysteresis,0.52,0.45,236,72.881,17.373,198.732,6.746
+DAPHNET,Classifier + hysteresis,0.64,0.03,236,81.356,9.746,14.945,34.595
+DAPHNET,Classifier + hysteresis,0.64,0.09,236,67.373,15.678,30.698,19.703
+DAPHNET,Classifier + hysteresis,0.64,0.16,236,60.593,19.492,47.663,10.541
+DAPHNET,Classifier + hysteresis,0.64,0.23,236,56.356,17.373,57.964,6.435
+DAPHNET,Classifier + hysteresis,0.64,0.31,236,53.814,13.559,62.407,4.533
+DAPHNET,Classifier + hysteresis,0.64,0.45,236,50.424,7.627,67.86,2.847
+DAPHNET,"Classifier, single threshold",0.01,0.01,236,99.576,4.661,469.565,75.635
+DAPHNET,"Classifier, single threshold",0.01,0.01,236,99.576,3.39,541.06,83.004
+DAPHNET,"Classifier, single threshold",0.01,0.01,236,99.576,3.39,541.06,83.004
+DAPHNET,"Classifier, single threshold",0.02,0.02,236,99.576,4.661,469.565,75.635
+DAPHNET,"Classifier, single threshold",0.02,0.02,236,99.576,4.661,469.565,75.635
+DAPHNET,"Classifier, single threshold",0.03,0.03,236,99.576,8.051,383.529,71.403
+DAPHNET,"Classifier, single threshold",0.04,0.04,236,99.576,10.169,325.767,68.637
+DAPHNET,"Classifier, single threshold",0.05,0.05,236,99.576,13.983,313.245,66.496
+DAPHNET,"Classifier, single threshold",0.06,0.06,236,99.576,20.339,308.398,64.698
+DAPHNET,"Classifier, single threshold",0.07,0.07,236,99.576,28.39,319.506,62.9
+DAPHNET,"Classifier, single threshold",0.09,0.09,236,99.153,39.407,368.18,59.691
+DAPHNET,"Classifier, single threshold",0.1,0.1,236,99.153,42.797,400.494,57.989
+DAPHNET,"Classifier, single threshold",0.11,0.11,236,99.153,46.186,435.029,56.323
+DAPHNET,"Classifier, single threshold",0.12,0.12,236,99.153,50.0,470.979,54.623
+DAPHNET,"Classifier, single threshold",0.13,0.13,236,99.153,52.966,517.027,52.819
+DAPHNET,"Classifier, single threshold",0.14,0.14,236,98.729,58.475,559.843,51.052
+DAPHNET,"Classifier, single threshold",0.15,0.15,236,98.729,59.746,594.581,49.128
+DAPHNET,"Classifier, single threshold",0.17,0.17,236,98.305,63.983,651.938,45.546
+DAPHNET,"Classifier, single threshold",0.18,0.18,236,98.305,68.22,671.529,43.635
+DAPHNET,"Classifier, single threshold",0.19,0.19,236,97.881,69.068,695.966,41.812
+DAPHNET,"Classifier, single threshold",0.2,0.2,236,97.881,68.644,711.921,39.958
+DAPHNET,"Classifier, single threshold",0.21,0.21,236,97.881,69.492,724.039,38.21
+DAPHNET,"Classifier, single threshold",0.22,0.22,236,97.881,68.644,724.241,36.454
+DAPHNET,"Classifier, single threshold",0.23,0.23,236,97.458,66.525,727.877,34.698
+DAPHNET,"Classifier, single threshold",0.25,0.25,236,97.458,61.017,715.153,31.509
+DAPHNET,"Classifier, single threshold",0.26,0.26,236,97.458,60.593,706.266,29.921
+DAPHNET,"Classifier, single threshold",0.28,0.28,236,95.763,58.475,685.464,27.043
+DAPHNET,"Classifier, single threshold",0.29,0.29,236,95.339,56.78,672.741,25.68
+DAPHNET,"Classifier, single threshold",0.31,0.31,236,94.492,52.966,636.791,23.125
+DAPHNET,"Classifier, single threshold",0.32,0.32,236,93.644,51.271,620.432,21.947
+DAPHNET,"Classifier, single threshold",0.34,0.34,236,92.373,48.729,573.173,19.677
+DAPHNET,"Classifier, single threshold",0.36,0.36,236,91.525,42.373,528.942,17.619
+DAPHNET,"Classifier, single threshold",0.39,0.39,236,90.254,38.136,462.698,14.878
+DAPHNET,"Classifier, single threshold",0.41,0.41,236,87.288,35.169,418.468,13.122
+DAPHNET,"Classifier, single threshold",0.44,0.44,236,83.898,27.119,351.215,10.802
+DAPHNET,"Classifier, single threshold",0.47,0.47,236,78.814,23.305,290.626,8.791
+DAPHNET,"Classifier, single threshold",0.5,0.5,236,75.424,16.949,239.933,7.058
+DAPHNET,"Classifier, single threshold",0.55,0.55,236,67.797,11.017,167.428,4.755
+DAPHNET,"Classifier, single threshold",0.61,0.61,236,56.78,7.203,98.962,2.813
+DAPHNET,"Classifier, single threshold",0.75,0.75,236,19.915,1.271,19.792,0.567
+DAPHNET,Freeze index + hysteresis,0.667,0.667,236,96.186,69.915,947.815,70.0
+DAPHNET,Freeze index + hysteresis,0.741,0.667,236,94.068,68.22,896.718,68.519
+DAPHNET,Freeze index + hysteresis,0.815,0.667,236,94.068,66.525,845.823,67.024
+DAPHNET,Freeze index + hysteresis,0.89,0.667,236,92.373,64.407,805.229,65.504
+DAPHNET,Freeze index + hysteresis,0.89,0.89,236,91.525,61.864,1110.799,58.0
+DAPHNET,Freeze index + hysteresis,0.972,0.667,236,91.525,63.559,759.989,63.913
+DAPHNET,Freeze index + hysteresis,0.972,0.89,236,90.254,60.593,1054.452,56.25
+DAPHNET,Freeze index + hysteresis,1.055,0.667,236,91.102,60.593,720.404,62.317
+DAPHNET,Freeze index + hysteresis,1.055,0.89,236,89.831,57.203,1003.153,54.53
+DAPHNET,Freeze index + hysteresis,1.143,0.667,236,91.102,58.475,683.647,60.64
+DAPHNET,Freeze index + hysteresis,1.143,0.89,236,89.831,55.085,953.47,52.757
+DAPHNET,Freeze index + hysteresis,1.143,1.143,236,88.983,53.39,1201.885,46.0
+DAPHNET,Freeze index + hysteresis,1.236,0.667,236,90.254,53.814,648.505,58.912
+DAPHNET,Freeze index + hysteresis,1.236,0.89,236,88.983,50.0,903.989,50.83
+DAPHNET,Freeze index + hysteresis,1.236,1.143,236,87.712,48.305,1135.439,44.031
+DAPHNET,Freeze index + hysteresis,1.339,0.667,236,88.559,50.847,614.373,56.979
+DAPHNET,Freeze index + hysteresis,1.339,0.89,236,87.712,47.881,853.094,48.763
+DAPHNET,Freeze index + hysteresis,1.339,1.143,236,86.017,45.763,1064.954,41.882
+DAPHNET,Freeze index + hysteresis,1.445,0.667,236,88.136,46.61,576.606,54.623
+DAPHNET,Freeze index + hysteresis,1.445,0.89,236,86.864,43.644,797.756,46.32
+DAPHNET,Freeze index + hysteresis,1.445,1.143,236,84.746,42.373,989.217,39.487
+DAPHNET,Freeze index + hysteresis,1.445,1.445,236,84.746,37.712,1143.316,34.0
+DAPHNET,Freeze index + hysteresis,1.566,0.667,236,86.017,41.525,539.647,52.272
+DAPHNET,Freeze index + hysteresis,1.566,0.89,236,84.746,39.407,741.812,43.871
+DAPHNET,Freeze index + hysteresis,1.566,1.143,236,83.475,38.559,912.269,37.007
+DAPHNET,Freeze index + hysteresis,1.566,1.445,236,83.051,33.898,1050.614,31.523
+DAPHNET,Freeze index + hysteresis,1.703,0.667,236,83.051,36.441,500.668,49.686
+DAPHNET,Freeze index + hysteresis,1.703,0.89,236,82.203,33.898,680.213,40.954
+DAPHNET,Freeze index + hysteresis,1.703,1.143,236,81.356,33.475,831.888,34.196
+DAPHNET,Freeze index + hysteresis,1.703,1.445,236,80.932,28.814,949.431,28.805
+DAPHNET,Freeze index + hysteresis,1.856,0.667,236,78.814,32.627,454.62,46.505
+DAPHNET,Freeze index + hysteresis,1.856,0.89,236,78.39,29.237,612.151,37.683
+DAPHNET,Freeze index + hysteresis,1.856,1.143,236,77.542,28.814,740.196,31.029
+DAPHNET,Freeze index + hysteresis,1.856,1.445,236,76.695,25.0,840.168,25.849
+DAPHNET,Freeze index + hysteresis,1.856,1.856,236,75.847,19.915,920.752,22.0
+DAPHNET,Freeze index + hysteresis,2.031,0.667,236,74.576,27.119,404.735,42.822
+DAPHNET,Freeze index + hysteresis,2.031,0.89,236,74.153,25.0,536.819,33.958
+DAPHNET,Freeze index + hysteresis,2.031,1.143,236,72.881,25.0,635.377,27.495
+DAPHNET,Freeze index + hysteresis,2.031,1.445,236,71.61,20.763,714.547,22.569
+DAPHNET,Freeze index + hysteresis,2.031,1.856,236,70.763,16.525,778.569,18.917
+DAPHNET,Freeze index + hysteresis,2.244,0.667,236,67.373,22.034,346.771,38.362
+DAPHNET,Freeze index + hysteresis,2.244,0.89,236,66.525,19.915,453.61,29.708
+DAPHNET,Freeze index + hysteresis,2.244,1.143,236,65.678,19.492,529.952,23.686
+DAPHNET,Freeze index + hysteresis,2.244,1.445,236,64.407,16.102,588.926,19.01
+DAPHNET,Freeze index + hysteresis,2.244,1.856,236,63.559,13.983,635.781,15.638
+DAPHNET,Freeze index + hysteresis,2.518,0.667,236,60.169,15.678,279.921,32.819
+DAPHNET,Freeze index + hysteresis,2.518,0.89,236,58.898,13.983,355.254,24.477
+DAPHNET,Freeze index + hysteresis,2.518,1.143,236,58.051,13.559,406.351,18.954
+DAPHNET,Freeze index + hysteresis,2.518,1.445,236,57.203,11.017,448.561,14.872
+DAPHNET,Freeze index + hysteresis,2.518,1.856,236,56.356,9.322,479.058,11.98
+DAPHNET,Freeze index + hysteresis,2.518,2.518,236,55.932,7.627,501.072,10.0
+DAPHNET,Freeze index + hysteresis,2.898,0.667,236,44.068,13.136,196.712,24.522
+DAPHNET,Freeze index + hysteresis,2.898,0.89,236,42.797,11.017,239.529,17.565
+DAPHNET,Freeze index + hysteresis,2.898,1.143,236,41.949,10.169,268.813,13.116
+DAPHNET,Freeze index + hysteresis,2.898,1.445,236,41.102,8.051,289.616,10.042
+DAPHNET,Freeze index + hysteresis,2.898,1.856,236,40.254,6.78,305.369,7.916
+DAPHNET,Freeze index + hysteresis,2.898,2.518,236,40.254,5.508,316.679,6.429
+DAPHNET,Freeze index + hysteresis,3.621,0.667,236,23.305,6.78,85.229,11.804
+DAPHNET,Freeze index + hysteresis,3.621,0.89,236,22.458,4.661,95.731,8.065
+DAPHNET,Freeze index + hysteresis,3.621,1.143,236,21.61,3.814,101.588,5.638
+DAPHNET,Freeze index + hysteresis,3.621,1.445,236,20.763,2.119,104.415,4.121
+DAPHNET,Freeze index + hysteresis,3.621,1.856,236,20.339,1.695,108.252,3.147
+DAPHNET,Freeze index + hysteresis,3.621,2.518,236,19.915,1.271,110.474,2.426
+DAPHNET,"Freeze index, single threshold",0.499,0.499,236,98.305,67.373,751.708,80.0
+DAPHNET,"Freeze index, single threshold",0.535,0.535,236,97.881,69.068,797.554,77.961
+DAPHNET,"Freeze index, single threshold",0.569,0.569,236,97.458,69.492,837.543,75.921
+DAPHNET,"Freeze index, single threshold",0.603,0.603,236,97.034,70.339,875.512,73.885
+DAPHNET,"Freeze index, single threshold",0.637,0.637,236,96.61,69.915,914.289,71.846
+DAPHNET,"Freeze index, single threshold",0.671,0.671,236,94.915,69.915,952.864,69.806
+DAPHNET,"Freeze index, single threshold",0.708,0.708,236,94.068,69.068,983.562,67.77
+DAPHNET,"Freeze index, single threshold",0.746,0.746,236,94.068,69.915,1010.626,65.731
+DAPHNET,"Freeze index, single threshold",0.784,0.784,236,94.068,68.22,1037.285,63.691
+DAPHNET,"Freeze index, single threshold",0.821,0.821,236,93.22,64.831,1064.954,61.652
+DAPHNET,"Freeze index, single threshold",0.859,0.859,236,92.797,63.559,1094.642,59.616
+DAPHNET,"Freeze index, single threshold",0.899,0.899,236,91.525,62.288,1115.445,57.576
+DAPHNET,"Freeze index, single threshold",0.942,0.942,236,90.678,61.441,1129.38,55.537
+DAPHNET,"Freeze index, single threshold",0.982,0.982,236,89.831,60.169,1150.99,53.501
+DAPHNET,"Freeze index, single threshold",1.024,1.024,236,89.407,58.051,1170.581,51.461
+DAPHNET,"Freeze index, single threshold",1.067,1.067,236,88.983,55.932,1184.516,49.422
+DAPHNET,"Freeze index, single threshold",1.112,1.112,236,88.983,55.508,1195.826,47.386
+DAPHNET,"Freeze index, single threshold",1.157,1.157,236,88.983,51.695,1205.116,45.346
+DAPHNET,"Freeze index, single threshold",1.205,1.205,236,88.559,47.881,1205.116,43.307
+DAPHNET,"Freeze index, single threshold",1.255,1.255,236,87.288,45.763,1201.077,41.271
+DAPHNET,"Freeze index, single threshold",1.306,1.306,236,86.441,43.644,1191.383,39.231
+DAPHNET,"Freeze index, single threshold",1.357,1.357,236,86.017,41.949,1178.053,37.192
+DAPHNET,"Freeze index, single threshold",1.412,1.412,236,85.169,39.831,1160.079,35.153
+DAPHNET,"Freeze index, single threshold",1.469,1.469,236,84.322,35.593,1131.602,33.116
+DAPHNET,"Freeze index, single threshold",1.535,1.535,236,83.475,32.203,1104.539,31.077
+DAPHNET,"Freeze index, single threshold",1.597,1.597,236,81.78,30.085,1074.244,29.038
+DAPHNET,"Freeze index, single threshold",1.668,1.668,236,80.508,27.542,1035.467,27.001
+DAPHNET,"Freeze index, single threshold",1.74,1.74,236,78.39,25.424,991.439,24.962
+DAPHNET,"Freeze index, single threshold",1.818,1.818,236,76.695,21.61,945.997,22.923
+DAPHNET,"Freeze index, single threshold",1.903,1.903,236,74.576,19.068,886.216,20.886
+DAPHNET,"Freeze index, single threshold",1.992,1.992,236,72.034,17.373,823.001,18.847
+DAPHNET,"Freeze index, single threshold",2.091,2.091,236,69.068,15.254,756.757,16.808
+DAPHNET,"Freeze index, single threshold",2.199,2.199,236,63.983,13.559,688.494,14.771
+DAPHNET,"Freeze index, single threshold",2.322,2.322,236,61.441,12.288,609.324,12.732
+DAPHNET,"Freeze index, single threshold",2.467,2.467,236,57.203,9.322,528.337,10.693
+DAPHNET,"Freeze index, single threshold",2.621,2.621,236,51.695,6.356,447.349,8.656
+DAPHNET,"Freeze index, single threshold",2.822,2.822,236,42.797,5.932,351.417,6.617
+DAPHNET,"Freeze index, single threshold",3.087,3.087,236,35.593,3.39,252.252,4.578
+DAPHNET,"Freeze index, single threshold",3.475,3.475,236,22.881,1.271,144.0,2.539
+DAPHNET,"Freeze index, single threshold",4.364,4.364,236,7.627,0.0,28.477,0.502
+Multimodal FoG,Classifier + hysteresis,0.4,0.4,303,100.0,66.007,506.295,70.934
+Multimodal FoG,Classifier + hysteresis,0.43,0.4,303,100.0,63.696,460.063,69.16
+Multimodal FoG,Classifier + hysteresis,0.46,0.4,303,100.0,61.716,397.018,66.673
+Multimodal FoG,Classifier + hysteresis,0.49,0.4,303,100.0,60.726,360.808,65.204
+Multimodal FoG,Classifier + hysteresis,0.49,0.49,303,100.0,59.076,490.454,58.289
+Multimodal FoG,Classifier + hysteresis,0.52,0.4,303,100.0,57.426,315.222,63.139
+Multimodal FoG,Classifier + hysteresis,0.52,0.49,303,99.34,55.116,425.146,56.21
+Multimodal FoG,Classifier + hysteresis,0.55,0.4,303,99.67,56.436,276.749,61.01
+Multimodal FoG,Classifier + hysteresis,0.55,0.49,303,99.01,53.135,372.124,54.127
+Multimodal FoG,Classifier + hysteresis,0.58,0.4,303,99.34,55.116,246.682,59.138
+Multimodal FoG,Classifier + hysteresis,0.58,0.49,303,98.35,52.145,330.418,52.223
+Multimodal FoG,Classifier + hysteresis,0.58,0.58,303,98.02,48.845,419.65,46.035
+Multimodal FoG,Classifier + hysteresis,0.61,0.4,303,99.01,50.825,208.208,56.951
+Multimodal FoG,Classifier + hysteresis,0.61,0.49,303,98.02,47.855,280.305,50.036
+Multimodal FoG,Classifier + hysteresis,0.61,0.58,303,97.69,44.554,356.929,43.907
+Multimodal FoG,Classifier + hysteresis,0.64,0.4,303,98.02,47.855,178.788,54.939
+Multimodal FoG,Classifier + hysteresis,0.64,0.49,303,97.36,45.545,240.216,48.051
+Multimodal FoG,Classifier + hysteresis,0.64,0.58,303,97.03,42.574,306.493,41.823
+Multimodal FoG,Classifier + hysteresis,0.67,0.4,303,97.03,43.564,158.096,53.197
+Multimodal FoG,Classifier + hysteresis,0.67,0.49,303,96.37,40.924,213.381,46.031
+Multimodal FoG,Classifier + hysteresis,0.67,0.58,303,95.71,38.614,270.93,39.861
+Multimodal FoG,Classifier + hysteresis,0.67,0.67,303,95.71,37.954,320.718,34.284
+Multimodal FoG,Classifier + hysteresis,0.7,0.4,303,95.71,40.924,131.908,51.127
+Multimodal FoG,Classifier + hysteresis,0.7,0.49,303,95.05,38.284,179.111,43.835
+Multimodal FoG,Classifier + hysteresis,0.7,0.58,303,94.389,35.974,227.607,37.687
+Multimodal FoG,Classifier + hysteresis,0.7,0.67,303,94.389,34.653,267.373,32.142
+Multimodal FoG,Classifier + hysteresis,0.73,0.4,303,94.059,37.294,107.984,48.433
+Multimodal FoG,Classifier + hysteresis,0.73,0.49,303,93.399,34.653,143.547,41.253
+Multimodal FoG,Classifier + hysteresis,0.73,0.58,303,92.739,32.343,179.758,35.227
+Multimodal FoG,Classifier + hysteresis,0.73,0.67,303,92.739,30.693,209.825,29.749
+Multimodal FoG,Classifier + hysteresis,0.76,0.4,303,91.749,32.013,91.819,46.233
+Multimodal FoG,Classifier + hysteresis,0.76,0.49,303,91.089,30.693,119.946,38.738
+Multimodal FoG,Classifier + hysteresis,0.76,0.58,303,90.759,28.053,146.457,32.847
+Multimodal FoG,Classifier + hysteresis,0.76,0.67,303,90.759,26.073,168.765,27.494
+Multimodal FoG,Classifier + hysteresis,0.76,0.76,303,90.759,23.762,190.75,22.708
+Multimodal FoG,Classifier + hysteresis,0.79,0.4,303,88.779,23.762,77.27,43.35
+Multimodal FoG,Classifier + hysteresis,0.79,0.49,303,88.449,23.762,101.194,36.107
+Multimodal FoG,Classifier + hysteresis,0.79,0.58,303,88.119,21.782,120.916,30.193
+Multimodal FoG,Classifier + hysteresis,0.79,0.67,303,88.119,21.122,137.728,25.101
+Multimodal FoG,Classifier + hysteresis,0.79,0.76,303,88.119,19.142,154.54,20.382
+Multimodal FoG,Classifier + hysteresis,0.82,0.4,303,83.828,19.802,57.872,39.232
+Multimodal FoG,Classifier + hysteresis,0.82,0.49,303,83.828,19.802,75.33,31.846
+Multimodal FoG,Classifier + hysteresis,0.82,0.58,303,83.498,19.142,89.232,25.963
+Multimodal FoG,Classifier + hysteresis,0.82,0.67,303,83.498,17.162,101.194,21.15
+Multimodal FoG,Classifier + hysteresis,0.82,0.76,303,83.498,15.182,113.48,16.884
+Multimodal FoG,Classifier + hysteresis,0.86,0.4,303,78.548,14.191,45.586,35.119
+Multimodal FoG,Classifier + hysteresis,0.86,0.49,303,77.888,13.531,57.872,28.033
+Multimodal FoG,Classifier + hysteresis,0.86,0.58,303,77.228,13.201,68.217,22.497
+Multimodal FoG,Classifier + hysteresis,0.86,0.67,303,77.228,11.881,75.653,17.975
+Multimodal FoG,Classifier + hysteresis,0.86,0.76,303,77.228,10.561,82.443,13.902
+Multimodal FoG,Classifier + hysteresis,0.86,0.86,303,76.898,8.251,91.495,10.337
+Multimodal FoG,Classifier + hysteresis,0.89,0.4,303,64.026,7.921,29.744,28.635
+Multimodal FoG,Classifier + hysteresis,0.89,0.49,303,63.696,7.591,36.21,22.164
+Multimodal FoG,Classifier + hysteresis,0.89,0.58,303,63.036,7.591,42.676,17.077
+Multimodal FoG,Classifier + hysteresis,0.89,0.67,303,63.036,7.261,46.233,13.179
+Multimodal FoG,Classifier + hysteresis,0.89,0.76,303,62.376,6.271,49.789,9.681
+Multimodal FoG,Classifier + hysteresis,0.89,0.86,303,62.046,4.95,54.315,6.884
+Multimodal FoG,Classifier + hysteresis,0.94,0.4,303,44.224,4.29,12.609,19.82
+Multimodal FoG,Classifier + hysteresis,0.94,0.49,303,43.564,4.29,15.519,14.769
+Multimodal FoG,Classifier + hysteresis,0.94,0.58,303,43.234,4.29,16.812,10.274
+Multimodal FoG,Classifier + hysteresis,0.94,0.67,303,43.234,3.96,17.135,7.36
+Multimodal FoG,Classifier + hysteresis,0.94,0.76,303,42.574,2.97,18.428,5.132
+Multimodal FoG,Classifier + hysteresis,0.94,0.86,303,41.584,1.98,20.045,3.422
+Multimodal FoG,"Classifier, single threshold",0.33,0.33,303,100.0,55.446,432.259,80.4
+Multimodal FoG,"Classifier, single threshold",0.34,0.34,303,100.0,58.746,447.454,79.115
+Multimodal FoG,"Classifier, single threshold",0.36,0.36,303,100.0,61.716,468.469,76.444
+Multimodal FoG,"Classifier, single threshold",0.37,0.37,303,100.0,64.026,483.341,75.025
+Multimodal FoG,"Classifier, single threshold",0.39,0.39,303,100.0,65.677,500.153,72.304
+Multimodal FoG,"Classifier, single threshold",0.4,0.4,303,100.0,66.007,506.295,70.934
+Multimodal FoG,"Classifier, single threshold",0.42,0.42,303,100.0,64.026,514.701,68.15
+Multimodal FoG,"Classifier, single threshold",0.43,0.43,303,100.0,62.706,519.228,66.78
+Multimodal FoG,"Classifier, single threshold",0.45,0.45,303,100.0,60.396,510.175,62.6
+Multimodal FoG,"Classifier, single threshold",0.46,0.46,303,100.0,60.396,510.175,62.6
+Multimodal FoG,"Classifier, single threshold",0.48,0.48,303,100.0,60.066,500.476,59.798
+Multimodal FoG,"Classifier, single threshold",0.49,0.49,303,100.0,59.076,490.454,58.289
+Multimodal FoG,"Classifier, single threshold",0.51,0.51,303,99.34,56.436,470.732,55.541
+Multimodal FoG,"Classifier, single threshold",0.52,0.52,303,99.01,54.785,459.093,54.266
+Multimodal FoG,"Classifier, single threshold",0.53,0.53,303,98.68,53.135,455.537,52.878
+Multimodal FoG,"Classifier, single threshold",0.55,0.55,303,98.68,50.495,436.785,50.085
+Multimodal FoG,"Classifier, single threshold",0.57,0.57,303,98.35,48.515,424.499,47.418
+Multimodal FoG,"Classifier, single threshold",0.58,0.58,303,98.02,48.845,419.65,46.035
+Multimodal FoG,"Classifier, single threshold",0.6,0.6,303,98.02,45.545,392.492,43.44
+Multimodal FoG,"Classifier, single threshold",0.61,0.61,303,97.69,44.884,379.883,42.088
+Multimodal FoG,"Classifier, single threshold",0.63,0.63,303,97.03,43.234,360.808,39.371
+Multimodal FoG,"Classifier, single threshold",0.64,0.64,303,97.03,42.574,347.553,38.087
+Multimodal FoG,"Classifier, single threshold",0.66,0.66,303,96.37,39.274,330.418,35.68
+Multimodal FoG,"Classifier, single threshold",0.67,0.67,303,95.71,37.954,320.718,34.284
+Multimodal FoG,"Classifier, single threshold",0.69,0.69,303,94.719,36.634,292.268,31.617
+Multimodal FoG,"Classifier, single threshold",0.71,0.71,303,94.059,32.343,265.433,29.16
+Multimodal FoG,"Classifier, single threshold",0.72,0.72,303,93.399,31.023,246.035,27.818
+Multimodal FoG,"Classifier, single threshold",0.74,0.74,303,92.409,27.063,215.968,25.177
+Multimodal FoG,"Classifier, single threshold",0.75,0.75,303,91.089,25.743,202.389,23.934
+Multimodal FoG,"Classifier, single threshold",0.77,0.77,303,90.099,23.102,177.818,21.576
+Multimodal FoG,"Classifier, single threshold",0.79,0.79,303,88.119,17.822,159.066,18.967
+Multimodal FoG,"Classifier, single threshold",0.8,0.8,303,86.799,17.492,149.044,17.701
+Multimodal FoG,"Classifier, single threshold",0.82,0.82,303,84.818,14.521,128.999,15.115
+Multimodal FoG,"Classifier, single threshold",0.84,0.84,303,81.518,10.231,115.42,12.771
+Multimodal FoG,"Classifier, single threshold",0.85,0.85,303,79.538,9.571,103.134,11.549
+Multimodal FoG,"Classifier, single threshold",0.87,0.87,303,73.597,7.261,82.766,9.165
+Multimodal FoG,"Classifier, single threshold",0.89,0.89,303,66.007,4.62,63.368,6.915
+Multimodal FoG,"Classifier, single threshold",0.91,0.91,303,59.076,3.63,46.233,5.016
+Multimodal FoG,"Classifier, single threshold",0.94,0.94,303,41.584,1.65,21.338,2.577
+Multimodal FoG,"Classifier, single threshold",0.97,0.97,303,23.102,0.33,5.496,0.723
+Multimodal FoG,Freeze index + hysteresis,0.57,0.57,303,99.67,65.677,680.88,70.0
+Multimodal FoG,Freeze index + hysteresis,0.627,0.57,303,99.67,65.347,638.527,68.361
+Multimodal FoG,Freeze index + hysteresis,0.688,0.57,303,99.67,63.696,599.731,66.578
+Multimodal FoG,Freeze index + hysteresis,0.751,0.57,303,99.67,60.396,561.257,64.791
+Multimodal FoG,Freeze index + hysteresis,0.751,0.751,303,99.34,59.736,698.985,58.002
+Multimodal FoG,Freeze index + hysteresis,0.816,0.57,303,99.01,60.066,513.731,62.753
+Multimodal FoG,Freeze index + hysteresis,0.816,0.751,303,98.68,59.406,637.881,55.959
+Multimodal FoG,Freeze index + hysteresis,0.897,0.57,303,99.01,58.086,469.115,60.584
+Multimodal FoG,Freeze index + hysteresis,0.897,0.751,303,98.68,57.426,580.332,53.92
+Multimodal FoG,Freeze index + hysteresis,0.976,0.57,303,97.36,53.465,429.996,58.392
+Multimodal FoG,Freeze index + hysteresis,0.976,0.751,303,97.36,53.135,531.19,51.751
+Multimodal FoG,Freeze index + hysteresis,0.976,0.976,303,97.03,49.505,622.685,45.999
+Multimodal FoG,Freeze index + hysteresis,1.063,0.57,303,96.7,50.825,387.643,56.044
+Multimodal FoG,Freeze index + hysteresis,1.063,0.751,303,96.37,50.495,479.461,49.506
+Multimodal FoG,Freeze index + hysteresis,1.063,0.976,303,95.71,47.525,564.49,43.808
+Multimodal FoG,Freeze index + hysteresis,1.159,0.57,303,96.37,48.845,346.583,53.637
+Multimodal FoG,Freeze index + hysteresis,1.159,0.751,303,96.04,48.185,426.762,47.113
+Multimodal FoG,Freeze index + hysteresis,1.159,0.976,303,95.38,44.884,505.002,41.455
+Multimodal FoG,Freeze index + hysteresis,1.276,0.57,303,95.05,44.224,312.313,51.172
+Multimodal FoG,Freeze index + hysteresis,1.276,0.751,303,94.719,43.234,381.5,44.697
+Multimodal FoG,Freeze index + hysteresis,1.276,0.976,303,93.729,40.594,453.273,39.129
+Multimodal FoG,Freeze index + hysteresis,1.276,1.276,303,93.729,36.634,508.882,34.001
+Multimodal FoG,Freeze index + hysteresis,1.397,0.57,303,93.399,37.294,274.809,48.244
+Multimodal FoG,Freeze index + hysteresis,1.397,0.751,303,93.069,36.304,335.267,41.89
+Multimodal FoG,Freeze index + hysteresis,1.397,0.976,303,92.079,33.993,397.342,36.426
+Multimodal FoG,Freeze index + hysteresis,1.397,1.276,303,92.079,31.023,447.454,31.396
+Multimodal FoG,Freeze index + hysteresis,1.535,0.57,303,90.429,32.013,242.155,45.478
+Multimodal FoG,Freeze index + hysteresis,1.535,0.751,303,90.099,30.693,295.824,39.035
+Multimodal FoG,Freeze index + hysteresis,1.535,0.976,303,89.439,29.043,351.109,33.714
+Multimodal FoG,Freeze index + hysteresis,1.535,1.276,303,89.439,26.403,394.432,28.85
+Multimodal FoG,Freeze index + hysteresis,1.693,0.57,303,88.449,27.393,214.674,42.339
+Multimodal FoG,Freeze index + hysteresis,1.693,0.751,303,88.119,26.073,259.614,35.981
+Multimodal FoG,Freeze index + hysteresis,1.693,0.976,303,87.789,24.422,308.11,30.714
+Multimodal FoG,Freeze index + hysteresis,1.693,1.276,303,87.789,21.782,345.936,26.008
+Multimodal FoG,Freeze index + hysteresis,1.693,1.693,303,87.129,17.162,369.214,22.003
+Multimodal FoG,Freeze index + hysteresis,1.867,0.57,303,85.149,23.102,186.547,38.662
+Multimodal FoG,Freeze index + hysteresis,1.867,0.751,303,84.818,21.782,224.05,32.339
+Multimodal FoG,Freeze index + hysteresis,1.867,0.976,303,84.158,20.132,263.817,27.216
+Multimodal FoG,Freeze index + hysteresis,1.867,1.276,303,84.158,18.152,294.531,22.865
+Multimodal FoG,Freeze index + hysteresis,1.867,1.693,303,83.498,14.191,313.282,19.133
+Multimodal FoG,Freeze index + hysteresis,2.073,0.57,303,78.548,20.462,156.156,33.848
+Multimodal FoG,Freeze index + hysteresis,2.073,0.751,303,78.218,19.142,185.254,27.746
+Multimodal FoG,Freeze index + hysteresis,2.073,0.976,303,77.558,17.492,218.877,23.026
+Multimodal FoG,Freeze index + hysteresis,2.073,1.276,303,77.558,15.182,245.065,19.12
+Multimodal FoG,Freeze index + hysteresis,2.073,1.693,303,77.228,11.551,259.291,15.927
+Multimodal FoG,Freeze index + hysteresis,2.342,0.57,303,72.607,15.842,120.593,28.186
+Multimodal FoG,Freeze index + hysteresis,2.342,0.751,303,71.617,13.861,141.931,22.744
+Multimodal FoG,Freeze index + hysteresis,2.342,0.976,303,70.957,12.211,167.149,18.621
+Multimodal FoG,Freeze index + hysteresis,2.342,1.276,303,70.957,10.561,185.254,15.07
+Multimodal FoG,Freeze index + hysteresis,2.342,1.693,303,70.957,8.251,195.923,12.366
+Multimodal FoG,Freeze index + hysteresis,2.342,2.342,303,70.627,7.261,206.592,10.0
+Multimodal FoG,Freeze index + hysteresis,2.715,0.57,303,60.396,10.561,82.766,20.718
+Multimodal FoG,Freeze index + hysteresis,2.715,0.751,303,59.076,9.241,93.435,16.206
+Multimodal FoG,Freeze index + hysteresis,2.715,0.976,303,58.746,8.581,110.247,13.026
+Multimodal FoG,Freeze index + hysteresis,2.715,1.276,303,58.746,7.261,121.886,10.525
+Multimodal FoG,Freeze index + hysteresis,2.715,1.693,303,58.416,5.611,127.059,8.491
+Multimodal FoG,Freeze index + hysteresis,2.715,2.342,303,58.086,4.95,134.172,6.686
+Multimodal FoG,Freeze index + hysteresis,3.437,0.57,303,38.944,3.96,33.947,10.817
+Multimodal FoG,Freeze index + hysteresis,3.437,0.751,303,37.624,3.3,37.827,8.428
+Multimodal FoG,Freeze index + hysteresis,3.437,0.976,303,36.964,2.97,40.736,6.215
+Multimodal FoG,Freeze index + hysteresis,3.437,1.276,303,36.634,2.64,43.646,4.863
+Multimodal FoG,Freeze index + hysteresis,3.437,1.693,303,36.634,1.98,44.616,3.875
+Multimodal FoG,Freeze index + hysteresis,3.437,2.342,303,36.304,1.65,47.203,2.744
+Multimodal FoG,"Freeze index, single threshold",0.436,0.436,303,99.67,65.677,577.746,80.0
+Multimodal FoG,"Freeze index, single threshold",0.465,0.465,303,99.67,67.657,609.106,77.966
+Multimodal FoG,"Freeze index, single threshold",0.492,0.492,303,99.67,67.327,632.384,75.923
+Multimodal FoG,"Freeze index, single threshold",0.52,0.52,303,99.67,68.647,648.55,73.884
+Multimodal FoG,"Freeze index, single threshold",0.545,0.545,303,99.67,66.007,665.361,71.846
+Multimodal FoG,"Freeze index, single threshold",0.573,0.573,303,99.67,65.677,681.203,69.807
+Multimodal FoG,"Freeze index, single threshold",0.602,0.602,303,99.67,65.017,684.76,67.768
+Multimodal FoG,"Freeze index, single threshold",0.631,0.631,303,99.67,65.347,692.196,65.73
+Multimodal FoG,"Freeze index, single threshold",0.661,0.661,303,99.34,65.017,696.075,63.691
+Multimodal FoG,"Freeze index, single threshold",0.692,0.692,303,99.34,63.696,696.399,61.652
+Multimodal FoG,"Freeze index, single threshold",0.724,0.724,303,99.34,61.056,701.248,59.614
+Multimodal FoG,"Freeze index, single threshold",0.757,0.757,303,99.34,59.736,696.722,57.575
+Multimodal FoG,"Freeze index, single threshold",0.791,0.791,303,99.34,59.736,682.497,55.537
+Multimodal FoG,"Freeze index, single threshold",0.826,0.826,303,98.68,59.406,673.444,53.498
+Multimodal FoG,"Freeze index, single threshold",0.866,0.866,303,98.68,57.756,660.189,51.459
+Multimodal FoG,"Freeze index, single threshold",0.908,0.908,303,98.68,54.125,646.286,49.425
+Multimodal FoG,"Freeze index, single threshold",0.949,0.949,303,98.35,50.495,631.738,47.387
+Multimodal FoG,"Freeze index, single threshold",0.989,0.989,303,97.03,48.185,619.452,45.348
+Multimodal FoG,"Freeze index, single threshold",1.034,1.034,303,95.71,46.205,599.407,43.309
+Multimodal FoG,"Freeze index, single threshold",1.08,1.08,303,95.71,44.884,584.859,41.271
+Multimodal FoG,"Freeze index, single threshold",1.128,1.128,303,95.38,42.904,562.551,39.232
+Multimodal FoG,"Freeze index, single threshold",1.181,1.181,303,95.05,39.934,541.536,37.194
+Multimodal FoG,"Freeze index, single threshold",1.243,1.243,303,94.389,37.294,521.491,35.155
+Multimodal FoG,"Freeze index, single threshold",1.301,1.301,303,93.399,34.983,500.153,33.116
+Multimodal FoG,"Freeze index, single threshold",1.363,1.363,303,93.399,31.023,471.702,31.078
+Multimodal FoG,"Freeze index, single threshold",1.429,1.429,303,91.419,27.063,448.747,29.039
+Multimodal FoG,"Freeze index, single threshold",1.497,1.497,303,89.769,24.752,423.853,27.0
+Multimodal FoG,"Freeze index, single threshold",1.573,1.573,303,88.779,21.122,400.898,24.962
+Multimodal FoG,"Freeze index, single threshold",1.654,1.654,303,87.789,18.812,379.237,22.923
+Multimodal FoG,"Freeze index, single threshold",1.741,1.741,303,85.479,16.502,358.868,20.885
+Multimodal FoG,"Freeze index, single threshold",1.826,1.826,303,83.498,13.861,330.741,18.846
+Multimodal FoG,"Freeze index, single threshold",1.924,1.924,303,81.188,13.531,306.493,16.807
+Multimodal FoG,"Freeze index, single threshold",2.032,2.032,303,77.888,11.881,276.749,14.769
+Multimodal FoG,"Freeze index, single threshold",2.153,2.153,303,74.917,9.571,248.621,12.735
+Multimodal FoG,"Freeze index, single threshold",2.293,2.293,303,72.277,7.591,216.938,10.696
+Multimodal FoG,"Freeze index, single threshold",2.451,2.451,303,67.987,5.611,186.547,8.657
+Multimodal FoG,"Freeze index, single threshold",2.645,2.645,303,60.726,4.29,148.72,6.619
+Multimodal FoG,"Freeze index, single threshold",2.899,2.899,303,51.815,2.97,106.691,4.58
+Multimodal FoG,"Freeze index, single threshold",3.296,3.296,303,40.264,0.66,63.691,2.542
+Multimodal FoG,"Freeze index, single threshold",4.317,4.317,303,16.502,0.0,12.286,0.503
+FoG-STAR,Classifier + hysteresis,0.18,0.18,101,99.01,58.416,766.836,71.592
+FoG-STAR,Classifier + hysteresis,0.2,0.18,101,99.01,54.455,711.539,69.733
+FoG-STAR,Classifier + hysteresis,0.22,0.18,101,99.01,53.465,644.249,67.503
+FoG-STAR,Classifier + hysteresis,0.24,0.18,101,99.01,49.505,594.281,65.55
+FoG-STAR,Classifier + hysteresis,0.24,0.24,101,99.01,59.406,806.81,58.027
+FoG-STAR,Classifier + hysteresis,0.25,0.18,101,99.01,50.495,572.962,64.671
+FoG-STAR,Classifier + hysteresis,0.25,0.24,101,99.01,59.406,778.829,57.037
+FoG-STAR,Classifier + hysteresis,0.27,0.18,101,99.01,50.495,521.662,62.524
+FoG-STAR,Classifier + hysteresis,0.27,0.24,101,99.01,59.406,714.87,54.779
+FoG-STAR,Classifier + hysteresis,0.29,0.18,101,99.01,50.495,476.358,60.378
+FoG-STAR,Classifier + hysteresis,0.29,0.24,101,99.01,59.406,646.248,52.549
+FoG-STAR,Classifier + hysteresis,0.29,0.29,101,99.01,57.426,764.838,47.275
+FoG-STAR,Classifier + hysteresis,0.31,0.18,101,98.02,47.525,436.384,58.129
+FoG-STAR,Classifier + hysteresis,0.31,0.24,101,98.02,54.455,588.952,50.199
+FoG-STAR,Classifier + hysteresis,0.31,0.29,101,97.03,51.485,698.214,45.008
+FoG-STAR,Classifier + hysteresis,0.33,0.18,101,98.02,46.535,388.415,55.473
+FoG-STAR,Classifier + hysteresis,0.33,0.24,101,98.02,52.475,515.666,47.562
+FoG-STAR,Classifier + hysteresis,0.33,0.29,101,97.03,48.515,609.605,42.435
+FoG-STAR,Classifier + hysteresis,0.35,0.18,101,95.05,45.545,337.781,52.762
+FoG-STAR,Classifier + hysteresis,0.35,0.24,101,95.05,51.485,449.042,45.174
+FoG-STAR,Classifier + hysteresis,0.35,0.29,101,94.059,46.535,534.32,40.196
+FoG-STAR,Classifier + hysteresis,0.35,0.35,101,94.059,40.594,636.254,35.209
+FoG-STAR,Classifier + hysteresis,0.38,0.18,101,93.069,39.604,289.146,49.116
+FoG-STAR,Classifier + hysteresis,0.38,0.24,101,93.069,45.545,374.424,42.065
+FoG-STAR,Classifier + hysteresis,0.38,0.29,101,93.069,40.594,448.376,37.133
+FoG-STAR,Classifier + hysteresis,0.38,0.35,101,92.079,36.634,536.985,32.312
+FoG-STAR,Classifier + hysteresis,0.4,0.18,101,90.099,33.663,265.161,47.108
+FoG-STAR,Classifier + hysteresis,0.4,0.24,101,90.099,40.594,336.449,40.131
+FoG-STAR,Classifier + hysteresis,0.4,0.29,101,90.099,37.624,402.406,35.366
+FoG-STAR,Classifier + hysteresis,0.4,0.35,101,89.109,33.663,482.354,30.573
+FoG-STAR,Classifier + hysteresis,0.43,0.18,101,90.099,32.673,221.856,43.842
+FoG-STAR,Classifier + hysteresis,0.43,0.24,101,90.099,39.604,280.485,37.152
+FoG-STAR,Classifier + hysteresis,0.43,0.29,101,89.109,34.653,330.452,32.507
+FoG-STAR,Classifier + hysteresis,0.43,0.35,101,88.119,31.683,397.742,27.815
+FoG-STAR,Classifier + hysteresis,0.43,0.43,101,88.119,30.693,477.69,22.559
+FoG-STAR,Classifier + hysteresis,0.46,0.18,101,88.119,25.743,191.876,40.918
+FoG-STAR,Classifier + hysteresis,0.46,0.24,101,88.119,30.693,236.513,34.163
+FoG-STAR,Classifier + hysteresis,0.46,0.29,101,87.129,27.723,281.817,29.749
+FoG-STAR,Classifier + hysteresis,0.46,0.35,101,85.149,24.752,334.45,25.141
+FoG-STAR,Classifier + hysteresis,0.46,0.43,101,85.149,22.772,402.406,19.95
+FoG-STAR,Classifier + hysteresis,0.49,0.18,101,83.168,20.792,158.564,37.587
+FoG-STAR,Classifier + hysteresis,0.49,0.24,101,82.178,24.752,193.208,31.23
+FoG-STAR,Classifier + hysteresis,0.49,0.29,101,82.178,23.762,229.851,26.825
+FoG-STAR,Classifier + hysteresis,0.49,0.35,101,80.198,21.782,271.824,22.3
+FoG-STAR,Classifier + hysteresis,0.49,0.43,101,80.198,18.812,325.123,17.368
+FoG-STAR,Classifier + hysteresis,0.54,0.18,101,76.238,16.832,115.259,33.293
+FoG-STAR,Classifier + hysteresis,0.54,0.24,101,74.257,17.822,138.577,27.066
+FoG-STAR,Classifier + hysteresis,0.54,0.29,101,74.257,18.812,163.894,22.985
+FoG-STAR,Classifier + hysteresis,0.54,0.35,101,73.267,17.822,186.546,18.442
+FoG-STAR,Classifier + hysteresis,0.54,0.43,101,73.267,15.842,223.189,13.76
+FoG-STAR,Classifier + hysteresis,0.54,0.54,101,73.267,13.861,251.837,10.021
+FoG-STAR,Classifier + hysteresis,0.59,0.18,101,69.307,13.861,81.281,27.778
+FoG-STAR,Classifier + hysteresis,0.59,0.24,101,67.327,13.861,95.938,22.467
+FoG-STAR,Classifier + hysteresis,0.59,0.29,101,67.327,13.861,112.594,18.682
+FoG-STAR,Classifier + hysteresis,0.59,0.35,101,66.337,11.881,125.252,14.861
+FoG-STAR,Classifier + hysteresis,0.59,0.43,101,66.337,10.891,145.239,10.697
+FoG-STAR,Classifier + hysteresis,0.59,0.54,101,66.337,8.911,159.896,7.264
+FoG-STAR,Classifier + hysteresis,0.7,0.18,101,50.495,6.931,35.977,16.906
+FoG-STAR,Classifier + hysteresis,0.7,0.24,101,48.515,4.95,38.642,12.705
+FoG-STAR,Classifier + hysteresis,0.7,0.29,101,47.525,3.96,41.973,9.744
+FoG-STAR,Classifier + hysteresis,0.7,0.35,101,46.535,2.97,45.97,7.412
+FoG-STAR,Classifier + hysteresis,0.7,0.43,101,45.545,0.99,49.968,4.673
+FoG-STAR,Classifier + hysteresis,0.7,0.54,101,45.545,0.99,52.633,2.831
+FoG-STAR,"Classifier, single threshold",0.14,0.14,101,99.01,50.495,628.926,80.614
+FoG-STAR,"Classifier, single threshold",0.15,0.15,101,99.01,55.446,665.569,78.505
+FoG-STAR,"Classifier, single threshold",0.16,0.16,101,99.01,54.455,720.866,76.062
+FoG-STAR,"Classifier, single threshold",0.17,0.17,101,99.01,58.416,766.836,71.592
+FoG-STAR,"Classifier, single threshold",0.17,0.17,101,99.01,55.446,747.515,73.887
+FoG-STAR,"Classifier, single threshold",0.18,0.18,101,99.01,58.416,766.836,71.592
+FoG-STAR,"Classifier, single threshold",0.19,0.19,101,99.01,59.406,791.487,69.196
+FoG-STAR,"Classifier, single threshold",0.2,0.2,101,99.01,58.416,804.145,66.984
+FoG-STAR,"Classifier, single threshold",0.21,0.21,101,99.01,57.426,798.149,64.717
+FoG-STAR,"Classifier, single threshold",0.22,0.22,101,99.01,58.416,804.145,62.274
+FoG-STAR,"Classifier, single threshold",0.23,0.23,101,99.01,57.426,806.81,60.165
+FoG-STAR,"Classifier, single threshold",0.24,0.24,101,99.01,59.406,806.81,58.027
+FoG-STAR,"Classifier, single threshold",0.25,0.25,101,99.01,59.406,815.471,55.834
+FoG-STAR,"Classifier, single threshold",0.26,0.26,101,99.01,61.386,810.808,53.623
+FoG-STAR,"Classifier, single threshold",0.27,0.27,101,99.01,60.396,800.148,51.541
+FoG-STAR,"Classifier, single threshold",0.273,0.273,101,99.01,58.416,782.826,49.422
+FoG-STAR,"Classifier, single threshold",0.28,0.28,101,99.01,58.416,782.826,49.422
+FoG-STAR,"Classifier, single threshold",0.29,0.29,101,99.01,57.426,764.838,47.275
+FoG-STAR,"Classifier, single threshold",0.3,0.3,101,98.02,52.475,749.514,45.128
+FoG-STAR,"Classifier, single threshold",0.31,0.31,101,97.03,45.545,741.519,43.028
+FoG-STAR,"Classifier, single threshold",0.32,0.32,101,97.03,44.554,714.87,41.057
+FoG-STAR,"Classifier, single threshold",0.33,0.33,101,97.03,41.584,686.222,38.938
+FoG-STAR,"Classifier, single threshold",0.35,0.35,101,94.059,40.594,636.254,35.209
+FoG-STAR,"Classifier, single threshold",0.36,0.36,101,94.059,40.594,622.263,33.386
+FoG-STAR,"Classifier, single threshold",0.37,0.37,101,93.069,37.624,606.274,31.757
+FoG-STAR,"Classifier, single threshold",0.38,0.38,101,92.079,36.634,588.952,30.027
+FoG-STAR,"Classifier, single threshold",0.39,0.39,101,90.099,34.653,567.632,28.537
+FoG-STAR,"Classifier, single threshold",0.41,0.41,101,89.109,31.683,518.997,25.372
+FoG-STAR,"Classifier, single threshold",0.42,0.42,101,89.109,31.683,499.01,23.994
+FoG-STAR,"Classifier, single threshold",0.44,0.44,101,87.129,28.713,465.032,21.199
+FoG-STAR,"Classifier, single threshold",0.45,0.45,101,85.149,24.752,449.042,19.719
+FoG-STAR,"Classifier, single threshold",0.47,0.47,101,84.158,20.792,403.072,17.026
+FoG-STAR,"Classifier, single threshold",0.48,0.48,101,82.178,19.802,374.424,15.758
+FoG-STAR,"Classifier, single threshold",0.5,0.5,101,77.228,16.832,336.449,13.621
+FoG-STAR,"Classifier, single threshold",0.53,0.53,101,73.267,14.851,274.489,10.891
+FoG-STAR,"Classifier, single threshold",0.55,0.55,101,68.317,12.871,227.852,9.17
+FoG-STAR,"Classifier, single threshold",0.58,0.58,101,67.327,9.901,175.886,7.153
+FoG-STAR,"Classifier, single threshold",0.62,0.62,101,61.386,5.941,125.918,4.988
+FoG-STAR,"Classifier, single threshold",0.68,0.68,101,51.485,0.99,67.956,2.646
+FoG-STAR,"Classifier, single threshold",0.79,0.79,101,20.792,0.0,16.656,0.592
+FoG-STAR,Freeze index + hysteresis,0.53,0.53,101,100.0,66.337,949.385,70.001
+FoG-STAR,Freeze index + hysteresis,0.577,0.53,101,100.0,63.366,900.083,68.141
+FoG-STAR,Freeze index + hysteresis,0.624,0.53,101,100.0,63.366,848.117,66.142
+FoG-STAR,Freeze index + hysteresis,0.683,0.53,101,100.0,62.376,789.488,64.116
+FoG-STAR,Freeze index + hysteresis,0.683,0.683,101,100.0,57.426,956.713,57.999
+FoG-STAR,Freeze index + hysteresis,0.744,0.53,101,100.0,60.396,745.517,62.173
+FoG-STAR,Freeze index + hysteresis,0.744,0.683,101,100.0,55.446,898.085,56.056
+FoG-STAR,Freeze index + hysteresis,0.81,0.53,101,100.0,60.396,694.217,59.841
+FoG-STAR,Freeze index + hysteresis,0.81,0.683,101,100.0,55.446,832.794,53.937
+FoG-STAR,Freeze index + hysteresis,0.886,0.53,101,99.01,57.426,643.583,57.509
+FoG-STAR,Freeze index + hysteresis,0.886,0.683,101,99.01,52.475,769.501,51.753
+FoG-STAR,Freeze index + hysteresis,0.886,0.886,101,99.01,49.505,906.746,45.998
+FoG-STAR,Freeze index + hysteresis,0.971,0.53,101,99.01,49.505,585.62,54.835
+FoG-STAR,Freeze index + hysteresis,0.971,0.683,101,99.01,45.545,700.213,49.329
+FoG-STAR,Freeze index + hysteresis,0.971,0.886,101,99.01,43.564,827.464,43.629
+FoG-STAR,Freeze index + hysteresis,1.069,0.53,101,97.03,40.594,535.653,52.531
+FoG-STAR,Freeze index + hysteresis,1.069,0.683,101,96.04,36.634,644.249,46.979
+FoG-STAR,Freeze index + hysteresis,1.069,0.886,101,96.04,34.653,760.84,41.381
+FoG-STAR,Freeze index + hysteresis,1.174,0.53,101,94.059,37.624,493.68,49.995
+FoG-STAR,Freeze index + hysteresis,1.174,0.683,101,93.069,33.663,585.62,44.647
+FoG-STAR,Freeze index + hysteresis,1.174,0.886,101,93.069,31.683,686.888,39.049
+FoG-STAR,Freeze index + hysteresis,1.174,1.174,101,93.069,28.713,799.482,34.006
+FoG-STAR,Freeze index + hysteresis,1.298,0.53,101,93.069,36.634,455.705,47.849
+FoG-STAR,Freeze index + hysteresis,1.298,0.683,101,92.079,33.663,536.985,42.491
+FoG-STAR,Freeze index + hysteresis,1.298,0.886,101,92.079,30.693,628.926,36.689
+FoG-STAR,Freeze index + hysteresis,1.298,1.174,101,92.079,27.723,728.195,31.711
+FoG-STAR,Freeze index + hysteresis,1.439,0.53,101,90.099,29.703,399.075,44.98
+FoG-STAR,Freeze index + hysteresis,1.439,0.683,101,88.119,28.713,474.359,39.604
+FoG-STAR,Freeze index + hysteresis,1.439,0.886,101,88.119,25.743,553.641,33.904
+FoG-STAR,Freeze index + hysteresis,1.439,1.174,101,87.129,22.772,638.919,29.027
+FoG-STAR,Freeze index + hysteresis,1.605,0.53,101,86.139,23.762,351.106,42.38
+FoG-STAR,Freeze index + hysteresis,1.605,0.683,101,85.149,24.752,419.062,36.939
+FoG-STAR,Freeze index + hysteresis,1.605,0.886,101,85.149,21.782,484.353,31.221
+FoG-STAR,Freeze index + hysteresis,1.605,1.174,101,84.158,18.812,556.306,26.289
+FoG-STAR,Freeze index + hysteresis,1.605,1.605,101,83.168,14.851,628.926,22.004
+FoG-STAR,Freeze index + hysteresis,1.799,0.53,101,79.208,19.802,305.802,39.539
+FoG-STAR,Freeze index + hysteresis,1.799,0.683,101,78.218,20.792,363.098,34.024
+FoG-STAR,Freeze index + hysteresis,1.799,0.886,101,77.228,18.812,422.393,28.472
+FoG-STAR,Freeze index + hysteresis,1.799,1.174,101,76.238,15.842,481.688,23.55
+FoG-STAR,Freeze index + hysteresis,1.799,1.605,101,75.248,13.861,538.984,19.228
+FoG-STAR,Freeze index + hysteresis,2.017,0.53,101,74.257,17.822,256.5,35.458
+FoG-STAR,Freeze index + hysteresis,2.017,0.683,101,73.267,18.812,303.803,29.971
+FoG-STAR,Freeze index + hysteresis,2.017,0.886,101,71.287,16.832,351.772,24.429
+FoG-STAR,Freeze index + hysteresis,2.017,1.174,101,70.297,14.851,393.745,19.876
+FoG-STAR,Freeze index + hysteresis,2.017,1.605,101,69.307,12.871,437.05,15.962
+FoG-STAR,Freeze index + hysteresis,2.307,0.53,101,67.327,17.822,201.869,30.878
+FoG-STAR,Freeze index + hysteresis,2.307,0.683,101,64.356,15.842,238.512,25.289
+FoG-STAR,Freeze index + hysteresis,2.307,0.886,101,62.376,13.861,274.489,20.033
+FoG-STAR,Freeze index + hysteresis,2.307,1.174,101,61.386,12.871,299.806,15.851
+FoG-STAR,Freeze index + hysteresis,2.307,1.605,101,60.396,10.891,327.121,12.51
+FoG-STAR,Freeze index + hysteresis,2.307,2.307,101,60.396,7.921,347.775,10.003
+FoG-STAR,Freeze index + hysteresis,2.702,0.53,101,53.465,13.861,139.909,23.216
+FoG-STAR,Freeze index + hysteresis,2.702,0.683,101,50.495,11.881,159.896,18.59
+FoG-STAR,Freeze index + hysteresis,2.702,0.886,101,48.515,9.901,177.885,14.306
+FoG-STAR,Freeze index + hysteresis,2.702,1.174,101,48.515,9.901,194.541,11.113
+FoG-STAR,Freeze index + hysteresis,2.702,1.605,101,48.515,7.921,208.532,8.541
+FoG-STAR,Freeze index + hysteresis,2.702,2.307,101,47.525,4.95,217.193,6.487
+FoG-STAR,Freeze index + hysteresis,3.491,0.53,101,33.663,6.931,55.297,11.085
+FoG-STAR,Freeze index + hysteresis,3.491,0.683,101,31.683,5.941,59.295,8.106
+FoG-STAR,Freeze index + hysteresis,3.491,0.886,101,30.693,4.95,60.627,5.839
+FoG-STAR,Freeze index + hysteresis,3.491,1.174,101,30.693,4.95,64.625,4.469
+FoG-STAR,Freeze index + hysteresis,3.491,1.605,101,30.693,4.95,67.29,3.396
+FoG-STAR,Freeze index + hysteresis,3.491,2.307,101,30.693,3.96,69.955,2.517
+FoG-STAR,"Freeze index, single threshold",0.409,0.409,101,100.0,67.327,812.14,79.994
+FoG-STAR,"Freeze index, single threshold",0.433,0.433,101,100.0,68.317,840.122,77.959
+FoG-STAR,"Freeze index, single threshold",0.459,0.459,101,100.0,68.317,874.766,75.923
+FoG-STAR,"Freeze index, single threshold",0.484,0.484,101,100.0,66.337,910.743,73.878
+FoG-STAR,"Freeze index, single threshold",0.507,0.507,101,100.0,67.327,934.727,71.842
+FoG-STAR,"Freeze index, single threshold",0.531,0.531,101,100.0,67.327,951.383,69.807
+FoG-STAR,"Freeze index, single threshold",0.556,0.556,101,100.0,65.347,958.712,67.771
+FoG-STAR,"Freeze index, single threshold",0.581,0.581,101,100.0,63.366,966.041,65.726
+FoG-STAR,"Freeze index, single threshold",0.604,0.604,101,100.0,63.366,972.037,63.69
+FoG-STAR,"Freeze index, single threshold",0.629,0.629,101,100.0,63.366,972.037,61.654
+FoG-STAR,"Freeze index, single threshold",0.657,0.657,101,100.0,59.406,968.705,59.619
+FoG-STAR,"Freeze index, single threshold",0.687,0.687,101,100.0,55.446,952.716,57.574
+FoG-STAR,"Freeze index, single threshold",0.717,0.717,101,100.0,54.455,957.379,55.538
+FoG-STAR,"Freeze index, single threshold",0.752,0.752,101,100.0,53.465,953.382,53.502
+FoG-STAR,"Freeze index, single threshold",0.789,0.789,101,100.0,51.485,947.386,51.457
+FoG-STAR,"Freeze index, single threshold",0.82,0.82,101,99.01,51.485,924.068,49.422
+FoG-STAR,"Freeze index, single threshold",0.859,0.859,101,99.01,51.485,912.076,47.386
+FoG-STAR,"Freeze index, single threshold",0.898,0.898,101,99.01,48.515,900.75,45.35
+FoG-STAR,"Freeze index, single threshold",0.941,0.941,101,99.01,44.554,882.095,43.305
+FoG-STAR,"Freeze index, single threshold",0.991,0.991,101,99.01,40.594,867.438,41.27
+FoG-STAR,"Freeze index, single threshold",1.041,1.041,101,98.02,35.644,848.117,39.234
+FoG-STAR,"Freeze index, single threshold",1.088,1.088,101,96.04,31.683,834.792,37.198
+FoG-STAR,"Freeze index, single threshold",1.143,1.143,101,94.059,30.693,814.139,35.153
+FoG-STAR,"Freeze index, single threshold",1.203,1.203,101,93.069,27.723,788.156,33.117
+FoG-STAR,"Freeze index, single threshold",1.26,1.26,101,93.069,26.733,770.167,31.082
+FoG-STAR,"Freeze index, single threshold",1.333,1.333,101,90.099,22.772,740.853,29.037
+FoG-STAR,"Freeze index, single threshold",1.398,1.398,101,87.129,20.792,714.87,27.001
+FoG-STAR,"Freeze index, single threshold",1.481,1.481,101,86.139,18.812,677.561,24.965
+FoG-STAR,"Freeze index, single threshold",1.566,1.566,101,84.158,14.851,640.252,22.93
+FoG-STAR,"Freeze index, single threshold",1.653,1.653,101,82.178,14.851,615.601,20.885
+FoG-STAR,"Freeze index, single threshold",1.759,1.759,101,76.238,13.861,573.628,18.849
+FoG-STAR,"Freeze index, single threshold",1.865,1.865,101,74.257,13.861,525.659,16.813
+FoG-STAR,"Freeze index, single threshold",1.978,1.978,101,70.297,11.881,477.024,14.768
+FoG-STAR,"Freeze index, single threshold",2.106,2.106,101,67.327,10.891,428.389,12.732
+FoG-STAR,"Freeze index, single threshold",2.25,2.25,101,61.386,7.921,369.76,10.697
+FoG-STAR,"Freeze index, single threshold",2.418,2.418,101,57.426,7.921,302.471,8.661
+FoG-STAR,"Freeze index, single threshold",2.613,2.613,101,51.485,5.941,238.512,6.616
+FoG-STAR,"Freeze index, single threshold",2.916,2.916,101,44.554,4.95,172.555,4.58
+FoG-STAR,"Freeze index, single threshold",3.337,3.337,101,34.653,4.95,96.604,2.545
+FoG-STAR,"Freeze index, single threshold",4.619,4.619,101,8.911,0.0,14.657,0.509

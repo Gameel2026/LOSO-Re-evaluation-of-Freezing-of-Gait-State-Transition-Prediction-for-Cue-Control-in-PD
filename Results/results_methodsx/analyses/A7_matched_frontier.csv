@@ -1,0 +1,97 @@
+dataset,family,false_alarms_per_hour_max,timely_activation_%,coverage_%,false_alarms_per_hour,time_cue_on_%,time_cue_on_%_max
+DAPHNET,Classifier + hysteresis,25.0,9.75,81.36,14.95,34.59,
+DAPHNET,Classifier + hysteresis,50.0,19.49,60.59,47.66,10.54,
+DAPHNET,Classifier + hysteresis,100.0,29.66,90.25,95.73,37.87,
+DAPHNET,Classifier + hysteresis,200.0,39.41,87.29,185.0,25.09,
+DAPHNET,"Classifier, single threshold",25.0,1.27,19.92,19.79,0.57,
+DAPHNET,"Classifier, single threshold",50.0,1.27,19.92,19.79,0.57,
+DAPHNET,"Classifier, single threshold",100.0,7.2,56.78,98.96,2.81,
+DAPHNET,"Classifier, single threshold",200.0,11.02,67.8,167.43,4.75,
+DAPHNET,Freeze index + hysteresis,25.0,,,,,
+DAPHNET,Freeze index + hysteresis,50.0,,,,,
+DAPHNET,Freeze index + hysteresis,100.0,6.78,23.31,85.23,11.8,
+DAPHNET,Freeze index + hysteresis,200.0,13.14,44.07,196.71,24.52,
+DAPHNET,"Freeze index, single threshold",25.0,,,,,
+DAPHNET,"Freeze index, single threshold",50.0,0.0,7.63,28.48,0.5,
+DAPHNET,"Freeze index, single threshold",100.0,0.0,7.63,28.48,0.5,
+DAPHNET,"Freeze index, single threshold",200.0,1.27,22.88,144.0,2.54,
+DAPHNET,Classifier + hysteresis,,44.92,91.95,423.11,17.49,20.0
+DAPHNET,Classifier + hysteresis,,58.05,95.34,519.65,28.4,30.0
+DAPHNET,Classifier + hysteresis,,66.53,97.46,727.88,34.7,40.0
+DAPHNET,Classifier + hysteresis,,66.53,97.46,727.88,34.7,50.0
+DAPHNET,"Classifier, single threshold",,48.73,92.37,573.17,19.68,20.0
+DAPHNET,"Classifier, single threshold",,60.59,97.46,706.27,29.92,30.0
+DAPHNET,"Classifier, single threshold",,69.49,97.88,724.04,38.21,40.0
+DAPHNET,"Classifier, single threshold",,69.49,97.88,724.04,38.21,50.0
+DAPHNET,Freeze index + hysteresis,,16.53,70.76,778.57,18.92,20.0
+DAPHNET,Freeze index + hysteresis,,28.81,80.93,949.43,28.81,30.0
+DAPHNET,Freeze index + hysteresis,,42.37,84.75,989.22,39.49,40.0
+DAPHNET,Freeze index + hysteresis,,53.39,88.98,1201.88,46.0,50.0
+DAPHNET,"Freeze index, single threshold",,17.37,72.03,823.0,18.85,20.0
+DAPHNET,"Freeze index, single threshold",,30.08,81.78,1074.24,29.04,30.0
+DAPHNET,"Freeze index, single threshold",,43.64,86.44,1191.38,39.23,40.0
+DAPHNET,"Freeze index, single threshold",,55.93,88.98,1184.52,49.42,50.0
+Multimodal FoG,Classifier + hysteresis,25.0,4.29,44.22,12.61,19.82,
+Multimodal FoG,Classifier + hysteresis,50.0,14.19,78.55,45.59,35.12,
+Multimodal FoG,Classifier + hysteresis,100.0,32.01,91.75,91.82,46.23,
+Multimodal FoG,Classifier + hysteresis,200.0,47.85,98.02,178.79,54.94,
+Multimodal FoG,"Classifier, single threshold",25.0,1.65,41.58,21.34,2.58,
+Multimodal FoG,"Classifier, single threshold",50.0,3.63,59.08,46.23,5.02,
+Multimodal FoG,"Classifier, single threshold",100.0,7.26,73.6,82.77,9.16,
+Multimodal FoG,"Classifier, single threshold",200.0,23.1,90.1,177.82,21.58,
+Multimodal FoG,Freeze index + hysteresis,25.0,,,,,
+Multimodal FoG,Freeze index + hysteresis,50.0,3.96,38.94,33.95,10.82,
+Multimodal FoG,Freeze index + hysteresis,100.0,10.56,60.4,82.77,20.72,
+Multimodal FoG,Freeze index + hysteresis,200.0,23.1,85.15,186.55,38.66,
+Multimodal FoG,"Freeze index, single threshold",25.0,0.0,16.5,12.29,0.5,
+Multimodal FoG,"Freeze index, single threshold",50.0,0.0,16.5,12.29,0.5,
+Multimodal FoG,"Freeze index, single threshold",100.0,0.66,40.26,63.69,2.54,
+Multimodal FoG,"Freeze index, single threshold",200.0,5.61,67.99,186.55,8.66,
+Multimodal FoG,Classifier + hysteresis,,15.18,83.5,113.48,16.88,20.0
+Multimodal FoG,Classifier + hysteresis,,30.69,92.74,209.82,29.75,30.0
+Multimodal FoG,Classifier + hysteresis,,38.61,95.71,270.93,39.86,40.0
+Multimodal FoG,Classifier + hysteresis,,48.84,98.02,419.65,46.04,50.0
+Multimodal FoG,"Classifier, single threshold",,17.82,88.12,159.07,18.97,20.0
+Multimodal FoG,"Classifier, single threshold",,32.34,94.06,265.43,29.16,30.0
+Multimodal FoG,"Classifier, single threshold",,43.23,97.03,360.81,39.37,40.0
+Multimodal FoG,"Classifier, single threshold",,48.84,98.02,419.65,46.04,50.0
+Multimodal FoG,Freeze index + hysteresis,,15.18,77.56,245.07,19.12,20.0
+Multimodal FoG,Freeze index + hysteresis,,26.4,89.44,394.43,28.85,30.0
+Multimodal FoG,Freeze index + hysteresis,,40.59,93.73,453.27,39.13,40.0
+Multimodal FoG,Freeze index + hysteresis,,50.5,96.37,479.46,49.51,50.0
+Multimodal FoG,"Freeze index, single threshold",,13.86,83.5,330.74,18.85,20.0
+Multimodal FoG,"Freeze index, single threshold",,27.06,91.42,448.75,29.04,30.0
+Multimodal FoG,"Freeze index, single threshold",,42.9,95.38,562.55,39.23,40.0
+Multimodal FoG,"Freeze index, single threshold",,54.13,98.68,646.29,49.43,50.0
+FoG-STAR,Classifier + hysteresis,25.0,,,,,
+FoG-STAR,Classifier + hysteresis,50.0,6.93,50.5,35.98,16.91,
+FoG-STAR,Classifier + hysteresis,100.0,13.86,69.31,81.28,27.78,
+FoG-STAR,Classifier + hysteresis,200.0,25.74,88.12,191.88,40.92,
+FoG-STAR,"Classifier, single threshold",25.0,0.0,20.79,16.66,0.59,
+FoG-STAR,"Classifier, single threshold",50.0,0.0,20.79,16.66,0.59,
+FoG-STAR,"Classifier, single threshold",100.0,0.99,51.49,67.96,2.65,
+FoG-STAR,"Classifier, single threshold",200.0,9.9,67.33,175.89,7.15,
+FoG-STAR,Freeze index + hysteresis,25.0,,,,,
+FoG-STAR,Freeze index + hysteresis,50.0,,,,,
+FoG-STAR,Freeze index + hysteresis,100.0,6.93,33.66,55.3,11.09,
+FoG-STAR,Freeze index + hysteresis,200.0,13.86,53.47,139.91,23.22,
+FoG-STAR,"Freeze index, single threshold",25.0,0.0,8.91,14.66,0.51,
+FoG-STAR,"Freeze index, single threshold",50.0,0.0,8.91,14.66,0.51,
+FoG-STAR,"Freeze index, single threshold",100.0,4.95,34.65,96.6,2.54,
+FoG-STAR,"Freeze index, single threshold",200.0,4.95,44.55,172.55,4.58,
+FoG-STAR,Classifier + hysteresis,,22.77,85.15,402.41,19.95,20.0
+FoG-STAR,Classifier + hysteresis,,31.68,88.12,397.74,27.82,30.0
+FoG-STAR,Classifier + hysteresis,,40.59,94.06,636.25,35.21,40.0
+FoG-STAR,Classifier + hysteresis,,57.43,99.01,764.84,47.27,50.0
+FoG-STAR,"Classifier, single threshold",,24.75,85.15,449.04,19.72,20.0
+FoG-STAR,"Classifier, single threshold",,34.65,90.1,567.63,28.54,30.0
+FoG-STAR,"Classifier, single threshold",,41.58,97.03,686.22,38.94,40.0
+FoG-STAR,"Classifier, single threshold",,58.42,99.01,782.83,49.42,50.0
+FoG-STAR,Freeze index + hysteresis,,14.85,70.3,393.74,19.88,20.0
+FoG-STAR,Freeze index + hysteresis,,22.77,87.13,638.92,29.03,30.0
+FoG-STAR,Freeze index + hysteresis,,31.68,93.07,686.89,39.05,40.0
+FoG-STAR,Freeze index + hysteresis,,49.5,99.01,906.75,46.0,50.0
+FoG-STAR,"Freeze index, single threshold",,13.86,76.24,573.63,18.85,20.0
+FoG-STAR,"Freeze index, single threshold",,22.77,90.1,740.85,29.04,30.0
+FoG-STAR,"Freeze index, single threshold",,35.64,98.02,848.12,39.23,40.0
+FoG-STAR,"Freeze index, single threshold",,51.49,99.01,924.07,49.42,50.0

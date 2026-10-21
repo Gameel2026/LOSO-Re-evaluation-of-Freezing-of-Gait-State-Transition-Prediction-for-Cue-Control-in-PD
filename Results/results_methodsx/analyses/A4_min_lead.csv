@@ -1,0 +1,28 @@
+dataset,strategy,min_lead_s,timely_activation_%
+DAPHNET,"Controller, floor 0.70",0.0,30.08
+DAPHNET,"Freeze index, floor 0.70",0.0,57.63
+DAPHNET,"No hysteresis, floor 0.70",0.0,55.51
+DAPHNET,"Controller, floor 0.70",1.0,22.88
+DAPHNET,"Freeze index, floor 0.70",1.0,26.69
+DAPHNET,"No hysteresis, floor 0.70",1.0,33.9
+DAPHNET,"Controller, floor 0.70",2.0,13.98
+DAPHNET,"Freeze index, floor 0.70",2.0,6.78
+DAPHNET,"No hysteresis, floor 0.70",2.0,9.75
+Multimodal FoG,"Controller, floor 0.70",0.0,32.34
+Multimodal FoG,"Freeze index, floor 0.70",0.0,50.17
+Multimodal FoG,"No hysteresis, floor 0.70",0.0,47.85
+Multimodal FoG,"Controller, floor 0.70",1.0,22.11
+Multimodal FoG,"Freeze index, floor 0.70",1.0,24.09
+Multimodal FoG,"No hysteresis, floor 0.70",1.0,25.08
+Multimodal FoG,"Controller, floor 0.70",2.0,11.22
+Multimodal FoG,"Freeze index, floor 0.70",2.0,3.96
+Multimodal FoG,"No hysteresis, floor 0.70",2.0,7.59
+FoG-STAR,"Controller, floor 0.70",0.0,13.86
+FoG-STAR,"Freeze index, floor 0.70",0.0,44.55
+FoG-STAR,"No hysteresis, floor 0.70",0.0,40.59
+FoG-STAR,"Controller, floor 0.70",1.0,11.88
+FoG-STAR,"Freeze index, floor 0.70",1.0,15.84
+FoG-STAR,"No hysteresis, floor 0.70",1.0,17.82
+FoG-STAR,"Controller, floor 0.70",2.0,7.92
+FoG-STAR,"Freeze index, floor 0.70",2.0,3.96
+FoG-STAR,"No hysteresis, floor 0.70",2.0,5.94

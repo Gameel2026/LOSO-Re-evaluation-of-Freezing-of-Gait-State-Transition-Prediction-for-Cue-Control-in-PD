@@ -1,0 +1,28 @@
+dataset,zone_pre_s,zone_post_s,false_alarms_per_hour
+DAPHNET,2.0,1.0,132.69
+DAPHNET,2.0,3.0,130.06
+DAPHNET,2.0,5.0,127.64
+DAPHNET,4.0,1.0,129.26
+DAPHNET,4.0,3.0,127.24
+DAPHNET,4.0,5.0,125.02
+DAPHNET,6.0,1.0,127.04
+DAPHNET,6.0,3.0,125.22
+DAPHNET,6.0,5.0,123.0
+Multimodal FoG,2.0,1.0,111.86
+Multimodal FoG,2.0,3.0,102.49
+Multimodal FoG,2.0,5.0,94.73
+Multimodal FoG,4.0,1.0,104.1
+Multimodal FoG,4.0,3.0,96.02
+Multimodal FoG,4.0,5.0,88.59
+Multimodal FoG,6.0,1.0,98.61
+Multimodal FoG,6.0,3.0,90.85
+Multimodal FoG,6.0,5.0,83.41
+FoG-STAR,2.0,1.0,98.6
+FoG-STAR,2.0,3.0,97.27
+FoG-STAR,2.0,5.0,95.94
+FoG-STAR,4.0,1.0,96.6
+FoG-STAR,4.0,3.0,95.27
+FoG-STAR,4.0,5.0,93.94
+FoG-STAR,6.0,1.0,93.94
+FoG-STAR,6.0,3.0,92.61
+FoG-STAR,6.0,5.0,91.27
